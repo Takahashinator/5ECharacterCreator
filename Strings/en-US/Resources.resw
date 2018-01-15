@@ -1,0 +1,997 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ArtificersLoreAbbrev" xml:space="preserve">
+    <value>Add double proficiency bonus on history checks on magic items, alchemical objects of technological devices.</value>
+  </data>
+  <data name="ArtificersLoreDes" xml:space="preserve">
+    <value>Whenever you make an Intelligence (History) check related to Magic Items, alchemical Objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.</value>
+  </data>
+  <data name="Brave" xml:space="preserve">
+    <value>You have advantage on saving throws against being Frightened.</value>
+  </data>
+  <data name="BreathWeaponAbbrev" xml:space="preserve">
+    <value>{0} {1) DC save or {2} {3} damage. Half on successful save.</value>
+    <comment>0=aoe, 1=DC val, 2=damage 3=damage type</comment>
+  </data>
+  <data name="BreathWeaponDes" xml:space="preserve">
+    <value>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.
+
+When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.
+
+After you use your breath weapon, you can’t use it again until you complete a short or Long Rest.</value>
+  </data>
+  <data name="BreathWeaponGeneral" xml:space="preserve">
+    <value>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.
+
+When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.
+
+After you use your breath weapon, you can’t use it again until you complete a short or Long Rest.</value>
+  </data>
+  <data name="DamageResistanceAbbrev" xml:space="preserve">
+    <value>You have resistance to {0} type damage.</value>
+  </data>
+  <data name="DamageResistanceDes" xml:space="preserve">
+    <value>You have Resistance to the damage type associated with your draconic ancestry.</value>
+  </data>
+  <data name="DamageResistanceDragon" xml:space="preserve">
+    <value>You have Resistance to the damage type associated with your draconic ancestry.</value>
+  </data>
+  <data name="DarkElfDes" xml:space="preserve">
+    <value>Descended from an earlier subrace of elves, the drow were banished from the surface world for following the goddess Lolth down the path of evil.</value>
+  </data>
+  <data name="DarkvisionAbbrev" xml:space="preserve">
+    <value>You can see in the dark</value>
+  </data>
+  <data name="DarkvisionDw" xml:space="preserve">
+    <value>Accustomed to life underground, you have superior vision in dark and dim Conditions. You can see in dim light within 60 feet of you as if it were bright light, and in Darkness as if it were dim light. You can’t discern color in Darkness, only shades of gray.</value>
+  </data>
+  <data name="DarkvisionElf" xml:space="preserve">
+    <value>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim Conditions. You can see in dim light within 60 feet of you as if it were bright light, and in Darkness as if it were dim light. You can’t discern color in Darkness, only shades of gray.</value>
+  </data>
+  <data name="DarkvisionHalfElf" xml:space="preserve">
+    <value>Thanks to your elf blood, you have superior vision in dark and dim Conditions. You can see in dim light within 60 feet of you as if it were bright light, and in Darkness as if it were dim light. You can’t discern color in Darkness, only shades of gray.</value>
+  </data>
+  <data name="DarkvisionOrc" xml:space="preserve">
+    <value>Thanks to your orc blood, you have superior vision in dark and dim Conditions. You can see in dim light within 60 feet of you as if it were bright light, and in Darkness as if it were dim light. You can’t discern color in Darkness, only shades of gray.</value>
+  </data>
+  <data name="DarkvisionTief" xml:space="preserve">
+    <value>Thanks to your infernal heritage, you have superior vision in dark and dim Conditions. You can see in dim light within 60 feet of you as if it were bright light, and in Darkness as if it were dim light. You can’t discern color in Darkness, only shades of gray.</value>
+  </data>
+  <data name="DCT" xml:space="preserve">
+    <value>You have proficiency with the Battleaxe, Handaxe, Light Hammer, and Warhammer.</value>
+  </data>
+  <data name="DrowMagicAbbrev" xml:space="preserve">
+    <value>Can cast dancing lights. At 3rd level cast faerie fire, and Darkness at 5th level once per long rest.</value>
+  </data>
+  <data name="DrowMagicDes" xml:space="preserve">
+    <value>You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</value>
+  </data>
+  <data name="DrowWeaponTraining" xml:space="preserve">
+    <value>You have proficiency with rapiers, shortswords, and hand crossbows reguardless of your class.</value>
+  </data>
+  <data name="DwarvenArmorTraining" xml:space="preserve">
+    <value>You have proficiencey with light and medium armor.</value>
+  </data>
+  <data name="DwarvenResilienceAbbrev" xml:space="preserve">
+    <value>Resistance to and advantage vs poision ST's</value>
+  </data>
+  <data name="DwarvenResilienceDes" xml:space="preserve">
+    <value>You have advantage on saving throws against poison, and you have Resistance against poison damage.</value>
+  </data>
+  <data name="DwarvenToughness" xml:space="preserve">
+    <value>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</value>
+  </data>
+  <data name="ElfWeaponTraining" xml:space="preserve">
+    <value>You have proficiency with the longsword, shortbow, shortsword, shortbow, and longbow reguardless of your class.</value>
+  </data>
+  <data name="ExtraCantripHighElf" xml:space="preserve">
+    <value>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</value>
+  </data>
+  <data name="ExtraLanguage" xml:space="preserve">
+    <value>You can speak, read, and write one extra language of your choice.</value>
+  </data>
+  <data name="FeyAncestryAbbrev" xml:space="preserve">
+    <value>Advantage on charm saving throws and magic cannot put you to sleep.</value>
+  </data>
+  <data name="FeyAncestryDes" xml:space="preserve">
+    <value>You have advantage on saving throws against being Charmed, and magic can’t put you to sleep.</value>
+  </data>
+  <data name="FleetOfFoot" xml:space="preserve">
+    <value>Your base walking speed increases to 35 feet</value>
+  </data>
+  <data name="ForestGnomeDes" xml:space="preserve">
+    <value>As a forest gnome, you have a natural knack for illusion and inherent quickness and stealth.</value>
+  </data>
+  <data name="GnomeCunning" xml:space="preserve">
+    <value>You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</value>
+  </data>
+  <data name="HalflingNimbleness" xml:space="preserve">
+    <value>You can move through the space of any creature that is of a size larger than yours.</value>
+  </data>
+  <data name="HellishResistance" xml:space="preserve">
+    <value>You have resistance to fire damage</value>
+  </data>
+  <data name="HighElfDes" xml:space="preserve">
+    <value>As a high elf, you have a keen mind and a mastery of at least the basics of magic.</value>
+  </data>
+  <data name="HillDwarfDes" xml:space="preserve">
+    <value>As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience.</value>
+  </data>
+  <data name="InfernalLegacyAbbrev" xml:space="preserve">
+    <value>Can cast Thamaturgy. At 3rd level cast Hellish Rebuke (2nd level strength), and Darkness at 5th level once per long rest.</value>
+  </data>
+  <data name="InfernalLegacyDes" xml:space="preserve">
+    <value>You know the Thaumaturgy cantrip. When you reach 3rd level, you can cast the Hellish Rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a Long Rest. When you reach 5th level, you can cast the Darkness spell once with this trait and regain the ability to do so when you finish a Long Rest. Charisma is your spellcasting ability for these Spells.</value>
+  </data>
+  <data name="KeenSenses" xml:space="preserve">
+    <value>You have proficiency in the Perception skill.</value>
+  </data>
+  <data name="LightfootDes" xml:space="preserve">
+    <value>As a lightfoot halfling, you can easily hide from notice, even using other people as cover.</value>
+  </data>
+  <data name="LuckyAbbrev" xml:space="preserve">
+    <value>Reroll on a 1 with the d20</value>
+  </data>
+  <data name="LuckyDes" xml:space="preserve">
+    <value>When you roll a 1 on the d20 for an Attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</value>
+  </data>
+  <data name="MaskOfTheWildAbbrev" xml:space="preserve">
+    <value>You can attempt to hide even when lightly obscured by natural phenomena.</value>
+  </data>
+  <data name="MaskOfTheWildDes" xml:space="preserve">
+    <value>You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</value>
+  </data>
+  <data name="Menacing" xml:space="preserve">
+    <value>You gain proficiency in the Intimidation skill.</value>
+  </data>
+  <data name="MountainDwarfDes" xml:space="preserve">
+    <value>As a mountain dwarf, you're strong and hardy, accustomed to a difficult life in rugged terrain.</value>
+  </data>
+  <data name="NaturalIllusionist" xml:space="preserve">
+    <value>You know the minor illusion cantrip. Intelligence is your spellcasting ability for it.</value>
+  </data>
+  <data name="NaturallyStealthy" xml:space="preserve">
+    <value>You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.</value>
+  </data>
+  <data name="RelentlessEnduranceAbbrev" xml:space="preserve">
+    <value>1x / day reduce to 1 hp instead of 0.</value>
+  </data>
+  <data name="RelentlessEnduranceDes" xml:space="preserve">
+    <value>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a Long Rest.</value>
+  </data>
+  <data name="RockGnomeDes" xml:space="preserve">
+    <value>As a rock gnome, you have a natural inventivenessand hardiness beyond that of other gnomes.</value>
+  </data>
+  <data name="SavageAttacksAbbrev" xml:space="preserve">
+    <value>1 extra weapon die damage on critical hits</value>
+  </data>
+  <data name="SavageAttacksDes" xml:space="preserve">
+    <value>When you score a critical hit with a melee weapon Attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.</value>
+  </data>
+  <data name="SkillVersatility" xml:space="preserve">
+    <value>You gain proficiency in two skills of your choice.</value>
+  </data>
+  <data name="SpeakWithSmallBeastsAbbrev" xml:space="preserve">
+    <value>You can communicate simple ideas to small or smaller beasts.</value>
+  </data>
+  <data name="SpeakWithSmallBeastsDes" xml:space="preserve">
+    <value>Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creaures as beloved pets.</value>
+  </data>
+  <data name="StonecuttingAbbrev" xml:space="preserve">
+    <value>Add double proficiency bonus on history checks relating to stonework</value>
+  </data>
+  <data name="StonecuttingDes" xml:space="preserve">
+    <value>Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</value>
+  </data>
+  <data name="StoutDes" xml:space="preserve">
+    <value>As a stout halfling you're hardier than average and have some resistance to poision. Some say that stouts have dwarven blood.</value>
+  </data>
+  <data name="StoutResilienceAbbrev" xml:space="preserve">
+    <value>Advantage on poision rolls and resistance to poision damage.</value>
+  </data>
+  <data name="StoutResilienceDes" xml:space="preserve">
+    <value>You have advantage on saving throws against poision, and you have resistance against poision damage.</value>
+  </data>
+  <data name="SunlightSensitivityAbbrev" xml:space="preserve">
+    <value>Disadvantage on attack rolls and perception checks in direct sunlight.</value>
+  </data>
+  <data name="SunlightSensitivityDes" xml:space="preserve">
+    <value>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</value>
+  </data>
+  <data name="SuperiorDarkvision" xml:space="preserve">
+    <value>Your darkvision has a radius of 120 feet</value>
+  </data>
+  <data name="TinkerAbbrev" xml:space="preserve">
+    <value>Spend 1h + 10gp create a clockwork toy, a fire starter or a music box (AC=5, HP=1)</value>
+  </data>
+  <data name="TinkerDes" xml:space="preserve">
+    <value>You have proficiency with artisan’s tools (tinker’s tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time. When you create a device, choose one of the following options:
+
+Clockwork Toy: This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.
+
+Fire Starter: The device produces a miniature flame, which you can use to light a Candle, torch, or campfire. Using the device requires your action.
+
+Music Box: When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song’s end or when it is closed.</value>
+  </data>
+  <data name="ToolProficiency" xml:space="preserve">
+    <value>You gain proficiency with the artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.</value>
+  </data>
+  <data name="TranceAbbrev" xml:space="preserve">
+    <value>A full rest only requires 4 hours instead of 8</value>
+  </data>
+  <data name="TranceDes" xml:space="preserve">
+    <value>Elves don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After Resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</value>
+  </data>
+  <data name="WoodElfDes" xml:space="preserve">
+    <value>As a wood elf, you have keen senses and intuition and your fleet feet carry you quickly and stealthily through your native forests.</value>
+  </data>
+  <data name="Archdruid" xml:space="preserve">
+    <value>At 20th level, you can use your Wild Shape an unlimited number of times.</value>
+  </data>
+  <data name="BardicInspirationAbbrev" xml:space="preserve">
+    <value>Give a {0} as a bonus action to another player. Within 10 minutes, they can add the die to any d20 roll. Usable a number of times equal to your Charisma modifier (min once)</value>
+    <comment>0=diesides</comment>
+  </data>
+  <data name="BardicInspirationDes" xml:space="preserve">
+    <value>You can inspire others through stirring words or music. To do so, you use a Bonus Action on Your Turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6.
+
+Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, Attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.
+
+You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a Long Rest.
+
+Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.</value>
+  </data>
+  <data name="BeastSpellsAbbrev" xml:space="preserve">
+    <value>You may cast spells whil using wild shape.</value>
+  </data>
+  <data name="BeastSpellsDes" xml:space="preserve">
+    <value>Beginning at 18th level, you can cast many of your druid Spells in any shape you assume using Wild Shape. You can perform the somatic and verbal Components of a druid spell while in a beast shape, but you aren't able to provide material Components.</value>
+  </data>
+  <data name="BrutalCriticalAbbrev" xml:space="preserve">
+    <value>Roll {0} additional damage dice on melee critical hits.</value>
+    <comment>{0} = # of extra damage die</comment>
+  </data>
+  <data name="BrutalCriticalDes" xml:space="preserve">
+    <value>Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee Attack.
+
+This increases to two additional dice at 13th level and three additional dice at 17th level.</value>
+  </data>
+  <data name="ChannelDivinityAbbrev" xml:space="preserve">
+    <value>Channel divinity {0} times per rest.</value>
+    <comment>0=uses per rest</comment>
+  </data>
+  <data name="ChannelDivinityDes" xml:space="preserve">
+    <value>At 2nd level, you gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Turn Undead and an effect determined by your domain. Some domains grant you additional effects as you advance in levels, as noted in the domain description.
+
+When you use your Channel Divinity, you choose which effect to create. You must then finish a short or Long Rest to use your Channel Divinity again.
+
+Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your cleric spell save DC.
+
+Beginning at 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level, you can use it three times between rests. When you finish a short or Long Rest, you regain your expended uses.</value>
+  </data>
+  <data name="CountercharmAbbrev" xml:space="preserve">
+    <value>As an action, allies 30 ft range have advantage against fear or charm. Lasts until the end of the next turn.</value>
+  </data>
+  <data name="CountercharmDes" xml:space="preserve">
+    <value>At 6th level, you gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being Frightened or Charmed. A creature must be able to hear you to gain this benefit. The performance ends early if you are Incapacitated or silenced or if you voluntarily end it (no action required).</value>
+  </data>
+  <data name="DangerSenseAbbrev" xml:space="preserve">
+    <value>Advantage on saving throws against effects you can see, such as traps and spells.</value>
+  </data>
+  <data name="DangerSenseDes" xml:space="preserve">
+    <value>At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and Spells. To gain this benefit, you can't be Blinded, Deafened, or Incapacitated.</value>
+  </data>
+  <data name="DestroyUndeadAbbrev" xml:space="preserve">
+    <value>Undead CR {0} or lower are destroyed when turned.</value>
+    <comment>0 = CR limit</comment>
+  </data>
+  <data name="DestroyUndeadDes" xml:space="preserve">
+    <value>Starting at 5th level, when an Undead of CR 1/2 or lower fails its saving throw against Your Turn Undead feature, the creature is instantly destroyed.</value>
+  </data>
+  <data name="DivineInterventionAbbrev" xml:space="preserve">
+    <value>Roll perventile dice. If the roll is equal to or lower than cleric level, your diety intervenes. Usable once per week.</value>
+  </data>
+  <data name="DivineInterventionDes" xml:space="preserve">
+    <value>Beginning at 10th level, you can call on your deity to intervene on your behalf when your need is great.
+
+Imploring your deity's aid requires you to use your action. Describe the assistance you seek, and roll percentile dice. If you roll a number equal to or lower than your cleric level, your deity intervenes. The DM chooses the nature of the intervention; the effect of any cleric spell or cleric domain spell would be appropriate. If your deity intervenes, you can't use this feature again for 7 days. Otherwise, you can use it again after you finish a Long Rest.
+
+At 20th level, your call for intervention succeeds automatically, no roll required.</value>
+  </data>
+  <data name="Druidic" xml:space="preserve">
+    <value>You know Druidic, the secret Language of druids. You can speak the Language and use it to leave hidden messages. You and others who know this Language automatically spot such a Message. Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic.</value>
+  </data>
+  <data name="Expertise" xml:space="preserve">
+    <value>At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.
+
+At 10th level, you can choose another two skill proficiencies to gain this benefit.</value>
+  </data>
+  <data name="ExtraAttackAbbrev" xml:space="preserve">
+    <value>You can attack {0} times per turn.</value>
+    <comment>0=attacks per turn</comment>
+  </data>
+  <data name="ExtraAttackDes" xml:space="preserve">
+    <value>Beginning at 5th level, you can Attack twice, instead of once, whenever you take the Attack action on Your Turn.</value>
+  </data>
+  <data name="FastMovement" xml:space="preserve">
+    <value>Starting at 5th level, your speed increases by 10 feet while you aren't wearing Heavy Armor.</value>
+  </data>
+  <data name="FeralInstinctAbbrev" xml:space="preserve">
+    <value>You have advantage on initiative rolls and cannot be surprised if you enter rage on that turn.</value>
+  </data>
+  <data name="FeralInstinctDes" xml:space="preserve">
+    <value>By 7th level, your instincts are so honed that you have advantage on initiative rolls.
+Additionally, if you are surprised at the beginning of Combat and aren't Incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.</value>
+  </data>
+  <data name="FontofInspirationAbbrev" xml:space="preserve">
+    <value>Regain all bardic inspiration after a short rest.</value>
+  </data>
+  <data name="FontofInspirationDes" xml:space="preserve">
+    <value>Beginning when you reach 5th level, you regain all of your expended uses of Bardic Inspiration when you finish a short or Long Rest.</value>
+  </data>
+  <data name="IndomitableMightAbbrev" xml:space="preserve">
+    <value>If a Strength check is less than Strength score, use the strength score instead.</value>
+  </data>
+  <data name="IndomitableMightDes" xml:space="preserve">
+    <value>Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total.</value>
+  </data>
+  <data name="JackofAllTrades" xml:space="preserve">
+    <value>Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus.</value>
+  </data>
+  <data name="MagicalSecrets" xml:space="preserve">
+    <value>By 10th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two Spells from any class, including this one. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.
+
+The chosen Spells count as bard Spells for you and are included in the number in the Spells Known column of the Bard table.
+
+You learn two additional Spells from any class at 14th level and again at 18th level.</value>
+  </data>
+  <data name="PersistentRageAbbrev" xml:space="preserve">
+    <value>Rage only ends if you fall unconcious or choose to end it.</value>
+  </data>
+  <data name="PersistentRageDes" xml:space="preserve">
+    <value>Beginning at 15th level, your rage is so fierce that it ends early only if you fall Unconscious or if you choose to end it.</value>
+  </data>
+  <data name="PrimalChampion" xml:space="preserve">
+    <value>At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</value>
+  </data>
+  <data name="RageAbbrev" xml:space="preserve">
+    <value>Enter rage as bonus action for one minute. While raging gain advantage on strength related rolls, +{0} melee damage, resistance to physical attacks. Rage ends if no damage taken or no enemy attacked since last turn. {1} rages / day</value>
+    <comment>0=melee damage, 1=#rages</comment>
+  </data>
+  <data name="RageDes" xml:space="preserve">
+    <value>In battle, you fight with primal ferocity. On Your Turn, you can enter a rage as a Bonus Action.
+While raging, you gain the following benefits if you aren't wearing heavy armor:
+• You have advantage on Strength Checks and Strength saving throws.
+• When you make a melee weapon Attack using Strength, you gain a +2 bonus to the damage roll. This bonus increases as you level.
+• You have Resistance to bludgeoning, piercing, and slashing damage.
+If you are able to cast Spells, you can't cast them or concentrate on them while raging.
+Your rage lasts for 1 minute. It ends early if you are knocked Unconscious or if Your Turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on Your Turn as a Bonus Action.
+Once you have raged the maximum number of times for your barbarian level, you must finish a Long Rest before you can rage again. You may rage 2 times at 1st level, 3 at 3rd, 4 at 6th, 5 at 12th, and 6 at 17th.</value>
+  </data>
+  <data name="RecklessAttackAbbrev" xml:space="preserve">
+    <value>Advantage on melee attacks but attacks against you also have advantage until your next turn.</value>
+  </data>
+  <data name="RecklessAttackDes" xml:space="preserve">
+    <value>Starting at 2nd level, you can throw aside all concern for defense to Attack with fierce desperation. When you make your first Attack on Your Turn, you can decide to Attack recklessly. Doing so gives you advantage on melee weapon Attack rolls using Strength during this turn, but Attack rolls against you have advantage until your next turn.</value>
+  </data>
+  <data name="RelentlessRageAbbrev" xml:space="preserve">
+    <value>Drop to 1 HP instead of 0 on DC 10 Con ST. DC increases by 5 every consecutive save.</value>
+  </data>
+  <data name="RelentlessRageDes" xml:space="preserve">
+    <value>Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you're raging and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.
+Each time you use this feature after the first, the DC increases by 5. When you finish a short or Long Rest, the DC resets to 10.</value>
+  </data>
+  <data name="SongofRestAbbrev" xml:space="preserve">
+    <value>Allies regain {0} hit points during a short rest</value>
+    <comment>0=hitdiegained</comment>
+  </data>
+  <data name="SongofRestDes" xml:space="preserve">
+    <value>Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a Short Rest. If you or any friendly creatures who can hear your performance regain hit points by spending Hit Dice at the end of the Short Rest, each of those creatures regains an extra 1d6 hit points.
+
+The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level.</value>
+  </data>
+  <data name="SuperiorInspirationAbbrev" xml:space="preserve">
+    <value>Regain one Bardic Inspiration if you roll initiative with none.</value>
+  </data>
+  <data name="SuperiorInspirationDes" xml:space="preserve">
+    <value>At 20th level, when you roll initiative and have no uses of Bardic Inspiration left, you regain one use.</value>
+  </data>
+  <data name="TimelessBodyDruAbbrev" xml:space="preserve">
+    <value>You age 1 year for every 10 that passes.</value>
+  </data>
+  <data name="TimelessBodyDruDes" xml:space="preserve">
+    <value>Starting at 18th level, the primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year.</value>
+  </data>
+  <data name="TurnUndeadAbbrev" xml:space="preserve">
+    <value>Expend a Channel Divinity to turn undead. Undead within 30 ft succeed a wis ST or be turned. Lasts 1 min or until they take damage.</value>
+  </data>
+  <data name="TurnUndeadDes" xml:space="preserve">
+    <value>As an action, you present your holy Symbol and speak a prayer censuring the Undead. Each Undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.
+
+A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.</value>
+  </data>
+  <data name="UnarmoredDefenseBarb" xml:space="preserve">
+    <value>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a Shield and still gain this benefit.</value>
+  </data>
+  <data name="WildShapeAbbrev" xml:space="preserve">
+    <value>Transform {2}x per day into an animal of {0} CR or lower. {1} See PHB 67 for specific rules.</value>
+    <comment>0=cr max, 1=restrictions 2=timesperday</comment>
+  </data>
+  <data name="WildShapeDes" xml:space="preserve">
+    <value>Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or Long Rest.
+
+Your druid level determines the Beasts you can transform into. You can stay in a beast shape for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a Bonus Action on Your Turn. You automatically revert if you fall Unconscious, drop to 0 hit points, or die. 
+
+While you are transformed, the following rules apply:
+
+Your physical Statistics are replaced by the Statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You use the better of the two proficiencies, unless it does not make sense to do so.
+When you transform, you assume the beast's Hit Points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of Dropping to 0 Hit Points, any excess damage carries over to your normal form. 
+You can't cast Spells, and your ability to speak or take any action is limited to the capabilities of your beast form. Transforming doesn't break your Concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as Call Lightning, that you've already cast.
+You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your Special senses, such as Darkvision, unless your new form also has that sense.
+</value>
+  </data>
+  <data name="ActionSurgeAbbrev" xml:space="preserve">
+    <value>Take one additional action on top of your regular action. Usable {0} times between rests.</value>
+    <comment>0=usetimes</comment>
+  </data>
+  <data name="ActionSurgeDes" xml:space="preserve">
+    <value>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On Your Turn, you can take one additional action on top of your regular action and a possible Bonus Action.</value>
+  </data>
+  <data name="AuraofCourageAbbrev" xml:space="preserve">
+    <value>Allys within {0} feet cannot be frightened.</value>
+  </data>
+  <data name="AuraofCourageDes" xml:space="preserve">
+    <value>Starting at 10th level, you and friendly creatures within 10 feet of you can't be Frightened while you are conscious.</value>
+  </data>
+  <data name="AuraofProtectionAbbrev" xml:space="preserve">
+    <value>Allys within {0} feet adds your charisma modifier to their saving throws.</value>
+    <comment>0 = radius</comment>
+  </data>
+  <data name="AuraofProtectionDes" xml:space="preserve">
+    <value>Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.</value>
+  </data>
+  <data name="BlindSenseAbbrev" xml:space="preserve">
+    <value>You are aware of invisible creatures within 10 feet</value>
+  </data>
+  <data name="BlindSenseDes" xml:space="preserve">
+    <value>Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or Invisible creature within 10 feet of you.</value>
+  </data>
+  <data name="CleansingTouchAbbrev" xml:space="preserve">
+    <value>Use an action to end a spell on someone you touch. Useable your Charisma modifier times per long rest.</value>
+  </data>
+  <data name="CleansingTouchDes" xml:space="preserve">
+    <value>Beginning at 14th level, you can use your action to end one spell on yourself or on one willing creature that you touch.
+
+You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a Long Rest.</value>
+  </data>
+  <data name="CunningActionAbbrev" xml:space="preserve">
+    <value>Dash, disengage or hide as a bonus action.</value>
+  </data>
+  <data name="CunningActionDes" xml:space="preserve">
+    <value>Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a Bonus Action on each of your turns in Combat. This action can be used only to take the Dash, Disengage, or Hide action.</value>
+  </data>
+  <data name="DeflectMissilesAbbrev" xml:space="preserve">
+    <value>When hit by a ranged attack, reduce the damage by 1d10 + your dex mod + monk level. If reduced to 0 you can catch it. Spend 1 ki point to throw it back. </value>
+  </data>
+  <data name="DeflectMissilesDes" xml:space="preserve">
+    <value>Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon Attack. When you do so, the damage you take from the Attack is reduced by 1d 10 + your Dexterity modifier + your monk level.
+
+If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged Attack (range 20 feet/60 feet) with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this Attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the Attack.</value>
+  </data>
+  <data name="DiamondSoulAbbrev" xml:space="preserve">
+    <value>Spend 1 Ki point to reroll a failed saving throw.</value>
+  </data>
+  <data name="DiamondSoulDes" xml:space="preserve">
+    <value>Beginning at 14th level, your mastery of ki grants you proficiency in all saving throws.
+
+Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result.</value>
+  </data>
+  <data name="DivineHealthAbbrev" xml:space="preserve">
+    <value>You are immune to disease.</value>
+  </data>
+  <data name="DivineHealthDes" xml:space="preserve">
+    <value>By 3rd level, the Divine Magic flowing through you makes you immune to disease.</value>
+  </data>
+  <data name="DivineSenseAbbrev" xml:space="preserve">
+    <value>As an action, know the location of any celestial, fiend or undead within 60 ft. Use 1 + Cha mod times per long rest.</value>
+  </data>
+  <data name="DivineSenseDes" xml:space="preserve">
+    <value>The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or Undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the Vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the Hallow spell.
+
+You can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a Long Rest, you regain all expended uses.</value>
+  </data>
+  <data name="DivineSmiteAbbrev" xml:space="preserve">
+    <value>Extra 2d8 radiant damage for 1st level spell slot expended. +1d8 for higher level slots + 1d8 if undead or fiend.</value>
+  </data>
+  <data name="DivineSmiteDes" xml:space="preserve">
+    <value>Starting at 2nd level, when you hit a creature with a melee weapon Attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each Spell Level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an Undead or a fiend.</value>
+  </data>
+  <data name="ElusiveAbbrev" xml:space="preserve">
+    <value>No attacks can have advantage against you.</value>
+  </data>
+  <data name="ElusiveDes" xml:space="preserve">
+    <value>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No Attack roll has advantage against you while you aren't Incapacitated.</value>
+  </data>
+  <data name="EmptyBodyAbbrev" xml:space="preserve">
+    <value>Spend 4 ki points to become invisible for 1 min and gain resistance to all damage except force. Or spend 8 ki points to cast astral projection.</value>
+  </data>
+  <data name="EmptyBodyDes" xml:space="preserve">
+    <value>Beginning at 18th level, you can use your action to spend 4 ki points to become Invisible for 1 minute. During that time, you also have Resistance to all damage but force damage.
+
+Additionally, you can spend 8 ki points to cast the Astral Projection spell, without needing material Components. When you do so, you can't take any other creatures with you.</value>
+  </data>
+  <data name="EvasionAbbrev" xml:space="preserve">
+    <value>Take no damage instead of half on successful dexterity saving throws, and half on a fail.</value>
+  </data>
+  <data name="EvasionDesMonk" xml:space="preserve">
+    <value>At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a Fireball spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</value>
+  </data>
+  <data name="EvasionRogueDes" xml:space="preserve">
+    <value>Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an Ice Storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</value>
+  </data>
+  <data name="ExpertiseRogue" xml:space="preserve">
+    <value>At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with Thieves' Tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.
+
+At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit.</value>
+  </data>
+  <data name="FavoredEnemy" xml:space="preserve">
+    <value>Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.
+
+You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence Checks to recall information about them.
+
+When you gain this feature, you also learn one Language of your choice that is spoken by your favored enemies, if they speak one at all.
+
+You choose one additional favored enemy, as well as an associated Language, at 6th and 14th level.</value>
+  </data>
+  <data name="FeralSensesAbbrev" xml:space="preserve">
+    <value>No disadvantage if you cannot see the enemy. You are aware of any invisible creatures within 30 ft.</value>
+  </data>
+  <data name="FeralSensesDes" xml:space="preserve">
+    <value>At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you Attack a creature you can't see, your inability to see it doesn't impose disadvantage on your Attack rolls against it. You are also aware of the location of any Invisible creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't Blinded or Deafened.</value>
+  </data>
+  <data name="FightingStyle" xml:space="preserve">
+    <value>You adopt a particular style of fighting as your specialty. Options include defense, dueling, and great weapon fighting.</value>
+  </data>
+  <data name="FightingStyleRanger" xml:space="preserve">
+    <value>You adopt a particular style of fighting as your specialty. Options include archery, dueling, defense and two weapon fighting.</value>
+  </data>
+  <data name="FlurryOfBlows" xml:space="preserve">
+    <value>Immediately after you take the Attack action on Your Turn, you can spend 1 ki point to make two unarmed strikes as a Bonus Action.</value>
+  </data>
+  <data name="FoeSlayerAbbrev" xml:space="preserve">
+    <value>Add wisdom mod to attack rolls or damage against your favored enemies.</value>
+  </data>
+  <data name="FoeSlayerDes" xml:space="preserve">
+    <value>At 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the Attack roll or the damage roll of an Attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.</value>
+  </data>
+  <data name="HideinPlainSightAbbrev" xml:space="preserve">
+    <value>Spend 1 minute creating camoflage and gain +10 bonus to stealth if not moving.</value>
+  </data>
+  <data name="HideinPlainSightDes" xml:space="preserve">
+    <value>Starting at 10th level, you can spend 1 minute creating camouflage for yourself. You must have access to fresh mud, dirt, Plants, soot, and other naturally occurring materials with which to create your camouflage.
+
+Once you are camouflaged in this way, you can try to hide by pressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 bonus to Dexterity (Stealth) checks as long as you remain there without moving or taking actions. Once you move or take an action or a reaction, you must camouflage yourself again to gain this benefit.</value>
+  </data>
+  <data name="ImprovedDivineSmite" xml:space="preserve">
+    <value>By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage. If you also use your Divine Smite with an Attack, you add this damage to the extra damage of your Divine Smite.</value>
+  </data>
+  <data name="IndomitableAbbrev" xml:space="preserve">
+    <value>Re-roll a saving throw that you fail. Can be used {0} times per long rest.</value>
+    <comment>0=usetimes</comment>
+  </data>
+  <data name="IndomitableDes" xml:space="preserve">
+    <value>Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a Long Rest.</value>
+  </data>
+  <data name="KiAbbrev" xml:space="preserve">
+    <value>{0} Ki Points per long rest.</value>
+    <comment>0 = #ki points</comment>
+  </data>
+  <data name="KiDes" xml:space="preserve">
+    <value>Starting at 2nd level, your Training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of ki points. Your monk level determines the number of points you have.
+
+You can spend these points to fuel various ki features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind. You learn more ki features as you gain levels in this class.
+
+When you spend a ki point, it is unavailable until you finish a short or Long Rest, at the end of which you draw all of your expended ki back into yourself.</value>
+  </data>
+  <data name="KiEmpoiweredStrikedAbbrev" xml:space="preserve">
+    <value>Your unarmed attacks are considered magical.</value>
+  </data>
+  <data name="KiEmpoweredStrikesDes" xml:space="preserve">
+    <value>Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming Resistance and immunity to nonmagical attacks and damage.</value>
+  </data>
+  <data name="LandsStrideAbbrev" xml:space="preserve">
+    <value>Nonmagical terrain does not hinder movement and plants do not cause damage (thorns ect)</value>
+  </data>
+  <data name="LandsStrideDes" xml:space="preserve">
+    <value>Starting at 8th level, moving through nonmagical difficult terrain costs you no extra Movement. You can also pass through nonmagical Plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
+
+In addition, you have advantage on saving throws against Plants that are magically created or manipulated to impede Movement, such those created by the Entangle spell.</value>
+  </data>
+  <data name="LayonHandsAbbrev" xml:space="preserve">
+    <value>Healing pool = 5 x paladin level. Can heal, or remove poision or disease with 5 hp from healing pool.</value>
+  </data>
+  <data name="LayonHandsDes" xml:space="preserve">
+    <value>Your blessed touch can heal wounds. You have a pool of Healing power that replenishes when you take a Long Rest. With that pool, you can restore a total number of hit points equal to your paladin level x 5.
+
+As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.
+
+Alternatively, you can expend 5 hit points from your pool of Healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple Diseases and neutralize multiple Poisons with a single use of Lay on Hands, expending hit points separately for each one.</value>
+  </data>
+  <data name="MartialArtsAbbrev" xml:space="preserve">
+    <value>With only simple weapons or unarmed and with no armor or shield, may use Dex for attack and damage rolls. Can make an unarmed attack as a bonus action per turn.</value>
+  </data>
+  <data name="MartialArtsDes" xml:space="preserve">
+    <value>You gain the following benefits while you are unarmed or wielding only monk Weapons and you aren't wearing armor or wielding a Shield.
+
+• You can use Dexterity instead of Strength for the Attack and Damage Rolls of your unarmed strikes and monk Weapons.
+
+• You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon.
+
+• When you use the Attack action with an unarmed strike or a monk weapon on Your Turn, you can make one unarmed strike as a Bonus Action.</value>
+  </data>
+  <data name="MonkUnarmoredMovementAbbrev" xml:space="preserve">
+    <value>Can move along vertical surfaces and across liquids during a move.</value>
+  </data>
+  <data name="NaturalExplorerAbbrev" xml:space="preserve">
+    <value>When in your favored terrain your proficiency bonus is doubled of wisdom and intelligence checks. Additionally, Travel is not slowed, you cannot get lost, you are alert to danger, find twice as much while foraging, and can know details of local beasts.</value>
+  </data>
+  <data name="NaturalExplorerDes" xml:space="preserve">
+    <value>You are particularly familiar with one type of natural Environment and are adept at traveling and surviving in such regions. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.
+
+While traveling for an hour or more in your favored terrain, you gain the following benefits:
+
+Difficult terrain doesn't slow your group's travel.
+Your group can't become lost except by magical means.
+Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.
+If you are traveling alone, you can move stealthily at a normal pace.
+When you forage, you find twice as much food as you normally would.
+While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</value>
+  </data>
+  <data name="PatientDefense" xml:space="preserve">
+    <value>You can spend 1 ki point to take the Dodge action as a Bonus Action on Your Turn.</value>
+  </data>
+  <data name="PerfectSoulAbbrev" xml:space="preserve">
+    <value>Gain 4 ki points if you roll initiative with none.</value>
+  </data>
+  <data name="PerfectSoulDes" xml:space="preserve">
+    <value>At 20th level, when you roll for initiative and have no ki points remaining, you regain 4 ki points.</value>
+  </data>
+  <data name="PrimevalAwarenessAbbrev" xml:space="preserve">
+    <value>Expend one spell slot to know what types of creatures are within 1 mile (or within up to 6 miles if you are in your favored terrain): Aberrations, Celestials, dragons, elementals, fey, Fiends, and Undead.</value>
+  </data>
+  <data name="PrimevalAwarenessDes" xml:space="preserve">
+    <value>Beginning at 3rd level, you can use your action and expend one ranger spell slot to focus your awareness on the region around you. For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): Aberrations, Celestials, dragons, elementals, fey, Fiends, and Undead. This feature doesn't reveal the creatures' location or number.</value>
+  </data>
+  <data name="PurityofBodyAbbrev" xml:space="preserve">
+    <value>Immune to disease and poision.</value>
+  </data>
+  <data name="PurityofBodyDes" xml:space="preserve">
+    <value>At 10th level, your mastery of the ki flowing through you makes you immune to disease and poison.</value>
+  </data>
+  <data name="ReliableTalentAbbrev" xml:space="preserve">
+    <value>Treat d20 rolls of 9 or less as a 10 if you are proficient in that skill.</value>
+  </data>
+  <data name="ReliableTalentDes" xml:space="preserve">
+    <value>By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</value>
+  </data>
+  <data name="SecondWindAbbrev" xml:space="preserve">
+    <value>Use a bonus action to regain 1d10 + your fighter level HP. Usable once per rest.</value>
+  </data>
+  <data name="SecondWindDes" xml:space="preserve">
+    <value>You have a limited well of stamina that you can draw on to protect yourself from harm. On Your Turn, you can use a Bonus Action to regain hit points equal to 1d10 + your fighter level.</value>
+  </data>
+  <data name="SlipperyMind" xml:space="preserve">
+    <value>By 15th level, you have acquired greater mental Strength. You gain proficiency in Wisdom saving throws.</value>
+  </data>
+  <data name="SlowFallAbbrev" xml:space="preserve">
+    <value>Fall damage is reduced by 5x your monk level</value>
+  </data>
+  <data name="SlowFallDes" xml:space="preserve">
+    <value>Beginning at 4th level, you can use your reaction when you fall to reduce any Falling damage you take by an amount equal to five times your monk level.</value>
+  </data>
+  <data name="SneakAttackAbbrev" xml:space="preserve">
+    <value>Once per turn deal extra {0} damage if you have advantage, or if the enemy is within 5 ft of one of your allies.</value>
+    <comment>0=sneakattackdamage</comment>
+  </data>
+  <data name="SneakAttackDes" xml:space="preserve">
+    <value>Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an Attack if you have advantage on the Attack roll. The Attack must use a Finesse or a ranged weapon.
+
+You don't need advantage on the Attack roll if another enemy of the target is within 5 feet of it, that enemy isn't Incapacitated, and you don't have disadvantage on the Attack roll.</value>
+  </data>
+  <data name="StepoftheWind" xml:space="preserve">
+    <value>You can spend 1 ki point to take the Disengage or Dash action as a Bonus Action on Your Turn, and your jump distance is doubled for the turn.</value>
+  </data>
+  <data name="StillnessofMindAbbrev" xml:space="preserve">
+    <value>Use an action to end a charm of fear effect on you.</value>
+  </data>
+  <data name="StillnessofMindDes" xml:space="preserve">
+    <value>Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be Charmed or Frightened.</value>
+  </data>
+  <data name="StrokeofLuckAbbrev" xml:space="preserve">
+    <value>Once per rest, change a miss into a hit or an ability check into a 20.</value>
+  </data>
+  <data name="StrokeofLuckDes" xml:space="preserve">
+    <value>At 20th level, you have an uncanny knack for succeeding when you need to. If your Attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.
+
+Once you use this feature, you can't use it again until you finish a short or Long Rest.</value>
+  </data>
+  <data name="StunningStrikeAbbrev" xml:space="preserve">
+    <value>When you hit an opponent, spend 1 ki point.. They must pass a Con ST or be stunned until the end of your next turn.</value>
+  </data>
+  <data name="StunningStrikeDes" xml:space="preserve">
+    <value>Starting at 5th level, you can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon Attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be Stunned until the end of your next turn.</value>
+  </data>
+  <data name="ThievesCant" xml:space="preserve">
+    <value>During your rogue Training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a Message than it does to speak the same idea plainly.
+
+In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</value>
+  </data>
+  <data name="TimelessBodyMonkAbbrev" xml:space="preserve">
+    <value>You do not suffer frailty of old age and do not need to eat or drink.</value>
+  </data>
+  <data name="TimelessBodyMonkDes" xml:space="preserve">
+    <value>At 15th level, your ki sustains you so that you suffer none of the frailty of old age, and you can't be aged magically. You can still die of old age, however. In addition, you no longer need food or water.</value>
+  </data>
+  <data name="ToungeoftheSunandMoonAbbrev" xml:space="preserve">
+    <value>You understand all spoken languages, and others understand what you say.</value>
+  </data>
+  <data name="ToungeoftheSunandMoonDes" xml:space="preserve">
+    <value>Starting at 13th level, you learn to touch the ki of other minds so that you understand all spoken languages. Moreover, any creature that can understand a Language can understand what you say.</value>
+  </data>
+  <data name="UnarmoredDefenseMonk" xml:space="preserve">
+    <value>Beginning at 1st level, while you are wearing no armor and not wielding a Shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier.</value>
+  </data>
+  <data name="UnarmoredMovementDes" xml:space="preserve">
+    <value>Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a Shield. This bonus increases when you reach certain monk levels, as shown in the Monk table.</value>
+  </data>
+  <data name="UncannyDodgeAbbrev" xml:space="preserve">
+    <value>Use your reaction to take half damage.</value>
+  </data>
+  <data name="UncannyDodgeDes" xml:space="preserve">
+    <value>Starting at 5th level, when an attacker that you can see hits you with an Attack, you can use your reaction to halve the attack's damage against you.</value>
+  </data>
+  <data name="VanishAbbrev" xml:space="preserve">
+    <value>Can hide using a bonus action and cannot be tracked by nonmagical means.</value>
+  </data>
+  <data name="VanishDes" xml:space="preserve">
+    <value>Starting at 14th level, you can use the Hide action as a Bonus Action on Your Turn. Also, you can't be tracked by nonmagical means, unless you choose to leave a trail.</value>
+  </data>
+  <data name="FlexibleCastingAbbrev" xml:space="preserve">
+    <value>As a bonus action, transform sorcery points into spell slots, 1st costs 2pt, 2nd costs 3pt, 3rd costs 5pt, 4th costs 6pt and 5th costs 7pt. May expend a spell slot for sorcery points equal to the spell slot level.</value>
+  </data>
+  <data name="FlexibleCastingDes" xml:space="preserve">
+    <value>You can use your sorcery points to gain additional Spell Slots, or sacrifice Spell Slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels.
+
+You can transform unexpended sorcery points into one spell slot as a Bonus Action on Your Turn. The created Spell Slots Vanish at the end of a Long Rest. You can create Spell Slots no higher in level than 5th. 1st = 2 points, 2nd = 3, 3rd = 5, 4th = 6 and 5th = 7
+
+As a Bonus Action on Your Turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.</value>
+  </data>
+  <data name="FontofMagic" xml:space="preserve">
+    <value>At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.</value>
+  </data>
+  <data name="SorceryPointsAbbrev" xml:space="preserve">
+    <value>You have {0} Sorcery points avaliable per day.</value>
+    <comment>0=#points</comment>
+  </data>
+  <data name="SorceryPointsDes" xml:space="preserve">
+    <value>You have 2 sorcery points, and you gain one additional point every time you level up, to a maximum of 20 at level 20. You can never have more sorcery points than shown on the table for your level. You regain all spent sorcery points when you finish a Long Rest.</value>
+  </data>
+  <data name="ArcaneRecoveryAbbrev" xml:space="preserve">
+    <value>Regain spell slots after a short rest. Regain a number equal to half your level (Rounded up). Cannot regain 6th level or higher slots.</value>
+  </data>
+  <data name="ArcaneRecoveryDes" xml:space="preserve">
+    <value>You have learned to regain some of your magical energy by studying your Spellbook. Once per day when you finish a Short Rest, you can choose expended Spell Slots to recover. The Spell Slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.
+
+For example, if you’re a 4th-level wizard, you can recover up to two levels worth of Spell Slots. You can recover either a 2nd-level spell slot or two 1st-level Spell Slots.</value>
+  </data>
+  <data name="ArcaneTradition" xml:space="preserve">
+    <value>When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools, such as Evocation. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</value>
+  </data>
+  <data name="EldritchInvocations" xml:space="preserve">
+    <value>In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.
+
+At 2nd level, you gain two eldritch invocations of your choice. Your invocation options are detailed at the end of the class description. When you gain certain warlock levels, you gain additional invocations of your choice.
+
+Additionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level. A level prerequisite in an invocation refers to warlock level, not character level.</value>
+  </data>
+  <data name="EldritchMasterAbbrev" xml:space="preserve">
+    <value>Spend 1 minute to regain all spell slots if your patron allows it.</value>
+  </data>
+  <data name="EldritchMasterDes" xml:space="preserve">
+    <value>At 20th level, you can draw on your inner reserve of mystical power while entreating your patron to regain expended Spell Slots. You can spend 1 minute entreating your patron for aid to regain all your expended Spell Slots from your Pact Magic feature. Once you regain Spell Slots with this feature, you must finish a Long Rest before you can do so again.</value>
+  </data>
+  <data name="Metamagic" xml:space="preserve">
+    <value>At 3rd level, you gain the ability to twist your Spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.
+
+You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.
+
+Careful Spell
+When you Cast a Spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell’s full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.
+
+Distant Spell
+When you Cast a Spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.
+
+When you Cast a Spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.
+
+Empowered Spell
+When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.
+
+You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.
+
+Extended Spell
+When you Cast a Spell that has a Duration of 1 minute or longer, you can spend 1 sorcery point to double its Duration, to a maximum Duration of 24 hours.
+
+Heightened Spell
+When you Cast a Spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.
+
+Quickened Spell
+When you Cast a Spell that has a Casting Time of 1 action, you can spend 2 sorcery points to change the Casting Time to 1 Bonus Action for this casting.
+
+Subtle Spell
+When you Cast a Spell, you can spend 1 sorcery point to cast it without any somatic or verbal Components.
+
+Twinned Spell
+When you Cast a Spell that Targets only one creature and doesn’t have a range of self, you can spend a number of sorcery points equal to the spell’s level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).
+
+To be eligible, a spell must be incapable of targeting more than one creature at the spell’s current level. For example, Magic Missile and Scorching Ray aren’t eligible, but Ray of Frost is.</value>
+  </data>
+  <data name="MonkUnarmoredMovementDes" xml:space="preserve">
+    <value>Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a Shield. This bonus increases when you reach certain monk levels, as shown in the Monk table.
+
+At 9th level, you gain the ability to move along vertical surfaces and across liquids on Your Turn without Falling during the move.</value>
+  </data>
+  <data name="MysticArcanumAbbrev" xml:space="preserve">
+    <value>You can cast the following spells without expending a spell slot: {0} {1} {2} {3}</value>
+    <comment>0-3 = spell names allowed</comment>
+  </data>
+  <data name="MysticArcanumDes" xml:space="preserve">
+    <value>At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th-level spell from the warlock spell list as this arcanum.
+
+You can cast your arcanum spell once without expending a spell slot. You must finish a Long Rest before you can do so again.</value>
+  </data>
+  <data name="OtherworldlyPatron" xml:space="preserve">
+    <value>At 1st level, you have struck a bargain with an otherworldly being of your choice, such as the Fiend. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level.</value>
+  </data>
+  <data name="PactBoon" xml:space="preserve">
+    <value>At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice.</value>
+  </data>
+  <data name="SignatureSpellsAbbrev" xml:space="preserve">
+    <value>2 3rd level spells are always prepared and can be cast once without expending a spell slot. The spells can be switched after a long rest.</value>
+  </data>
+  <data name="SignatureSpellsDes" xml:space="preserve">
+    <value>When you reach 20th level, you gain mastery over two powerful Spells and can cast them with little effort. Choose two 3rd-level wizard Spells in your Spellbook as your signature Spells. You always have these Spells prepared, they don't count against the number of Spells you have prepared, and you can cast each of them once at 3rd level without expending a spell slot. When you do so, you can't do so again until you finish a short or Long Rest.
+
+If you want to cast either spell at a higher level, you must expend a spell slot as normal.</value>
+  </data>
+  <data name="SorcerousRestorationAbbrev" xml:space="preserve">
+    <value>Regain 4 sorcery points after a short rest.</value>
+  </data>
+  <data name="SorcerousRestorationDes" xml:space="preserve">
+    <value>At 20th level, you regain 4 expended sorcery points whenever you finish a Short Rest.</value>
+  </data>
+  <data name="SpellMasteryAbbrev" xml:space="preserve">
+    <value>One 1st and one 2nd level spell can be cast at will. The spells must be selected beforehand and can be changed after a long rest.</value>
+  </data>
+  <data name="SpellMasteryDes" xml:space="preserve">
+    <value>At 18th level, you have achieved such mastery over certain Spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your Spellbook. You can cast those Spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.
+
+By spending 8 hours in study, you can exchange one or both of the Spells you chose for different Spells of the same levels.</value>
+  </data>
+</root>

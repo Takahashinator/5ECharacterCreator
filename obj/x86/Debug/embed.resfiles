@@ -1,0 +1,12 @@
+App.xbf
+MainPage.xbf
+Pages\AbilityScores.xbf
+Pages\Characteristics.xbf
+Pages\ClassPage.xbf
+Pages\EquipmentPage.xbf
+Pages\Home.xbf
+Pages\RaceSelection.xbf
+Pages\Skills.xbf
+Pages\SpellsPage.xbf
+Pages\SummaryPage.xbf
+UserControls\ClassSelection.xbf
