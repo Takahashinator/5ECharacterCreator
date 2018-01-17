@@ -201,7 +201,7 @@ namespace _5ECharacterCreator
                     break;
                 case ClassEnum.Ranger:
                     Name = "Ranger";
-                    SubclassName = "Archetype";
+                    SubclassName = "Ranger Archetype";
                     _hitDie = 10;
                     _proficiencies.AddRange(new[] { Proficiency.LightArmor, Proficiency.MediumArmor, Proficiency.Shields,
                         Proficiency.SimpleWeapon, Proficiency.MartialWeapon,});
@@ -226,7 +226,7 @@ namespace _5ECharacterCreator
                     break;
                 case ClassEnum.Rogue:
                     Name = "Rogue";
-                    SubclassName = "Archetype";
+                    SubclassName = "Roguish Archetype";
                     _hitDie = 8;
                     _proficiencies.AddRange(new[]
                     {
@@ -284,6 +284,7 @@ namespace _5ECharacterCreator
                     break;
                 case ClassEnum.Warlock:
                     Name = "Warlock";
+                    SubclassName = "Otherworldly Patron";
                     _hitDie = 8;
                     _proficiencies.AddRange(new[] { Proficiency.LightArmor, Proficiency.SimpleWeapon, });
                     _savingThrows.AddRange(new[] { Proficiency.Wisdom, Proficiency.Charisma, });
@@ -306,6 +307,7 @@ namespace _5ECharacterCreator
                     break;
                 case ClassEnum.Wizard:
                     Name = "Wizard";
+                    SubclassName = "Arcane Tradition";
                     _hitDie = 6;
                     _proficiencies.AddRange(new[]
                     {
@@ -1981,7 +1983,7 @@ namespace _5ECharacterCreator
                         "Questing knights, conquering overlords, royal champions, elite foot soldiers, hardened mercenaries, and bandit kings—as fighters, they all share an unparalleled mastery with weapons and armor, and a thorough knowledge of the skills of combat.";
                 case ClassEnum.Monk:
                     return 
-                        "The Monks are a mysterious bunch. Their studies and meditations has allowed them to channel a mystical energy called Ki, allowing them to perfom near superhuman feats.";
+                        "The Monks are a mysterious bunch. Their studies and meditations have allowed them to channel a mystical energy called Ki, allowing them to perfom near superhuman feats.";
                 case ClassEnum.Paladin:
                     return 
                         "Knights, Crusaders, Champions of their diety. Paladins embody the life of an adventurer, persuing their chosen cause with zeal and furvor; channeling the powers of their diety to achieve their goals.";

@@ -30,25 +30,27 @@
                 <RowDefinition Height="100"/>
             </Grid.RowDefinitions>
             <ScrollViewer>
-                <StackPanel Name="MainStackPanel" >
-                    <TextBlock Text="Class Selection" FontSize="30" FontWeight="Bold" Margin="10"/>
-                    <!--<Button Name="ClassCollapsableHeaderButton" Height="50" Margin="10,0,10,0" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left" Click="ClassCollapsableHeaderButton_OnClick">
+                <StackPanel>
+                    <StackPanel Name="MainStackPanel" >
+                        <TextBlock Text="Class Selection" FontSize="30" FontWeight="Bold" Margin="10"/>
+                        <!--<Button Name="ClassCollapsableHeaderButton" Height="50" Margin="10,0,10,0" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left" Click="ClassCollapsableHeaderButton_OnClick">
                         <RelativePanel>
                             <Ellipse Name ="E1" Height="35" Width="35" Fill="Aquamarine" RelativePanel.AlignLeftWithPanel="True"/>
                             <TextBlock Text="Class" FontSize="20" Margin="5" RelativePanel.RightOf="E1"/>
                             <TextBlock Name="ClassCollapsableHeaderIcon" RelativePanel.AlignVerticalCenterWith="E1" RelativePanel.AlignHorizontalCenterWith="E1" FontFamily="Segoe MDL2 Assets" Text="&#xE011;" FontSize="20" FontWeight="Bold"/>
                         </RelativePanel>
                     </Button>-->
-                    <Button Name="AddButton" HorizontalAlignment="Left" Margin="20,5,0,5" Click="AddButton_OnClick">
-                        <TextBlock FontSize="20" TextAlignment="Center">Add Another Class</TextBlock>
-                    </Button>
-                    <!--<RelativePanel>
+                        <Button Name="AddButton" HorizontalAlignment="Left" Margin="20,5,0,5" Click="AddButton_OnClick">
+                            <TextBlock FontSize="20" TextAlignment="Center">Add Another Class</TextBlock>
+                        </Button>
+
+                        <!--<RelativePanel>
                         <ComboBox Name="ClassComboBox" Margin="20,0,0,0" RelativePanel.AlignLeftWithPanel="True" Width="500" Height="50" FontSize="20" />
                         <ComboBox Name="LevelComboBox" Margin="20,0,0,0" RelativePanel.RightOf="ClassComboBox" Width="150" Height="50" FontSize="20" />
                         <Button Name="AddButton" RelativePanel.AlignRightWithPanel="True" Margin="0,0,5,0" Height="50" Width="50" Content="+" FontSize="20"/>
                     </RelativePanel>-->
-                    
-                    <!--<ListView Margin="10,0,10,10" Name="SubClassList" Visibility="Collapsed" SelectionChanged="SubClassList_OnSelectionChanged" SelectionMode="Single">
+
+                        <!--<ListView Margin="10,0,10,10" Name="SubClassList" Visibility="Collapsed" SelectionChanged="SubClassList_OnSelectionChanged" SelectionMode="Single">
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <StackPanel Orientation="Horizontal">
@@ -58,7 +60,12 @@
                             </DataTemplate>
                         </ListView.ItemTemplate>
                     </ListView>-->
+                    </StackPanel>
+                    <StackPanel Name="SubclassStackPanel">
+                        
+                    </StackPanel>
                 </StackPanel>
+                
             </ScrollViewer>
             
             <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Stretch" BorderThickness="5" Background="Bisque" FlowDirection="RightToLeft">

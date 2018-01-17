@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\aldth\source\repos\5ECharacterCreator\5ECharacterCreator\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-14T07:00:13.500</Modified>
+      <Modified>2018-01-17T21:47:44.697</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\aldth\source\repos\5ECharacterCreator\5ECharacterCreator\bin\x86\Debug\5ECharacterCreator.exe">
       <PackagePath>entrypoint\5ECharacterCreator.exe</PackagePath>
-      <Modified>2018-01-14T07:00:12.788</Modified>
+      <Modified>2018-01-17T21:47:43.333</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aldth\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -544,11 +544,11 @@
     <AppxPackagedFile Include="C:\Users\aldth\source\repos\5ECharacterCreator\5ECharacterCreator\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-14T06:45:37.906</Modified>
+      <Modified>2018-01-16T22:02:44.741</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aldth\source\repos\5ECharacterCreator\5ECharacterCreator\bin\x86\Debug\Core\5ECharacterCreator.exe">
       <PackagePath>5ECharacterCreator.exe</PackagePath>
-      <Modified>2018-01-14T07:00:13.486</Modified>
+      <Modified>2018-01-17T21:47:44.664</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

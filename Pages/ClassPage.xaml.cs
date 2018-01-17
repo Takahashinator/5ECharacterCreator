@@ -6,6 +6,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Text;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -171,6 +172,15 @@ namespace _5ECharacterCreator.Pages
                 }
             }
 
+            //
+            SubclassStackPanel.Children.Clear();
+
+            // Display Subclass Selection
+            foreach (var classItem in classList)
+            {
+                DisplayRelevantSubclassInfo(classItem);
+            }
+
             MainPage.GenCharacter.Classes.Clear();
             foreach (var classObj in classList)
             {
@@ -188,6 +198,103 @@ namespace _5ECharacterCreator.Pages
                 ClassDetailsStackPanel.Children.Clear();
                 selectedClass.GetClassDetails(ClassDetailsStackPanel);
             }
+        }
+
+        /// <summary>
+        /// Displays a selector for the subclass depending on if it is avaliable for the selected level
+        /// </summary>
+        /// <param name="classItem"></param>
+        private void DisplayRelevantSubclassInfo(ClassSelection classItem)
+        {
+            //    // barb >=3
+            //    // bard >=3
+            //    // cleric = all
+            //    // druid >= 2
+            //    // fighter >= 3
+            //    // monk >= 3
+            //    // Paladin >= 3
+            //    // ranger >= 3
+            //    // rogue >= 3
+            //    // Sorcerer = all
+            //    // warlock = all
+            //    // Wizard >= 2
+            var level = classItem.SetLevel;
+            var classy = classItem.SetClass;
+            var subclassList = classy.GetAllowedSubclasses();
+            var subclassName = classy.SubclassName;
+
+            switch (classy.EnumType)
+            {
+                case ClassEnum.Barbarian:
+                    if (level < 3)
+                        return;
+                    break;
+                case ClassEnum.Bard:
+                    if (level < 3)
+                        return;
+                    break;
+                case ClassEnum.Cleric:
+                    break;
+                case ClassEnum.Druid:
+                    if (level < 2)
+                        return;
+                    break;
+                case ClassEnum.Fighter:
+                    if (level < 3)
+                        return;
+                    break;
+                case ClassEnum.Monk:
+                    if (level < 3)
+                        return;
+                    break;
+                case ClassEnum.Paladin:
+                    if (level < 3)
+                        return;
+                    break;
+                case ClassEnum.Ranger:
+                    if (level < 3)
+                        return;
+                    break;
+                case ClassEnum.Rogue:
+                    if (level < 3)
+                        return;
+                    break;
+                case ClassEnum.Sorcerer:
+                    break;
+                case ClassEnum.Warlock:
+                    break;
+                case ClassEnum.Wizard:
+                    if (level < 2)
+                        return;
+                    break;
+                default:
+                    return;
+            }
+
+            var newComboBox = new ComboBox
+            {
+                Margin = new Thickness(20, 5, 0, 5),
+                Width = 300,
+            };
+            newComboBox.SelectionChanged += SubclassOnSelectionChanged;
+            foreach (var subclassOption in subclassList)
+            {
+                newComboBox.Items.Add(new Subclass(subclassOption));
+            }
+            newComboBox.SelectedIndex = 0;
+            SubclassStackPanel.Children.Add(new TextBlock
+            {
+                Text = subclassName,
+                FontSize = 30,
+                FontWeight = FontWeights.Bold,
+                Margin = new Thickness(20,5,0,5),
+            });
+            SubclassStackPanel.Children.Add(newComboBox);
+        }
+
+        private void SubclassOnSelectionChanged(object sender, SelectionChangedEventArgs selectionChangedEventArgs)
+        {
+            
         }
 
         private void ClassPage_OnLoaded(object sender, RoutedEventArgs e)
