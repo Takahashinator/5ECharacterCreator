@@ -2,6 +2,7 @@
 {
     public enum SubclassEnum
     {
+        None,
         // Barbarian Primal Paths
         Berserker,
         TotemWarrior,

@@ -96,14 +96,22 @@ namespace _5ECharacterCreator
                     StatIncrease = new Stats(10, 10, 10, 10, 10, 12);
                     SubraceDescription = StringResources.SR.GetString("LightfootDes");
                     _traits.Add(
+                        new Trait("Ability Score Increase",
+                            "Your Charisma score increases by 1",
+                            "", false));
+                    _traits.Add(
                         new Trait("Naturally Stealthy",
                             StringResources.SR.GetString("NaturallyStealthy"),
                             StringResources.SR.GetString("NaturallyStealthy"), true));
                     break;
                 case SubraceEnum.Stout:
                     Name = "Stout";
-                    StatIncrease = new Stats(10, 12, 10, 10, 10, 10);
+                    StatIncrease = new Stats(10, 10, 12, 10, 10, 10);
                     SubraceDescription = StringResources.SR.GetString("StoutDes");
+                    _traits.Add(
+                        new Trait("Ability Score Increase",
+                            "Your Constitution score increases by 1",
+                            "", false));
                     _traits.Add(
                         new Trait("Stout Resilience",
                             StringResources.SR.GetString("StoutResilienceDes"),
@@ -112,7 +120,11 @@ namespace _5ECharacterCreator
                 case SubraceEnum.HillDwarf:
                     Name = "Hill Dwarf";
                     StatIncrease = new Stats(10, 10, 10, 10, 12, 10);
-                    SubraceDescription = StringResources.SR.GetString("HillDwardDes");
+                    SubraceDescription = StringResources.SR.GetString("HillDwarfDes");
+                    _traits.Add(
+                        new Trait("Ability Score Increase",
+                            "Your Wisdom score increases by 1",
+                            "", false));
                     _traits.Add(
                         new Trait("Dwarven Toughness",
                         StringResources.SR.GetString("DwarvenToughness"),
@@ -122,6 +134,10 @@ namespace _5ECharacterCreator
                     Name = "Mountain Dwarf";
                     SubraceDescription = StringResources.SR.GetString("MountainDwarfDes");
                     StatIncrease = new Stats(14, 10, 10, 10, 10, 10);
+                    _traits.Add(
+                        new Trait("Ability Score Increase",
+                            "Your Strength score increases by 2",
+                            "", false));
                     _traits.Add(
                         new Trait("Dwarven Armor Training",
                             StringResources.SR.GetString("DwarvenArmorTraining"),
@@ -133,6 +149,9 @@ namespace _5ECharacterCreator
                     SubraceDescription = StringResources.SR.GetString("RockGnomeDes");
                     _traits.AddRange(new[]
                     {
+                        new Trait("Ability Score Increase",
+                            "Your Constitution score increase by 1",
+                            "", false),
                         new Trait("Artificers Lore",
                             StringResources.SR.GetString("ArtificersLoreDes"),
                             StringResources.SR.GetString("ArtificersLoreAbbrev"),true),
@@ -147,6 +166,9 @@ namespace _5ECharacterCreator
                     SubraceDescription = StringResources.SR.GetString("ForestGnomeDes");
                     _traits.AddRange(new[]
                     {
+                        new Trait("Ability Score Increase",
+                            "Your Dexterity score increase by 1",
+                            "", false),
                         new Trait("Natural Illusionist",
                             StringResources.SR.GetString("NaturalIllusionist"),
                             StringResources.SR.GetString("NaturalIllusionist"),false),
@@ -161,6 +183,9 @@ namespace _5ECharacterCreator
                     SubraceDescription = StringResources.SR.GetString("WoodElfDes");
                     _traits.AddRange(new[]
                     {
+                        new Trait("Ability Score Increase",
+                            "Your Wisdom score increase by 1",
+                            "", false),
                         new Trait("Elf Weapon Training",
                             StringResources.SR.GetString("ElfWeaponTraining"),
                             StringResources.SR.GetString("ElfWeaponTraining"),false),
@@ -178,6 +203,9 @@ namespace _5ECharacterCreator
                     SubraceDescription = StringResources.SR.GetString("DarkElfDes");
                     _traits.AddRange(new[]
                     {
+                        new Trait("Ability Score Increase",
+                            "Your Charisma score increase by 1",
+                            "", false),
                         new Trait("Drow Weapon Training",
                             StringResources.SR.GetString("DrowWeaponTraining"),
                             StringResources.SR.GetString("DrowWeaponTraining"),false),
@@ -198,6 +226,9 @@ namespace _5ECharacterCreator
                     SubraceDescription = StringResources.SR.GetString("HighElfDes");
                     _traits.AddRange(new[]
                     {
+                        new Trait("Ability Score Increase",
+                            "Your Intelligence score increase by 1",
+                            "", false),
                         new Trait("Elf Weapon Training",
                             StringResources.SR.GetString("ElfWeaponTraining"),
                             StringResources.SR.GetString("ElfWeaponTraining"),false),

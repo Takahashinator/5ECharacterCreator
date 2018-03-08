@@ -6,8 +6,10 @@ namespace _5ECharacterCreator
 {
     public class Character
     {
-        public List<CharacterClass> Classes = new List<CharacterClass>();
-        public List<Subclass> Subclasses = new List<Subclass>();
+        //public List<CharacterClass> Classes = new List<CharacterClass>();
+        public CharacterClass Classes = null;
+        //public List<Subclass> Subclasses = new List<Subclass>();
+        public Subclass Subclasses = null;
         public Race Race;
         public Subrace Subrace;
         public string Sex;
@@ -26,7 +28,7 @@ namespace _5ECharacterCreator
         public int Initiative;
         public string Name;
         public int XP;
-        public string Traits;
+        public List<Trait> Traits = new List<Trait>();
         public string Bonds;
         public string Flaws;
         public string Ideals;

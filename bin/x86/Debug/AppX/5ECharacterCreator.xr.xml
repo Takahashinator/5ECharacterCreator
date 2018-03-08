@@ -3,6 +3,11 @@
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="Name" />
     <RootPropertyPathName Name="RaceListviewItems" />
+    <RootPropertyPathName Name="OptionListviewItems" />
+    <RootPropertyPathName Name="Context" />
+    <RootPropertyPathName Name="Header" />
+    <RootPropertyPathName Name="IsChecked" />
+    <RootPropertyPathName Name="IsEnabledBindingHandle" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
@@ -70,6 +75,10 @@
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="FontFamily" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ToolTipService">
+      <RootMethod Name="GetToolTip" />
+      <RootMethod Name="SetToolTip" />
+    </RootType>
     <RootType FullName="_5ECharacterCreator.Pages.ClassPage" />
     <RootType FullName="_5ECharacterCreator.EquipmentPage" />
     <RootType FullName="_5ECharacterCreator.Home" />
@@ -106,10 +115,6 @@
       <RootProperty Name="Name" />
       <RootProperty Name="Content" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ToolTipService">
-      <RootMethod Name="GetToolTip" />
-      <RootMethod Name="SetToolTip" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ToolTip">
       <RootProperty Name="Content" />
     </RootType>
@@ -135,7 +140,9 @@
       <RootEvent Name="Checked" />
       <RootEvent Name="Loaded" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Mode" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Shapes.Ellipse">
       <RootProperty Name="Name" />
       <RootProperty Name="Height" />
@@ -147,10 +154,18 @@
     <RootType FullName="_5ECharacterCreator.SpellsPage" />
     <RootType FullName="_5ECharacterCreator.SummaryPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
-      <RootProperty Name="Margin" />
       <RootProperty Name="Content" />
+      <RootProperty Name="Margin" />
       <RootEvent Name="Loaded" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="IsChecked" />
+      <RootProperty Name="IsEnabled" />
+      <RootEvent Name="Checked" />
+      <RootEvent Name="Unchecked" />
+    </RootType>
+    <RootType FullName="_5ECharacterCreator.UserControls.ClassChoiceControl" />
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
       <RootProperty Name="Name" />
       <RootProperty Name="Margin" />

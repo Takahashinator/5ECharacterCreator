@@ -82,7 +82,7 @@ namespace _5ECharacterCreator
             }
         }
 
-        private void RaceList_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void RaceList_OnSelectionChanged(object sender, SelectionChangedEventArgs selectionChangedEventArgs)
         {
             if (!(RaceList.SelectedItem is Race context)) return;
             RaceDetailsHeader.Text = context.Name;
@@ -107,7 +107,7 @@ namespace _5ECharacterCreator
             //}
         }
 
-        private void SubRaceList_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void SubRaceList_OnSelectionChanged(object sender, SelectionChangedEventArgs selectionChangedEventArgs)
         {
             if (!(SubRaceList.SelectedItem is Subrace context)) return;
             RaceDetailsHeader.Text = context.Name;

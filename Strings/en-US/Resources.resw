@@ -199,7 +199,7 @@ After you use your breath weapon, you can’t use it again until you complete a 
     <value>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</value>
   </data>
   <data name="ElfWeaponTraining" xml:space="preserve">
-    <value>You have proficiency with the longsword, shortbow, shortsword, shortbow, and longbow reguardless of your class.</value>
+    <value>You have proficiency with the longsword, shortsword, shortbow, and longbow reguardless of your class.</value>
   </data>
   <data name="ExtraCantripHighElf" xml:space="preserve">
     <value>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.</value>
@@ -958,19 +958,18 @@ To be eligible, a spell must be incapable of targeting more than one creature at
 At 9th level, you gain the ability to move along vertical surfaces and across liquids on Your Turn without Falling during the move.</value>
   </data>
   <data name="MysticArcanumAbbrev" xml:space="preserve">
-    <value>You can cast the following spells without expending a spell slot: {0} {1} {2} {3}</value>
-    <comment>0-3 = spell names allowed</comment>
+    <value>You can cast the spell {0} without expending a spell slot.</value>
   </data>
   <data name="MysticArcanumDes" xml:space="preserve">
     <value>At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th-level spell from the warlock spell list as this arcanum.
 
-You can cast your arcanum spell once without expending a spell slot. You must finish a Long Rest before you can do so again.</value>
+You can cast your arcanum spell once without expending a spell slot. You must finish a Long Rest before you can do so again. At higher levels, you gain more warlock spells of your choice that can be cast in this way. </value>
   </data>
   <data name="OtherworldlyPatron" xml:space="preserve">
     <value>At 1st level, you have struck a bargain with an otherworldly being of your choice, such as the Fiend. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level.</value>
   </data>
   <data name="PactBoon" xml:space="preserve">
-    <value>At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice.</value>
+    <value>At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service.</value>
   </data>
   <data name="SignatureSpellsAbbrev" xml:space="preserve">
     <value>2 3rd level spells are always prepared and can be cast once without expending a spell slot. The spells can be switched after a long rest.</value>
@@ -993,5 +992,1922 @@ If you want to cast either spell at a higher level, you must expend a spell slot
     <value>At 18th level, you have achieved such mastery over certain Spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your Spellbook. You can cast those Spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.
 
 By spending 8 hours in study, you can exchange one or both of the Spells you chose for different Spells of the same levels.</value>
+  </data>
+  <data name="AbjurationSubheader" xml:space="preserve">
+    <value>Abjuration emphasizes magic that blocks, banishes or protects.</value>
+  </data>
+  <data name="AncientsSubheader" xml:space="preserve">
+    <value>Sometimes called fey knights, green knights or horned knights, paladins who swear by the Oath of Ancients fight darkness because they love the beautiful and life-giving things of the world, not nessissarily because they believe in the principals of honor, justice and courage.</value>
+  </data>
+  <data name="ArcaneTricksterSubheader" xml:space="preserve">
+    <value>Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. </value>
+  </data>
+  <data name="ArchfeySubheader" xml:space="preserve">
+    <value>Your patron is a fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being's motivations are often inscruitable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges.</value>
+  </data>
+  <data name="AssassinSubheader" xml:space="preserve">
+    <value>You focus your training on the grim art of death. Stealth, poision and disguise help you eliminate your foes with deadly efficiency.</value>
+  </data>
+  <data name="BattleMasterSubheader" xml:space="preserve">
+    <value>Battle Masters employ martial techniques passed down through generations. Combat, to them, is an academic field allowing complicated and deadly maneuvers to be performed, with the goal of gaining the upper hand in combat.</value>
+  </data>
+  <data name="BeastMasterSubheader" xml:space="preserve">
+    <value>The Bease Master embodies a friendship between the civilized races and the beasts of the wild. United in focus, beast and ranger fight monsters that threaten civilization and the wilderness alike.</value>
+  </data>
+  <data name="BerserkerSubheader" xml:space="preserve">
+    <value>For some barbarians, rage is a means to an end - that end being violence. the Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.</value>
+  </data>
+  <data name="ChampionSubheader" xml:space="preserve">
+    <value>The Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves after this archetype combine rigorous trainingwith physical excellence to deal devastating blows.</value>
+  </data>
+  <data name="CircleofLandSubheader" xml:space="preserve">
+    <value>The Circle of the Land is made up of mystics and sages who safeguard ancient knowlege and rites through a vast oral tradition. As a member of this circle your magic is influenced by the land where you were initiated into the circle's mysterious rites.</value>
+  </data>
+  <data name="CircleofMoonSubheader" xml:space="preserve">
+    <value>Druids of the Circle of the Moon are fierce guardians of the wilds. Changable as the moon, a druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form the next.</value>
+  </data>
+  <data name="ConjurationSubheader" xml:space="preserve">
+    <value>Conjurers favor spells that produce objects and creatures out of thin air.</value>
+  </data>
+  <data name="DevotionSubheader" xml:space="preserve">
+    <value>The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue and order. Sometimes called cavaliers, white knights or holy warriors, these paladins meeth the ideal of the knight in shining armor acting with honor in persuit of justice and the greater good. </value>
+  </data>
+  <data name="DivinationSubheader" xml:space="preserve">
+    <value>Divination strives to part the veils of space, time and conciousness so that you can see clearly.</value>
+  </data>
+  <data name="DraconicBloodlineSubheader" xml:space="preserve">
+    <value>Your innate magic comes from draconic magic that was mingled with your blood or from your ancestors. </value>
+  </data>
+  <data name="EldritchKnightSubheader" xml:space="preserve">
+    <value>Eldritch Knights combines martial mastery with a careful study of magic. This combination allows them to be incredibly versatile as well as incredibly dangerous, both at close range as well as at a distance.</value>
+  </data>
+  <data name="EnchantmentSubheader" xml:space="preserve">
+    <value>Enchanters hone thier magical ability to entrance and beguile other people and monsters.</value>
+  </data>
+  <data name="EvocationSubheader" xml:space="preserve">
+    <value>You focus your study on magic that creates powerful elemental effects such a bitter cold, searing flame rolling thunder, crackling lightning and burning acid. </value>
+  </data>
+  <data name="FiendSubheader" xml:space="preserve">
+    <value>You have made a pact with a fiend from the lower planes of existance, a being whose aims are clearly and unabashedly evil, even if you do not strive for those aims yourself. Such beings desire corruption and destruction and offer you exceptional power your patron.</value>
+  </data>
+  <data name="FourElementsSubheader" xml:space="preserve">
+    <value>This monastic tradition has discovered a method to harness the elements. Using the mysterious power of ki, you can bend the four elements to your will using them as an extension to your body. </value>
+  </data>
+  <data name="GreatOldOneSubheader" xml:space="preserve">
+    <value>The Great Old One is a mysterious entity whose nature is utterly foreign to the fabric of reality. Its motives are incomprehensible to mortals, and its knowlege is so immense that even the greatest libraries pale in comparision to the secrets it holds.</value>
+  </data>
+  <data name="HunterSubheader" xml:space="preserve">
+    <value>As a hunter you place youselves beween civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons. </value>
+  </data>
+  <data name="IllusionSubheader" xml:space="preserve">
+    <value>You focus your study on magic that dazzles the senses, befuddles the mind, and tricks even the wisest folk. </value>
+  </data>
+  <data name="KnowledgeSubheader" xml:space="preserve">
+    <value>Some gods value knowledge, learning and understanding above all. Devotion to one of these gods grants blessings in history, craftsmanship and even into the hearts of man.</value>
+  </data>
+  <data name="LifeSubheader" xml:space="preserve">
+    <value>The Life domain focuses of the vibrant positive energy that sustains all life. Natural healers and practitioners of the magics that enhance vitality are the ones that follow this domain.</value>
+  </data>
+  <data name="LightSubheader" xml:space="preserve">
+    <value>Gods of light promote ideals of rebirth and renewal, truth vigilance and beauty. These clerics are charged with chasing away lies and burning away darkness.</value>
+  </data>
+  <data name="LoreSubheader" xml:space="preserve">
+    <value>Bards of the College of Lore know something about most things, collecting bits of knowlege from sources as diverse as scholarly tomes and peasant tales. This knowledge allows you to gain exceptional skill and even uncover a number of secrets along the way.</value>
+  </data>
+  <data name="NatureSubheader" xml:space="preserve">
+    <value>While druids revere nature itself, nature clerics find strength calling upon one of the gods of nature. These clerics might hunt the evil monstrosities that despoil the woodlands, bless the harvest of the faithful, or wither the crops of those who anger their gods.</value>
+  </data>
+  <data name="NecromancySubheader" xml:space="preserve">
+    <value>Necromancy explores the cosmic forces of life, death and undeath.</value>
+  </data>
+  <data name="OpenHandSubheader" xml:space="preserve">
+    <value>Monks of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage, and practice advanced meditation that can protect them from harm.</value>
+  </data>
+  <data name="TempestSubheader" xml:space="preserve">
+    <value>Tempest clerics govern storms, sea and sky. They worship gods of lightning and thunder, earthquakes and fire. They are infused with power and are feared by many.</value>
+  </data>
+  <data name="ThiefSubheader" xml:space="preserve">
+    <value>You hone your skills in the larcenous arts. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.</value>
+  </data>
+  <data name="TotemWarriorSubheader" xml:space="preserve">
+    <value>The Path of the Totem Warrior is a spiritual journeym as the barbarian accepts a spirit animal as a guide, protector and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage.</value>
+  </data>
+  <data name="TransmutationSubheader" xml:space="preserve">
+    <value>You are a student of spells that modify energy and matter.</value>
+  </data>
+  <data name="TrickerySubheader" xml:space="preserve">
+    <value>There are a number of gods of trickery who love to meddle in the affairs of mankind. Their clerics act in their name puncturing pride, mocking tyrants, stealing from the rich, freeing captives and flouting hollow traditions. They prefer subterfuge, pranks, deception and theft rather than direct confrontation.</value>
+  </data>
+  <data name="ValorSubheader" xml:space="preserve">
+    <value>Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. A wariors heart within yourself, you not only know the tales but aspire to weave your own along the way.</value>
+  </data>
+  <data name="VengeanceSubheader" xml:space="preserve">
+    <value>The Oath of Vengeance is a solemn commitment to punish those who have committed a grevious sin. Once these paladins set their sights on a foe, they commit themselves to brining them to their knees.</value>
+  </data>
+  <data name="WarSubheader" xml:space="preserve">
+    <value>Clerics of the gods of war excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers. </value>
+  </data>
+  <data name="WayofShadowSubheader" xml:space="preserve">
+    <value>Monks of the Way of Shadow follow a tradition that values stealth and subterfuge. These monks might be called ninjas, or shadowdancers and often serve as spies and assassins. </value>
+  </data>
+  <data name="WildMagicSubheader" xml:space="preserve">
+    <value>Your innate magic comes from the forces of chaos that underlie the order of creation. This dangerous magic churns within you, waiting to find an outlet.</value>
+  </data>
+  <data name="ABBearAbbrev" xml:space="preserve">
+    <value>Carrying capacity is doubled and you have advantage on strength checks to move or break objects.</value>
+  </data>
+  <data name="ABBearDes" xml:space="preserve">
+    <value>You gain the might of a bear. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, or break objects.</value>
+  </data>
+  <data name="ABEagleAbbrev" xml:space="preserve">
+    <value>See up to 1 mile with great detail</value>
+  </data>
+  <data name="ABEagleDes" xml:space="preserve">
+    <value>You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom (Perception) checks.</value>
+  </data>
+  <data name="ABWolfAbbrev" xml:space="preserve">
+    <value>You can track creatures while traveling quickly and move stealthily at normal pace.</value>
+  </data>
+  <data name="ABWolfDes" xml:space="preserve">
+    <value>You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace (see chapter 8 for rules on travel pace).</value>
+  </data>
+  <data name="CommandersStrikeAbbrev" xml:space="preserve">
+    <value>Forgo an attack and use a bonus action to allow an ally to make a weapon attack + add  SD to damage.</value>
+  </data>
+  <data name="CommandersStrikeDes" xml:space="preserve">
+    <value>When you take the Attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack’s damage roll.</value>
+  </data>
+  <data name="DisarmingAttackAbbrev" xml:space="preserve">
+    <value>On a weapon hit, add ST to damage and the target makes a strength ST or lose its weapon.</value>
+  </data>
+  <data name="DisarmingAttackDes" xml:space="preserve">
+    <value>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it’s holding. You add the superiority die to the attack’s damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.</value>
+  </data>
+  <data name="DistractingStrikeAbbrev" xml:space="preserve">
+    <value>On a hit, add ST to damage and the next attack vs the creature other than you has advantage until the start of your next turn.</value>
+  </data>
+  <data name="DistractingStrikeDes" xml:space="preserve">
+    <value>When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack’s damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.</value>
+  </data>
+  <data name="EvasiveFootworkAbbrev" xml:space="preserve">
+    <value>Add superiority die to your AC while moving</value>
+  </data>
+  <data name="EvasiveFootworkDes" xml:space="preserve">
+    <value>When you move, you can expend one superiority die, rolling the die and adding the number rolled to your AC until you stop moving.</value>
+  </data>
+  <data name="FeintingAttackAbbrev" xml:space="preserve">
+    <value>As a bonus action gain advantage on your next attack roll and add SD to damage.</value>
+  </data>
+  <data name="FeintingAttackDes" xml:space="preserve">
+    <value>You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll against that creature. If that attack hits, add the superiority die to the attack’s damage roll.</value>
+  </data>
+  <data name="FrenzyAbbrev" xml:space="preserve">
+    <value>May attack as a bonus action while raging. Suffer +1 exhaustion when rage ends.</value>
+  </data>
+  <data name="FrenzyDes" xml:space="preserve">
+    <value>Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the Duration of your rage you can make a single melee weapon Attack as a Bonus Action on each of your turns after this one. When your rage ends, you suffer one level of Exhaustion (as described in Conditions).</value>
+  </data>
+  <data name="GoadingAttackAbbrev" xml:space="preserve">
+    <value>On a hit, add ST to damage and target makes a Wis ST or have disadvantage on all attacks on targets other than you until the end of your next turn.</value>
+  </data>
+  <data name="GoadingAttackDes" xml:space="preserve">
+    <value>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.</value>
+  </data>
+  <data name="IntimidatingPresenceAbbrev" xml:space="preserve">
+    <value>Use an action to cause fear in an enemy until the end of your next turn. (Wis ST, 8 + proficiency bonus + ChaMod )</value>
+  </data>
+  <data name="IntimidatingPresenceDes" xml:space="preserve">
+    <value>Beginning at 10th level, you can use your action to frighten someone with your menacing presence. When you do so, choose one creature that you can see within 30 feet of you. If the creature can see or hear you, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be Frightened of you until the end of your next turn. On subsequent turns, you can use your action to extend the Duration of this effect on the Frightened creature until the end of your next turn. This effect ends if the creature ends its turn out of line of sight or more than 60 feet away from you.
+If the creature succeeds on its saving throw, you can’t use this feature on that creature again for 24 hours.</value>
+  </data>
+  <data name="LungingAttackAbbrev" xml:space="preserve">
+    <value>Increase reach for an attack by 5 feet and add ST to damage.</value>
+  </data>
+  <data name="LungingAttackDes" xml:space="preserve">
+    <value>When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack’s damage roll.</value>
+  </data>
+  <data name="ManeuveringAttackAbbrev" xml:space="preserve">
+    <value>On a hit, add SD to damage and an ally can use its reaction to move 1/2 its speed without opportunity attacks.</value>
+  </data>
+  <data name="ManeuveringAttackDes" xml:space="preserve">
+    <value>When you hit a creature with a weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack’s damage roll, and you choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack.</value>
+  </data>
+  <data name="MenacingAttackAbbrev" xml:space="preserve">
+    <value>On a hit, add SD to damage and target makes a Wis ST or be frightened until the end of your next turn.</value>
+  </data>
+  <data name="MenacingAttackDes" xml:space="preserve">
+    <value>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.</value>
+  </data>
+  <data name="MindlessRageAbbrev" xml:space="preserve">
+    <value>Cant be charmed, or frightened while raging.</value>
+  </data>
+  <data name="MindlessRageDes" xml:space="preserve">
+    <value>Beginning at 6th level, you can’t be Charmed or Frightened while raging. If you are Charmed or Frightened when you enter your rage, the effect is suspended for the Duration of the rage.</value>
+  </data>
+  <data name="ParryAbbrev" xml:space="preserve">
+    <value>When hit, reduce damage by SD + dex mod</value>
+  </data>
+  <data name="ParryDes" xml:space="preserve">
+    <value>When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Dexterity modifier.</value>
+  </data>
+  <data name="PrecisionAttackAbbrev" xml:space="preserve">
+    <value>Expend SD and add to an attack roll.</value>
+  </data>
+  <data name="PrecisionAttackDes" xml:space="preserve">
+    <value>When you make a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied.</value>
+  </data>
+  <data name="PushingAttackAbbrev" xml:space="preserve">
+    <value>On a hit, add SD to damage and target makes a strength ST or be pushed up to 15 ft (if large or smaller)</value>
+  </data>
+  <data name="PushingAttackDes" xml:space="preserve">
+    <value>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to drive the target back. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you.</value>
+  </data>
+  <data name="RallyAbbrev" xml:space="preserve">
+    <value>Use a bonus action to add your SD + Cha mod to an ally's temp HP.</value>
+  </data>
+  <data name="RallyDes" xml:space="preserve">
+    <value>On your turn, you can use a bonus action and expend one superiority die to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to the superiority die roll + your Charisma modifier.</value>
+  </data>
+  <data name="RetaliationAbbrev" xml:space="preserve">
+    <value>Make a melee attack on another creature that damages you as a reaction.</value>
+  </data>
+  <data name="RetaliationDes" xml:space="preserve">
+    <value>Starting at 14th level, when you take damage from a creature that is within 5 feet of you, you can use your reaction to make a melee weapon Attack against that creature.</value>
+  </data>
+  <data name="RiposteAbbrev" xml:space="preserve">
+    <value>When missed with a melee attack, make a counter attack and add SD to damage.</value>
+  </data>
+  <data name="RiposteDes" xml:space="preserve">
+    <value>When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack's damage roll.</value>
+  </data>
+  <data name="SweepingAttackAbbrev" xml:space="preserve">
+    <value>On a hit, add SD to damage and hit another creature in range. Use the same attack roll for both.</value>
+  </data>
+  <data name="SweepingAttackDes" xml:space="preserve">
+    <value>When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your superiority die. The damage is of the same type dealt by the original attack.</value>
+  </data>
+  <data name="TABearAbbrev" xml:space="preserve">
+    <value>Any creature within 5 ft of you has disadvantage on attacks vs anyone other than you.</value>
+  </data>
+  <data name="TABearDes" xml:space="preserve">
+    <value>While you’re raging, any creature within 5 feet of you that’s hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can’t see or hear you or if it can’t be frightened.</value>
+  </data>
+  <data name="TAEagleAbbrev" xml:space="preserve">
+    <value>While raging you can fly equal to your walking speed. Return to the ground at the end of your turn.</value>
+  </data>
+  <data name="TAEagleDes" xml:space="preserve">
+    <value>While raging, you have a flying speed equal to your current walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.</value>
+  </data>
+  <data name="TAWolfAbbrev" xml:space="preserve">
+    <value>Use a bonus action to knock a large crearure prone after hitting it with a melee attack.</value>
+  </data>
+  <data name="TAWolfDes" xml:space="preserve">
+    <value>While you’re raging, you can use a bonus action on your turn to knock a Large or smaller creature prone when you hit it with melee weapon attack.</value>
+  </data>
+  <data name="TripAttackAbbrev" xml:space="preserve">
+    <value>On a hit, add SD to damage and target makes a strength ST or be knocked prone (if large or smaller)</value>
+  </data>
+  <data name="TripAttackDes" xml:space="preserve">
+    <value>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack’s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.</value>
+  </data>
+  <data name="TSBearAbbrev" xml:space="preserve">
+    <value>While raging, you have resistance to all damage except psychic.</value>
+  </data>
+  <data name="TSBearDes" xml:space="preserve">
+    <value>While raging, you have resistance to all damage except psychic damage. The spirit of the bear makes you tough enough to stand up to any punishment.</value>
+  </data>
+  <data name="TSEagleAbbrev" xml:space="preserve">
+    <value>While raging, may dash as a bonus action and opportunity attacks vs you have disadvantage.</value>
+  </data>
+  <data name="TSEagleDes" xml:space="preserve">
+    <value>While you're raging and aren’t wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash action as a bonus action on your turn. The spirit of the eagle makes you into a predator who can weave through the fray with ease.</value>
+  </data>
+  <data name="TSWolfAbbrev" xml:space="preserve">
+    <value>While raging, allies have advantage on attacks vs enemies you are next to.</value>
+  </data>
+  <data name="TSWolfDes" xml:space="preserve">
+    <value>While you're raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you. The spirit of the wolf makes you a leader of hunters.</value>
+  </data>
+  <data name="BreathofWinter" xml:space="preserve">
+    <value>Spend 6 ki points to cast cone of cold</value>
+  </data>
+  <data name="ClenchoftheNorthWind" xml:space="preserve">
+    <value>Spend 3 ki points to cast hold person</value>
+  </data>
+  <data name="ElementalAttunementAbbrev" xml:space="preserve">
+    <value>Create a harmless sensory effect such as a shower of sparks, a puff of wind, a spray of mist ect. Snuff out a small fire, chill or warm up to 1 pound of material. Shape the elements in a 1 ft cube into a crude form for 1 min.</value>
+  </data>
+  <data name="ElementalAttunementDes" xml:space="preserve">
+    <value>You can briefly control elemental forces nearby, causing one of the following effects of your choice:
+
+Create a harmless, instantaneous sensory effect related to air, earth, fire, or water, such as a shower of sparks, a puff of wind, a spray of light mist, or a gentle rumbling of stone.
+Instantaneously light or snuff out a candle, a torch, or a small campfire.
+Chill or warm up to 1 pound of nonliving material for up to 1 hour.
+Cause earth, fire, water, or mist that can fit within a 1-foot cube to shape itself into a crude form you designate for 1 minute.</value>
+  </data>
+  <data name="EternalMountainDefense" xml:space="preserve">
+    <value>Spend 5 ki points to cast stoneskin on yourself</value>
+  </data>
+  <data name="FangsoftheFireSnakeAbbrev" xml:space="preserve">
+    <value>Spend 1 ki point to increase melee range to 10 ft for 1 turn. Spend an extra ki point to deal 1d10 fire damage.</value>
+  </data>
+  <data name="FangsoftheFireSnakeDes" xml:space="preserve">
+    <value>When you use the Attack action on your turn, you can initiate this maneuver to cause tendrils of flame to stretch out from your fists and feet. Your reach with your unarmed strikes increases by 5 feet for that action, as well as the rest of the turn. A hit with such an attack deals fire damage instead of bludgeoning damage, and if you spend 1 ki point when the attack hits, it also deals an extra 1d10 fire damage.</value>
+  </data>
+  <data name="FistofFourThunders" xml:space="preserve">
+    <value>Spend 2 ki points to cast thunderwave</value>
+  </data>
+  <data name="FistofUnbrokenAirAbbrev" xml:space="preserve">
+    <value>Spend 2 ki points to force a creature within 30 ft roll a STR ST. 3d10 bludgeoning and 1d10 for every extra ki point you spend. Creature is pushed up to 20ft and proned. No push and half damage on a successful save.</value>
+  </data>
+  <data name="FistofUnbrokenAirDes" xml:space="preserve">
+    <value>You can create a blast of compressed air that strikes like a mighty fist. As an action, you can spend 2 ki points and choose a creature within 30 feet of you. That creature must make a Strength saving throw. On a failed save, the creature takes 3d10 bludgeoning damage, plus and extra 1d10 bludgeoning damage for each additional ki point you spend, and you can push the creature up to 20 feet away from you and knock it prone. On a successful save, the creature takes half as much damage, and you don't push it or knock it prone.</value>
+  </data>
+  <data name="FlamesofthePhoenix" xml:space="preserve">
+    <value>Spend 4 ki points to cast fireball</value>
+  </data>
+  <data name="GongoftheSummit" xml:space="preserve">
+    <value>Spend 3 ki points to cast shatter</value>
+  </data>
+  <data name="MistStance" xml:space="preserve">
+    <value>Spend 4 ki points to cast gaseous form, targeting yourself</value>
+  </data>
+  <data name="RidetheWind" xml:space="preserve">
+    <value>Spend 4 ki points to cast fly, targeting yourself</value>
+  </data>
+  <data name="RiverofHungryFlame" xml:space="preserve">
+    <value>Spend 5 ki points to cast wall of fire</value>
+  </data>
+  <data name="RushoftheGaleSpirits" xml:space="preserve">
+    <value>Spend 2 ki points to cast gust of wind</value>
+  </data>
+  <data name="ShapetheFlowingRiverAbbrev" xml:space="preserve">
+    <value>Spend 1 ki point to change 30ft of water to ice or ice to water within 120 ft. You can reshape it any way you choose.</value>
+  </data>
+  <data name="ShapetheFlowingRiverDes" xml:space="preserve">
+    <value>As an action, you can spend 1 ki point to choose an area of ice or water no larger than 30 feet on a side within 120 feet of you. You can change water to ice within the area and vice versa, and you can reshape ice in the area in any manner you choose. You can raise or lower the ice’s elevation, create or fill in a trench, erect or flatten a wall, or form a pillar. The extent of any such changes can’t exceed half the area’s largest dimension. For example, if you affect a 30-foot square, you can create a pillar up to 15 feet high, raise or lower the square’s elevation by up to 15 feet, dig a trench up to 15 feet deep, and so on. You can’t shape the ice to trap or injure a creature in the area.</value>
+  </data>
+  <data name="SweepingCinderStrike" xml:space="preserve">
+    <value>Spend 2 ki points to cast burning hands</value>
+  </data>
+  <data name="WaterWhipAbbrev" xml:space="preserve">
+    <value>Spend 2 ki points to create a whip of water within 30 ft. The target makes a dex ST or take 3d10 and 1d10 bludgeoning for every extra ki point spent. Target can be pulled 25ft closer or proned. 1/2 damage and no moving on a successful save.</value>
+  </data>
+  <data name="WaterWhipDes" xml:space="preserve">
+    <value>You can spend 2 ki points as a bonus action to create a whip of water that shoves and pulls a creature to unbalance it. A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes 3d10 bludgeoning damage, plus an extra 1d10 bludgeoning damage for each additional ki point you spend, and you can either knock it prone or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you don’t pull it or knock it prone.</value>
+  </data>
+  <data name="WaveofRollingEarth" xml:space="preserve">
+    <value>Spend 6 ki points to cast wall of stone.</value>
+  </data>
+  <data name="ColossusSlayerAbbrev" xml:space="preserve">
+    <value>Deal extra 1d8 damage if enemy is below their HP max</value>
+  </data>
+  <data name="ColossusSlayerDes" xml:space="preserve">
+    <value>Your Tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it's below its hit point maximum. You can deal this extra damage only once per turn.</value>
+  </data>
+  <data name="EscapetheHorde" xml:space="preserve">
+    <value>Opportunity attacks against you are made with disadvantage</value>
+  </data>
+  <data name="EvasionHDAbbrev" xml:space="preserve">
+    <value>Take no damage instead of half on a failed Dex ST on area spell effects. Take only half damage on a fail</value>
+  </data>
+  <data name="EvasionHDDes" xml:space="preserve">
+    <value>When you are subjected to an effect, such as a red dragon’s fiery breath or a Lightning Bolt spell, that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</value>
+  </data>
+  <data name="GiantKillerAbbrev" xml:space="preserve">
+    <value>Counterattack Large or larger creatures within 5 ft if you can see them when they make the attack.</value>
+  </data>
+  <data name="GiantKillerDes" xml:space="preserve">
+    <value>When a Large or larger creature within 5 ft of you hits or misses you with an attack you can use your reaction to attack that creature immediately after its attack, provided that you can see that creature.</value>
+  </data>
+  <data name="HordeBreakerAbbrev" xml:space="preserve">
+    <value>Make an extra attack against another target in range as a free action.</value>
+  </data>
+  <data name="HordeBreakerDes" xml:space="preserve">
+    <value>Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 ft of the original target and within range of your weapon.</value>
+  </data>
+  <data name="MultiattackDefenseAbbrev" xml:space="preserve">
+    <value>When hit, gain +4 AC against that enemy for the rest of the turn.</value>
+  </data>
+  <data name="MultiattackDefenseDes" xml:space="preserve">
+    <value>When a creature hits you with an attack, you gain +4 AC against all subsequent attacks made by that creature for the rest of the turn</value>
+  </data>
+  <data name="SpiritWalkerAbbrev" xml:space="preserve">
+    <value>Can cast commune with nature as a ritual and your totem spirit appears.</value>
+  </data>
+  <data name="SpiritWalkerDes" xml:space="preserve">
+    <value>At 10th level, you can cast the commune with nature spell, but only as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek.</value>
+  </data>
+  <data name="StandAgainsttheTideAbbrev" xml:space="preserve">
+    <value>If a melee attack against you misses, you can force the enemy to immediately attack another creature you choose.</value>
+  </data>
+  <data name="StandAgainsttheTideDes" xml:space="preserve">
+    <value>When a hostile creature misses you with a melee Attack, you can use your reaction to force that creature to repeat the same Attack against another creature (other than itself) of your choice.</value>
+  </data>
+  <data name="SteelWill" xml:space="preserve">
+    <value>Advantage on saving throws against being frightened</value>
+  </data>
+  <data name="UncannyDodgeHDAbbrev" xml:space="preserve">
+    <value>Use your reaction to halve the attacks damage against you.</value>
+  </data>
+  <data name="UncannyDodgeHDDes" xml:space="preserve">
+    <value>When an attacker that you can see hits you with an Attack, you can use your reaction to halve the attack’s damage against you.</value>
+  </data>
+  <data name="VolleyAbbrev" xml:space="preserve">
+    <value>Make a ranged attack against all creatures within 10ft of a point you can see and in range. Make an attack roll against each target.</value>
+  </data>
+  <data name="VolleyDes" xml:space="preserve">
+    <value>You can use your action to make a ranged Attack against any number of creatures within 10 feet of a point you can see within your weapon’s range. You must have ammunition for each target, as normal, and you make a separate Attack roll for each target.</value>
+  </data>
+  <data name="WhirlwindAttackAbbrev" xml:space="preserve">
+    <value>Make a melee attack against all creatures within range of you. Roll for each target.</value>
+  </data>
+  <data name="WhirlwindAttackDes" xml:space="preserve">
+    <value>You can use your action to make a melee Attack against any number of creatures within 5 feet of you, with a separate Attack roll for each target.</value>
+  </data>
+  <data name="AdditionalMagicalSecrets" xml:space="preserve">
+    <value>At 6th level, you learn two Spells of your choice from any class. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip.
+The chosen Spells count as bard Spells for you but don’t count against the number of bard Spells you know.</value>
+  </data>
+  <data name="BattleMagicAbbrev" xml:space="preserve">
+    <value>After casting a spell may make a weapon attack as a bonus action.</value>
+  </data>
+  <data name="BattleMagicDes" xml:space="preserve">
+    <value>At 14th level, you have mastered the art of weaving spellcasting and weapons use into a single harmonious act. When you use your action to cast a bard spell, you can also make one weapon attack as a bonus action.</value>
+  </data>
+  <data name="BonusProficiencies" xml:space="preserve">
+    <value>When you join the College of Lore at 3rd level, you gain proficiency with three skills of your choice.</value>
+  </data>
+  <data name="CombatInspirationAbbrev" xml:space="preserve">
+    <value>Others may expend bardic inspiration to a damage roll or their AC on attacks.</value>
+  </data>
+  <data name="CombatInspirationDes" xml:space="preserve">
+    <value>At 3rd level, you learn to inspire others in battle. A creature that has a Bardic Inspiration die from you can roll that die and add the numberrolled to a weapon damage roll it just made. Alternatively, when an attack roll is made against the creature, it can use its reaction to roll the Bardic Inspiration die and add the number rolled to its AC against that attack, after seeing the roll but before knowing whether it hits or misses.</value>
+  </data>
+  <data name="CuttingWordsAbbrev" xml:space="preserve">
+    <value>Use a reaction when a character makes a roll to subtract one bardic inspiration roll from theirs. Must use before it succeeds or fails.</value>
+  </data>
+  <data name="CuttingWordsDes" xml:space="preserve">
+    <value>At 3rd level, you learn how to use your wit to distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of you makes an Attack roll, an ability check, or a damage roll, you can use your reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature’s roll. You can choose to use this feature after the creature makes its roll, but before the GM determines whether the Attack roll or ability check succeeds or fails, or before the creature deals its damage. The creature is immune if it can’t hear you or if it’s immune to being Charmed.</value>
+  </data>
+  <data name="ExtraAttackBardValor" xml:space="preserve">
+    <value>Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</value>
+  </data>
+  <data name="PeerlessSkillAbbrev" xml:space="preserve">
+    <value>Expend a bardic inspiration to add it to an ability check result.</value>
+  </data>
+  <data name="PeerlessSkillDes" xml:space="preserve">
+    <value>Starting at 14th level, when you make an ability check, you can expend one use of Bardic Inspiration. Roll a Bardic Inspiration die and add the number rolled to your ability check. You can choose to do so after you roll the die for the ability check, but before the GM tells you whether you succeed or fail.</value>
+  </data>
+  <data name="BlessedHealerAbbrev" xml:space="preserve">
+    <value>Healing others heals you 2 + spells level as well</value>
+  </data>
+  <data name="BlessedHealerDes" xml:space="preserve">
+    <value>Beginning at 6th level, the healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell’s level.</value>
+  </data>
+  <data name="BlessingsofKnowledge" xml:space="preserve">
+    <value>At 1st level, you learn two languages of your choice. You also become proficient in your choice of two of the following skills: Arcana, History, Nature, or Religion. Your proficiency bonus is doubled for any ability check you make that uses either of those skills.</value>
+  </data>
+  <data name="ClericLifeBonusProficiency" xml:space="preserve">
+    <value>When you choose this domain at 1st level, you gain proficiency with heavy armor.</value>
+  </data>
+  <data name="ClericLightBonusCantrip" xml:space="preserve">
+    <value>When you choose this domain at 1st level, you gain the light cantrip if you don’t already know it.</value>
+  </data>
+  <data name="CoronaofLightAbbrev" xml:space="preserve">
+    <value>Use an action to activate a 60ft light radius around you that causes enemies to have disadvantage on any spell with fire or radiant damage.</value>
+  </data>
+  <data name="CoronaofLightDes" xml:space="preserve">
+    <value>Starting at 17th level, you can use your action to activate an aura of sunlight that lasts for 1 minute or until you dismiss it using another action. You emit bright light in a 60-foot radius and dim light 30 feet beyond that. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage.</value>
+  </data>
+  <data name="DiscipleofLifeAbbrev" xml:space="preserve">
+    <value>Healing spells restore 2+spell's level extra</value>
+  </data>
+  <data name="DiscipleofLifeDes" xml:space="preserve">
+    <value>Starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell’s level.</value>
+  </data>
+  <data name="DivineStrikeAbbrev" xml:space="preserve">
+    <value>Once per turn deal {0} extra radiant damage</value>
+  </data>
+  <data name="DivineStrikeDes" xml:space="preserve">
+    <value>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8.</value>
+  </data>
+  <data name="ImprovedFlareAbbrev" xml:space="preserve">
+    <value>Can use warding flare on behalf of allies</value>
+  </data>
+  <data name="ImprovedFlareDes" xml:space="preserve">
+    <value>Starting at 6th level, you can also use your Warding Flare feature when a creature that you can see within 30 feet of you attacks a creature other than you.</value>
+  </data>
+  <data name="KnowledgeDomainSpells" xml:space="preserve">
+    <value>1st -&gt; command, identify
+3rd -&gt; augury, suggestion
+5th -&gt; nondetection, speak with dead
+7th -&gt; arcane eye, confusion
+9th -&gt; legend lore, scrying</value>
+  </data>
+  <data name="KnowledgeoftheAgesAbbrev" xml:space="preserve">
+    <value>Use Channel Divinity to gain proficiency in any skill or tool for 10 min</value>
+  </data>
+  <data name="KnowledgeoftheAgesDes" xml:space="preserve">
+    <value>Starting at 2nd level, you can use your Channel Divinity to tap into a divine well of knowledge. As an action, you choose one skill or tool. For 10 minutes, you have proficiency with the chosen skill or tool.</value>
+  </data>
+  <data name="LifeDomainSpells" xml:space="preserve">
+    <value>1st -&gt; Bless, Cure Wounds
+3rd -&gt; Lesser Restoration, Spiritual Weapon
+5th -&gt; Beacon of Hope, Revivify
+7th -&gt; Death Ward, Guardian of Faith
+9th -&gt; Mass Cure Wounds, Raise Dead</value>
+  </data>
+  <data name="LightDomainSpells" xml:space="preserve">
+    <value>1st -&gt; Burning Hands, Faerie Fire
+3rd -&gt; Flaming Sphere, Scorching Ray
+5th -&gt; Daylight, Fireball
+7th -&gt; Guardian of Faith, Wall of Fire
+9th -&gt; Flame Strike, Scrying</value>
+  </data>
+  <data name="PotentSpellcastingAbbrev" xml:space="preserve">
+    <value>Add your wisdom modifier to the damage of cleric cantrips</value>
+  </data>
+  <data name="PotentSpellcastingDes" xml:space="preserve">
+    <value>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</value>
+  </data>
+  <data name="PreserveLifeAbbrev" xml:space="preserve">
+    <value>Heal any creatures within 30 ft equal to five times your cleric level.</value>
+  </data>
+  <data name="PreserveLifeDes" xml:space="preserve">
+    <value>Starting at 2nd level, you can use your Channel Divinity to heal the badly injured.
+
+As an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to five times your cleric level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can’t use this feature on an undead or a construct.</value>
+  </data>
+  <data name="RadianceoftheDawnAbbrev" xml:space="preserve">
+    <value>Can dispell any magical darkness within 30 ft. Each hostile creature makes a CON ST or take 2d10 + cleric level (1/2 save)</value>
+  </data>
+  <data name="RadianceoftheDawnDes" xml:space="preserve">
+    <value>Starting at 2nd level, you can use your Channel Divinity to harness sunlight, banishing darkness and dealing radiant damage to your foes.
+
+As an action, you present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes radiant damage equal to 2d10 + your cleric level on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected.</value>
+  </data>
+  <data name="ReadThoughtsAbbrev" xml:space="preserve">
+    <value>Use Channel Divinity to read a creature's thoughts. They make a WIS saving throw. On a fail you read their surface thoughts for 1 min within 60ft. Use an action to plant a suggestion without a spell slot and without a saving throw.</value>
+  </data>
+  <data name="ReadThoughtsDes" xml:space="preserve">
+    <value>At 6th level, you can use your Channel Divinity to read a creature’s thoughts. You can then use your access to the creature’s mind to command it.
+
+As an action, choose one creature that you can see within 60 feet of you. That creature must make a Wisdom saving throw. If the creature succeeds on the saving throw, you can’t use this feature on it again until you finish a long rest.
+
+If the creature fails its save, you can read its surface thoughts (those foremost in its mind, reflecting its current emotions and what it is actively thinking about) when it is within 60 feet of you. This effect lasts for 1 minute.
+
+During that time, you can use your action to end this effect and cast the suggestion spell on the creature without expending a spell slot. The target automatically fails its saving throw against the spell.</value>
+  </data>
+  <data name="SupremeHealingAbbrev" xml:space="preserve">
+    <value>You always heal the max possible amount on healing rolls.</value>
+  </data>
+  <data name="SupremeHealingDes" xml:space="preserve">
+    <value>Starting at 17th level, when you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, instead of restoring 2d6 hit points to a creature, you restore 12.</value>
+  </data>
+  <data name="VisionsofthePastAbbrev" xml:space="preserve">
+    <value>You meditate on an area or object and see visions of recent events related to the object or area</value>
+  </data>
+  <data name="VisionsofthePastDes" xml:space="preserve">
+    <value>Starting at 17th level, you can call up visions of the past that relate to an object you hold or your immediate surroundings. You spend at least 1 minute in meditation and prayer, then receive dreamlike, shadowy glimpses of recent events. You can meditate in this way for a number of minutes equal to your Wisdom score and must maintain concentration during that time, as if you were casting a spell.
+
+Once you use this feature, you can’t use it again until you finish a short or long rest.
+
+Object Reading. Holding an object as you meditate, you can see visions of the object’s previous owner. After meditating for 1 minute, you learn how the owner acquired and lost the object, as well as the most recent significant event involving the object and that owner. If the object was owned by another creature in the recent past (within a number of days equal to your Wisdom score), you can spend 1 additional minute for each owner to learn the same information about that creature.
+
+Area Reading. As you meditate, you see visions of recent events in your immediate vicinity (a room, street, tunnel, clearing, or the like, up to a 50-foot cube), going back a number of days equal to your Wisdom score. For each minute you meditate, you learn about one significant event, beginning with the most recent. Significant events typically involve powerful emotions, such as battles and betrayals, marriages and murders, births and funerals. However, they might also include more mundane events that are nevertheless important in your current situation.</value>
+  </data>
+  <data name="WardingFlareAbbrev" xml:space="preserve">
+    <value>You can force an attacker to have disadvantage on their attack rolls up to a number of times equal to your WIS modifier per day.</value>
+  </data>
+  <data name="WardingFlareDes" xml:space="preserve">
+    <value>At 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can’t be blinded is immune to this feature.
+
+You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.</value>
+  </data>
+  <data name="AdditionalFightingStyle" xml:space="preserve">
+    <value>At 10th level, you can choose a second option from the Fighting Style class feature.</value>
+  </data>
+  <data name="Archery" xml:space="preserve">
+    <value>You gain a +2 bonus to Attack rolls you make with Ranged Weapons.</value>
+  </data>
+  <data name="ArcticDruidAbbrev" xml:space="preserve">
+    <value>The following spells are always prepared and don't count towards the number of prepared spells each day: 3rd -&gt; Hold Person, Spike Growth 5th -&gt; Sleet Storm, Slow 7th -&gt; Freedom of Movement, Ice Storm 9th -&gt; Commune with Nature, Cone of Cold </value>
+  </data>
+  <data name="ArcticDruidDes" xml:space="preserve">
+    <value>Making your home in the frozen lands of the arctic, your innate magics relate to the cold and unforgiving lands you come from. You possess the following spells at the given levels: 
+3rd -&gt; Hold Person, Spike Growth
+5th -&gt; Sleet Storm, Slow
+7th -&gt; Freedom of Movement, Ice Storm
+9th -&gt; Commune with Nature, Cone of Cold</value>
+  </data>
+  <data name="AvatarofBattleAbbrev" xml:space="preserve">
+    <value>You have resistance to bludgeoning, piercing and slashing from nonmagical weapons.</value>
+  </data>
+  <data name="AvatarofBattleDes" xml:space="preserve">
+    <value>At 17th level, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.</value>
+  </data>
+  <data name="BlessingoftheTricksterAbbrev" xml:space="preserve">
+    <value>Use an action to touch a creature and give it advantage on stealth (Dex) checks for 1 hour.</value>
+  </data>
+  <data name="BlessingoftheTricksterDes" xml:space="preserve">
+    <value>Starting when you choose this domain at 1st level, you can use your action to touch a willing creature other than yourself to give it advantage on Dexterity (Stealth) checks. This blessing lasts for 1 hour or until you use this feature again.</value>
+  </data>
+  <data name="CharmAnimalsandPlantsAbbrev" xml:space="preserve">
+    <value>Expend a Channel Divinity to charm all beast or plants within 30 ft. They make a WIS STor be charmed for 1 min or until they take damage.</value>
+  </data>
+  <data name="CharmAnimalsandPlantsDes" xml:space="preserve">
+    <value>Starting at 2nd level, you can use your Channel Divinity to charm animals and plants. As an action, you present your holy symbol and invoke the name of your deity. Each beast or plant creature that can see you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is charmed by you for 1 minute or until it takes damage. While it is charmed by you, it is friendly to you and other creatures you designate.</value>
+  </data>
+  <data name="CircleFormsAbbrev" xml:space="preserve">
+    <value>Wild Shape CR limit = {0}</value>
+  </data>
+  <data name="CircleFormsDes" xml:space="preserve">
+    <value>At 2nd level, you can use your Wild Shape to transform into a beast with a CR as high as 1. You must abide by the other limitations of Wild Shape.
+
+At 6th level, you can transform into any beast with a CR equal to or less than your druid level divided by 3 (round down).</value>
+  </data>
+  <data name="ClericTempestBonusProficiencies" xml:space="preserve">
+    <value>At 1st level, you gain proficiency with martial weapons and heavy armor.</value>
+  </data>
+  <data name="CloakofShadowsAbbrev" xml:space="preserve">
+    <value>Channel Divnity to become invisible until the end of your next turn. Become visible if attacking or casting.</value>
+  </data>
+  <data name="CloakofShadowsDes" xml:space="preserve">
+    <value>Starting at 6th level, you can use your Channel Divinity to vanish. As an action, you become invisible until the end of your next turn. You become visible if you attack or cast a spell.</value>
+  </data>
+  <data name="CoastDruidAbbrev" xml:space="preserve">
+    <value>The following spells are always prepared and don't count towards the number of prepared spells each day: 3rd -&gt; Mirror Image, Misty Step 5th -&gt; Water Breathing, Water Walk 7th -&gt; Control Water, Freedom of Movement 9th -&gt; Conjure Elemental, Scrying</value>
+  </data>
+  <data name="CoastDruidDes" xml:space="preserve">
+    <value>Hailing from the coast you know how to survive well on both land and on the sea. Your innate magics is cool and fresh like the salty spray of water from the sea. You possess the following spells at the given levels: 
+3rd -&gt; Mirror Image, Misty Step
+5th -&gt; Water Breathing, Water Walk
+7th -&gt; Control Water, Freedom of Movement
+9th -&gt; Conjure Elemental, Scrying</value>
+  </data>
+  <data name="CombatSuperiorityDes" xml:space="preserve">
+    <value>When you choose this archetype at 3rd level, you learn maneuvers that are fueled by special dice called superiority dice.
+
+Maneuvers. You learn three maneuvers of your choice, which are detailed under “Maneuvers” below. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.
+
+You learn two additional maneuvers of your choice at 7th, 10th, and 15th level. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.
+
+Superiority Dice. You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.
+
+You gain another superiority die at 7th level and one more at 15th level.
+
+Saving Throws. Some of your maneuvers require your target to make a saving throw to resist the maneuver’s effects. The saving throw DC is calculated as follows:
+
+Maneuver save DC = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)</value>
+  </data>
+  <data name="CombatSuperiorityAbbrev" xml:space="preserve">
+    <value>You have {0} superiority die which are {1}'s and regain them after a short or long rest. </value>
+  </data>
+  <data name="CombatWildShapeAbbrev" xml:space="preserve">
+    <value>Wild shape as a bonus action. In wild shape, may expend 1 spell slot to regain 1d8 per spell slot level HP.</value>
+  </data>
+  <data name="CombatWildShapeDes" xml:space="preserve">
+    <value>At 2nd level, you gain the ability to use Wild Shape on your turn as a bonus action, rather than an action.
+
+Additionally, when you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain 1d8 hit points per level of the spell slot expended.</value>
+  </data>
+  <data name="DampenElementsAbbrev" xml:space="preserve">
+    <value>Use a reaction to provide resistance to elemental damage (cold, fire ect) on you or another within 30 ft.</value>
+  </data>
+  <data name="DampenElementsDes" xml:space="preserve">
+    <value>Starting at 6th level, when you or a creature within 30 feet of you takes acid, cold, fire, lightning, or thunder damage, you can use your reaction to grant resistance to the creature against that instance of the damage.</value>
+  </data>
+  <data name="Defense" xml:space="preserve">
+    <value>While you are wearing armor, you gain a +1 bonus to AC.</value>
+  </data>
+  <data name="DesertDruidAbbrev" xml:space="preserve">
+    <value>The following spells are always prepared and don't count towards the number of prepared spells each day: 3rd -&gt; Blur, Silence 5th -&gt; Create Food and Water, Protection from Energy 7th -&gt; Blight, Hallucinatory Terrain 9th -&gt; Insect Plague, Wall of Stone</value>
+  </data>
+  <data name="DesertDruidDes" xml:space="preserve">
+    <value>Unphased by the dry and dusty deserts, your magics center around illusion and controling the earth around you. You posess the following spells at the given levels: 
+3rd -&gt; Blur, Silence
+5th -&gt; Create Food and Water, Protection from Energy
+7th -&gt; Blight, Hallucinatory Terrain
+9th -&gt; Insect Plague, Wall of Stone</value>
+  </data>
+  <data name="DestructiveWrathAbbrev" xml:space="preserve">
+    <value>Use Channel Divinity to deal max damage with lightning or thunder damage.</value>
+  </data>
+  <data name="DestructiveWrathDes" xml:space="preserve">
+    <value>Starting at 2nd level, you can use your Channel Divinity to wield the power of the storm with unchecked ferocity. When you roll lightning or thunder damage, you can use your Channel Divinity to deal maximum damage, instead of rolling.</value>
+  </data>
+  <data name="DivineStrikeNatureAbbrev" xml:space="preserve">
+    <value>Once per turn deal {0} extra cold fire or lightning damage</value>
+  </data>
+  <data name="DivineStrikeNatureDes" xml:space="preserve">
+    <value>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 cold, fire, or lightning damage (your choice) to the target. When you reach 14th level, the extra damage increases to 2d8.</value>
+  </data>
+  <data name="DivineStrikeTempestAbbrev" xml:space="preserve">
+    <value>Once per turn deal {0} extra thunder damage</value>
+  </data>
+  <data name="DivineStrikeTempestDes" xml:space="preserve">
+    <value>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 thunder damage to the target. When you reach 14th level, the extra damage increases to 2d8.</value>
+  </data>
+  <data name="DivineStrikeTrickeryAbbrev" xml:space="preserve">
+    <value>Once per turn deal {0} extra poision damage</value>
+  </data>
+  <data name="DivineStrikeTrickeryDes" xml:space="preserve">
+    <value>At 8th level, you gain the ability to infuse your weapon strikes with poison—a gift from your deity. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 poison damage to the target. When you reach 14th level, the extra damage increases to 2d8.</value>
+  </data>
+  <data name="DivineStrikeWarAbbrev" xml:space="preserve">
+    <value>Once per turn deal {0} extra weapon damage</value>
+  </data>
+  <data name="DivineStrikeWarDes" xml:space="preserve">
+    <value>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8.</value>
+  </data>
+  <data name="DruidCircle" xml:space="preserve">
+    <value>Your mystical connection to the land infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid. Choose that land—arctic, coast, desert, forest, grassland, mountain, swamp, or Underdark—and consult the associated list of spells.
+
+Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.</value>
+  </data>
+  <data name="DruidLandBonusCantrip" xml:space="preserve">
+    <value>When you choose this circle at 2nd level, you learn one additional druid cantrip of your choice.</value>
+  </data>
+  <data name="Dueling" xml:space="preserve">
+    <value>When you are wielding a melee weapon in one hand and no other Weapons, you gain a +2 bonus to Damage Rolls with that weapon.</value>
+  </data>
+  <data name="ElementalWildShapeAbbrev" xml:space="preserve">
+    <value>Expend 2 wild shape uses to become an elemental (fire, water, earth or air)</value>
+  </data>
+  <data name="ElementalWildShapeDes" xml:space="preserve">
+    <value>At 10th level, you can expend two uses of your wild shape at the same time to transform into an air elemental, earth elemental, fire elemental, or water elemental.</value>
+  </data>
+  <data name="ForestDruidAbbrev" xml:space="preserve">
+    <value>The following spells are always prepared and don't count towards the number of prepared spells each day: 3rd -&gt; Barkskin, Spider Climb 5th -&gt; Call Lightning, Plant Growth 7th -&gt; Divination, Freedom of Movement 9th -&gt; Commune with Nature, Tree Stride</value>
+  </data>
+  <data name="ForestDruidDes" xml:space="preserve">
+    <value>Making your home among the lush forests and the mischevous fey, your magics are some of the most natural and pure among the Druid circles. You posess the following spells at the given levels: 
+3rd -&gt; Barkskin, Spider Climb
+5th -&gt; Call Lightning, Plant Growth
+7th -&gt; Divination, Freedom of Movement
+9th -&gt; Commune with Nature, Tree Stride</value>
+  </data>
+  <data name="GrasslandDruidAbbrev" xml:space="preserve">
+    <value>The following spells are always prepared and don't count towards the number of prepared spells each day: 3rd -&gt; Invisibility, Pass Without Trace 5th -&gt; Daylight, Haste 7th -&gt; Divination, Freedom of Movement 9th -&gt; Dream, Insect Plague</value>
+  </data>
+  <data name="GrasslandDruidDes" xml:space="preserve">
+    <value>From the grassy plains and rolling hills, your magics are raw and earthy, full of the vibrance of the earth. You posess the following spells at the given levels: 
+3rd -&gt; Invisibility, Pass Without Trace
+5th -&gt; Daylight, Haste
+7th -&gt; Divination, Freedom of Movement
+9th -&gt; Dream, Insect Plague</value>
+  </data>
+  <data name="GreatWeaponFighting" xml:space="preserve">
+    <value>Reroll on a 1 or 2, if using a 2 handed melee weapon. Weapon must be 2 handed or versatile</value>
+  </data>
+  <data name="GreatWeaponFightingDes" xml:space="preserve">
+    <value>When you roll a 1 or 2 on a damage die for an Attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the Two-Handed or Versatile property for you to gain this benefit.</value>
+  </data>
+  <data name="GuidedStrikeAbbrev" xml:space="preserve">
+    <value>Use Channel Divinity to gain +10 to an attack roll</value>
+  </data>
+  <data name="GuidedStrikeDes" xml:space="preserve">
+    <value>Starting at 2nd level, you can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</value>
+  </data>
+  <data name="ImprovedCombatSuperiority" xml:space="preserve">
+    <value>At 10th level, your superiority dice turn into d10s. At 18th level, they turn into d12s .</value>
+  </data>
+  <data name="ImprovedCriticalAbbrev" xml:space="preserve">
+    <value>Score crits on 19 or 20</value>
+  </data>
+  <data name="ImprovedCriticalDes" xml:space="preserve">
+    <value>Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20.</value>
+  </data>
+  <data name="ImprovedDuplicityAbbrev" xml:space="preserve">
+    <value>Create 4 duplicates instead of one and move them all using a single bonus action.</value>
+  </data>
+  <data name="ImprovedDuplicityDes" xml:space="preserve">
+    <value>At 17th level, you can create up to four duplicates of yourself, instead of one, when you use Invoke Duplicity. As a bonus action on your turn, you can move any number of them up to 30 feet, to a maximum range of 120 feet.</value>
+  </data>
+  <data name="InvokeDuplicityAbbrev" xml:space="preserve">
+    <value>Channel Divinity to create an illusion of yourself for 1 min. Bonus action moves the illusion 30 ft. When you and the illusion are within 30 ft of the target you gain advantage on attack rolls.</value>
+  </data>
+  <data name="InvokeDuplicityDes" xml:space="preserve">
+    <value>Starting at 2nd level, you can use your Channel Divinity to create an illusory duplicate of yourself. As an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your concentration (as if you were concentrating on a spell).
+
+The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you. For the duration, you can cast spells as though you were in the illusion’s space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target.</value>
+  </data>
+  <data name="KnowYourEnemyAbbrev" xml:space="preserve">
+    <value>Spend a minute to learn the combat difficulty of an opponent.</value>
+  </data>
+  <data name="KnowYourEnemyDes" xml:space="preserve">
+    <value>Starting at 7th level, if you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:
+
+Strength score
+Dexterity score
+Constitution score
+Armor Class
+Current hit points
+Total class levels (if any)
+Fighter class levels (if any)</value>
+  </data>
+  <data name="LandStrideAbbrev" xml:space="preserve">
+    <value>Move through nonmagical difficult terrain with no pentalty and no damage if applicable. Advantage vs magical plants designed to hinder movement. </value>
+  </data>
+  <data name="LandStrideDes" xml:space="preserve">
+    <value>Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard. In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.</value>
+  </data>
+  <data name="MasterofNatureAbbrev" xml:space="preserve">
+    <value>Use a bonus action to specify an action for any beast or plant charmed by you.</value>
+  </data>
+  <data name="MasterofNatureDes" xml:space="preserve">
+    <value>At 17th level, you gain the ability to command animals and plant creatures. While creatures are charmed by your Charm Animals and Plants feature, you can take a bonus action on your turn to verbally command what each of those creatures will do on its next turn.</value>
+  </data>
+  <data name="MountainDruidAbbrev" xml:space="preserve">
+    <value>The following spells are always prepared and don't count towards the number of prepared spells each day: 3rd -&gt; Spider Climb, Spike Growth 5th -&gt; Lightning Bolt, Meld Into Stone 7th -&gt; Stone Shape, Stoneskin 9th -&gt; Passwall, Wall of Stone</value>
+  </data>
+  <data name="MountainDruidDes" xml:space="preserve">
+    <value>From rocky peaks and epic vistas, you gained your Druidic training. Your magics control the rocks and allow you to be unphased by whatever comes your way. You posess the following spells at the given levels: 
+3rd -&gt; Spider Climb, Spike Growth
+5th -&gt; Lightning Bolt, Meld Into Stone
+7th -&gt; Stone Shape, Stoneskin
+9th -&gt; Passwall, Wall of Stone</value>
+  </data>
+  <data name="NaturalRecoveryAbbrev" xml:space="preserve">
+    <value>Regain spell slots equal to half your level in value on a short rest. Cannot be lvl 6 or above.</value>
+  </data>
+  <data name="NaturalRecoveryDes" xml:space="preserve">
+    <value>Starting at 2nd level, you can regain some of your magical energy by sitting in meditation and communing with nature. During a short rest, you choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your druid level (rounded up), and none of the slots can be 6th level or higher. You can’t use this feature again until you finish a long rest
+
+For example, when you are a 4th-level druid, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level slot or two 1st-level slots.</value>
+  </data>
+  <data name="NatureDomainSpells" xml:space="preserve">
+    <value>1st -&gt; Animal Friendship, Speak With Animals
+3rd -&gt; Barkskin, Spike Growth
+5th -&gt; Plant Growth, Wind Wall
+7th -&gt; Dominate Beast, Grasping Vine
+9th -&gt; Insect Plague, Tree Stride</value>
+  </data>
+  <data name="NaturesSanctuaryAbbrev" xml:space="preserve">
+    <value>Beasts or plants that attack you make a WIS ST or choose and new target. If they save they are immune to this effect for 24 hrs. </value>
+  </data>
+  <data name="NaturesSanctuaryDes" xml:space="preserve">
+    <value>When you reach 14th level, creatures of the natural world sense your connection to nature and become hesitant to attack you. When a beast or plant creature attacks you, that creature must make a Wisdom saving throw against your druid spell save DC. On a failed save, the creature must choose a different target, or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours.
+
+The creature is aware of this effect before it makes its attack against you.</value>
+  </data>
+  <data name="NaturesWardAbbrev" xml:space="preserve">
+    <value>Immune to poision and disease and cannot be frightened or charmed by elementals or fey.</value>
+  </data>
+  <data name="NaturesWardDes" xml:space="preserve">
+    <value>When you reach 10th level, you can’t be charmed or frightened by elementals or fey, and you are immune to poison and disease.</value>
+  </data>
+  <data name="PrimalStrikeAbbrev" xml:space="preserve">
+    <value>Your beast attacks are considered magical.</value>
+  </data>
+  <data name="PrimalStrikeDes" xml:space="preserve">
+    <value>At 6th level, your attacks in beast form count as magical for the purposes of overcoming resistance and immunity to nonmagical attacks and damage.</value>
+  </data>
+  <data name="ProtectionAbbrev" xml:space="preserve">
+    <value>Can impose disadvantage as a reaction if a creature attacks an ally within 5 ft of you and if you are wielding a shield.</value>
+  </data>
+  <data name="ProtectionDes" xml:space="preserve">
+    <value>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the Attack roll. You must be wielding a Shield.</value>
+  </data>
+  <data name="RelentlessAbbrev" xml:space="preserve">
+    <value>When you roll initiative with no superiority die, gain one automatically.</value>
+  </data>
+  <data name="RelentlessDes" xml:space="preserve">
+    <value>Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain 1 superiority die.</value>
+  </data>
+  <data name="RemarkableAthleteAbbrev" xml:space="preserve">
+    <value>Can add half your proficiency bonus to a STR, DEX or CON ST that doesn't already use it. Can jump a number of feet = your STR mod.</value>
+  </data>
+  <data name="RemarkableAthleteDes" xml:space="preserve">
+    <value>Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn’t already use your proficiency bonus.
+
+In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier.</value>
+  </data>
+  <data name="StormbornAbbrev" xml:space="preserve">
+    <value>You have flying speed equal to your walking speed while not underground or indoors.</value>
+  </data>
+  <data name="StormbornDes" xml:space="preserve">
+    <value>At 17th level, you have a flying speed equal to your current walking speed whenever you are not underground or indoors.</value>
+  </data>
+  <data name="StudentOfWar" xml:space="preserve">
+    <value>At 3rd level, you gain proficiency with one type of artisan’s tools of your choice.</value>
+  </data>
+  <data name="SuperiorCriticalAbbrev" xml:space="preserve">
+    <value>Score crtis on 18-20.</value>
+  </data>
+  <data name="SuperiorCriticalDes" xml:space="preserve">
+    <value>Starting at 15th level, your weapon attacks score a critical hit on a roll of 18–20.</value>
+  </data>
+  <data name="SurvivorAbbrev" xml:space="preserve">
+    <value>Gain 5 + Con mod HP at the beginning of your turn if you have less than half HP left.</value>
+  </data>
+  <data name="SurvivorDes" xml:space="preserve">
+    <value>At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left.
+
+You don’t gain this benefit if you have 0 hit points.</value>
+  </data>
+  <data name="SwampDruidAbbrev" xml:space="preserve">
+    <value>The following spells are always prepared and don't count towards the number of prepared spells each day: 3rd -&gt; Darkness, Melf's Acid Arrow 5th -&gt; Water Walk, Stinking Cloud 7th -&gt; Freedom of Movement, Locate Creature 9th -&gt; Insect Plague, Scrying</value>
+  </data>
+  <data name="SwampDruidDes" xml:space="preserve">
+    <value>Making your home in the lowland swamps, you find comfort and strength in the life and vibrance of your homeland. You posess the following spells at the given levels: 
+3rd -&gt; Darkness, Melf's Acid Arrow
+5th -&gt; Water Walk, Stinking Cloud
+7th -&gt; Freedom of Movement, Locate Creature
+9th -&gt; Insect Plague, Scrying</value>
+  </data>
+  <data name="TempestDomainSpells" xml:space="preserve">
+    <value>1st -&gt; Fog Cloud, Thunderwave
+3rd -&gt; Gust of Wind, Shatter
+5th -&gt; Call Lightning, Sleet Storm
+7th -&gt; Control Water, Ice Storm
+9th -&gt; Destruction Wave, Insect Plague</value>
+  </data>
+  <data name="ThousandFormsAbbrev" xml:space="preserve">
+    <value>Can cast the spell Alter Self at will.</value>
+  </data>
+  <data name="ThousandFormsDes" xml:space="preserve">
+    <value>At 14th level, you may alter your form in more subtle ways. You can cast the alter self spell at will.</value>
+  </data>
+  <data name="ThunderboltStrikeAbbrev" xml:space="preserve">
+    <value>Push a large or smaller creature up to 10 ft after dealing lightning damage.</value>
+  </data>
+  <data name="ThunderboltStrikeDes" xml:space="preserve">
+    <value>At 6th level, when you deal lightning damage to a Large or smaller creature, you can also push it up to 10 feet away from you.</value>
+  </data>
+  <data name="TrickeryDomainSpells" xml:space="preserve">
+    <value>1st -&gt; Charm Person, Disguise Self
+3rd -&gt; Mirror Image, Pass Without Trace
+5th -&gt; Blink, Dispel Magic
+7th -&gt; Dimension Door, Polymorph
+9th -&gt; Dominate Person, Modify Memory</value>
+  </data>
+  <data name="TwoWeaponFightingAbbrev" xml:space="preserve">
+    <value>Can add your ability modifier to your off-hand attack.</value>
+  </data>
+  <data name="TwoWeaponFightingDes" xml:space="preserve">
+    <value>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second Attack.</value>
+  </data>
+  <data name="UnderdarkDruidAbbrev" xml:space="preserve">
+    <value>The following spells are always prepared and don't count towards the number of prepared spells each day: 3rd -&gt; Spider Climb, Web 5th -&gt; Gaseous Form, Stinking Cloud 7th -&gt; Greater Invisibility, Stone Shape 9th -&gt; Cloudkill, Insect Plague</value>
+  </data>
+  <data name="UnderdarkDruidDes" xml:space="preserve">
+    <value>Hailing from the mysterious and dangerous underdark, your magics are dark and powerful. You posess the following spells at the given levels: 
+3rd -&gt; Spider Climb, Web
+5th -&gt; Gaseous Form, Stinking Cloud
+7th -&gt; Greater Invisibility, Stone Shape
+9th -&gt; Cloudkill, Insect Plague</value>
+  </data>
+  <data name="WarDomainSpells" xml:space="preserve">
+    <value>1st -&gt; Divine Favor, Shield of Faith
+3rd -&gt; Magic Weapon, Spiritual Weapon
+5th -&gt; Crusader's Mantle, Spirit Guardians
+7th -&gt; Freedom of Movement, Stoneskin
+9th -&gt; Flame Strike, Hold Monster</value>
+  </data>
+  <data name="WarGodsBlessingAbbrev" xml:space="preserve">
+    <value>Use Channel Diviniy as a reaction to allow a creature within 30ft to +10 to their attack roll.</value>
+  </data>
+  <data name="WarGodsBlessingDes" xml:space="preserve">
+    <value>At 6th level, when a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.</value>
+  </data>
+  <data name="WarPriestAbbrev" xml:space="preserve">
+    <value>Use a bonus action to make a weapon attack. Usable up to Wis modifier times and regains on a long rest.</value>
+  </data>
+  <data name="WarPriestDes" xml:space="preserve">
+    <value>From 1st level, your god delivers bolts of inspiration to you while you are engaged in battle. When you use the Attack action, you can make one weapon attack as a bonus action.
+
+You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.</value>
+  </data>
+  <data name="WrathoftheStormAbbrev" xml:space="preserve">
+    <value>When hit by a melee attack, use a reaction to damage that creature 2d8 lightning or thunder. Dex save halves damage. Usable times = Wis modifier. Regained after long rest</value>
+  </data>
+  <data name="WrathoftheStormDes" xml:space="preserve">
+    <value>At first level you can thunderously rebuke attackers. When a creature within 5 feet of you that you can see hits you with an attack, you can use your reaction to cause the creature to make a Dexterity saving throw. The creature takes 2d8 lightning or thunder damage (your choice) on a failed saving throw, and half as much damage on a successful one.
+
+You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.</value>
+  </data>
+  <data name="AbjureEnemyAbbrev" xml:space="preserve">
+    <value>Using Channel Divinity, Choose a creature within 60ft to make a WIS save or be frightened. Fiends and undead have disadvantage. The creature's speed is also reduced to 0. On a successful save, speed is halved for 1 min or until they take damage.</value>
+  </data>
+  <data name="AbjureEnemyDes" xml:space="preserve">
+    <value>As an action, you present your holy symbol and speak a prayer of denunciation, using your Channel Divinity. Choose one creature within 60 feet of you that you can see. That creature must make a Wisdom saving throw, unless it is immune to being frightened. Fiends and undead have disadvantage on this saving throw.
+
+On a failed save, the creature is frightened for 1 minute or until it takes any damage. While frightened, the creature's speed is 0, and it can't benefit from any bonus to its speed.
+
+On a successful save, the creature's speed is halved for 1 minute or until the creature takes any damage.</value>
+  </data>
+  <data name="AdeptoftheWayAbbrev" xml:space="preserve">
+    <value>May expend more ki points to increase a spell's level. The max spell level is determined by the monk level: 
+5th-8th = 3
+9th-12th = 4
+13th-16th = 5
+17th-20th = 8</value>
+  </data>
+  <data name="AdeptoftheWayDes" xml:space="preserve">
+    <value>Once you reach the 5th level in this class, you can spend additional ki points to increase the level of an elemental discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as burning hands does. The spell’s level increases by 1 for each additional ki point you spend. For example, if you are a 5th-level monk and use Sweeping Cinder Strike to cast burning hands, you can spend 2 ki points to cast it as a 2nd-level spell (the discipline’s base cost of 1 ki point plus 1).
+
+The maximum number of ki points you can spend to cast a spell in this way (including its base ki point cost and any additional ki points you spend to increase its level) is determined by your monk level, as shown in the table below
+
+5th-8th = 3
+9th-12th = 4
+13th-16th = 5
+17th-20th = 8</value>
+  </data>
+  <data name="ArcaneChargeAbbrev" xml:space="preserve">
+    <value>Can teleport up to 30 feet when using an action surge (before or after the additional action)</value>
+  </data>
+  <data name="ArcaneChargeDes" xml:space="preserve">
+    <value>At 15th level, you gain the ability to teleport up to 30 feet to an unoccupied space you can see when you use your Action Surge. You can teleport before or after the additional action.</value>
+  </data>
+  <data name="AuraofDevotionAbbrev" xml:space="preserve">
+    <value>Friendly creatures within {0} ft cannot be charmed.</value>
+  </data>
+  <data name="AuraofDevotionDes" xml:space="preserve">
+    <value>Starting at 7th level, you and friendly creatures within 10 feet of you can’t be charmed while you are conscious.
+
+At 18th level, the range of this aura increases to 30 feet.</value>
+  </data>
+  <data name="AuraofWardingAbbrev" xml:space="preserve">
+    <value>You and creatures within {0} ft have resistance to damage from spells.</value>
+  </data>
+  <data name="AuraofWardingDes" xml:space="preserve">
+    <value>Beginning at 7th level, ancient magic lies so heavily upon you that it forms an eldritch ward. You and friendly creatures within 10 feet of you have resistance to damage from spells.
+
+At 18th level, the range of this aura increases to 30 feet.</value>
+  </data>
+  <data name="AvengingAngelAbbrev" xml:space="preserve">
+    <value>Use an action to transform into an angelic avenger. For 1 hr: Gain flying speed up to 60 ft, Enemies that start their turn within 30 ft of you must make a WIS save or be frightened for 1 min. Attack rolls against frightened enemies have advantage. Usable once per long rest.</value>
+  </data>
+  <data name="AvengingAngelDes" xml:space="preserve">
+    <value>At 20th level, you can assume the form of an angelic avenger. Using your action, you undergo a transformation. For 1 hour, you gain the following benefits:
+
+Wings sprout from your back and grant you a flying speed of 60 feet.
+You emanate an aura of menace in a 30-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Wisdom saving throw or become frightened of you for 1 minute or until it takes any damage. Attack rolls against the frightened creature have advantage.
+Once you use this feature, you can't use it again until you finish a long rest.</value>
+  </data>
+  <data name="CloakofShadowsMonkAbbrev" xml:space="preserve">
+    <value>Use an action to become invisible until you make an attack, cast a spell or go into bright light.</value>
+  </data>
+  <data name="CloakofShadowsMonkDes" xml:space="preserve">
+    <value>By 11th level, you have learned to become one with the shadows. When you are in an area of dim light or darkness, you can use your action to become invisible. You remain invisible until you make an attack, cast a spell, or are in an area of bright light.</value>
+  </data>
+  <data name="ElderChampionAbbrev" xml:space="preserve">
+    <value>Use and action to become an ancient force of nature with an appearance you choose. For one minute: Regenerate 10 hp at the beginning of your turn, Cast instantaneous paladin spells using a bonus action, Creatures within 10 ft have disadvantage on saving throws against your spells and channel divinity. Usable once per long rest.</value>
+  </data>
+  <data name="ElderChampionDes" xml:space="preserve">
+    <value>At 20th level, you can assume the form of an ancient force of nature, taking on an appearance you choose. For example, your skin might turn green or take on a bark-like texture, your hair might become leafy or mosslike, or you might sprout antlers or a lion-like mane.
+
+Using your action, you undergo a transformation. For 1 minute, you gain the following benefits:
+
+At the start of each of your turns, you regain 10 hit points.
+Whenever you cast a paladin spell that has a casting time of 1 action, you can cast it using a bonus action instead.
+Enemy creatures within 10 feet of you have disadvantage on saving throws against your paladin spells and Channel Divinity options.
+Once you use this feature, you can't use it again until you finish a long rest.</value>
+  </data>
+  <data name="EldritchStrikeAbbrev" xml:space="preserve">
+    <value>Enemies you hit with a weapon attack have disadvantage on spell saving throws for 1 turn.</value>
+  </data>
+  <data name="EldritchStrikeDes" xml:space="preserve">
+    <value>At 10th level, you learn how to make your weapon strikes undercut a creature’s resistance to your spells. When you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn.</value>
+  </data>
+  <data name="HolyNimbusAbbrev" xml:space="preserve">
+    <value>As an action emenate sunlight for 1 min in a 30 ft radius. If an enemy starts its turn in the light it takes 10 radiant damage. Also have advantage on spells cast by fiends and undead. Usable once per long rest.</value>
+  </data>
+  <data name="HolyNimbusDes" xml:space="preserve">
+    <value>At 20th level, as an action, you can emanate an aura of sunlight. For 1 minute, bright light shines from you in a 30-foot radius, and dim light shines 30 feet beyond that. Whenever an enemy creature starts its turn in the bright light, the creature takes 10 radiant damage. In addition, for the duration, you have advantage on saving throws against spells cast by fiends or undead. Once you use this feature, you can’t use it again until you finish a long rest.</value>
+  </data>
+  <data name="ImprovedWarMagicAbbrev" xml:space="preserve">
+    <value>Can make a melee attack as a bonus action after casting any spell.</value>
+  </data>
+  <data name="ImprovedWarMagicDes" xml:space="preserve">
+    <value>Starting at 18th level, when you use your action to cast a spell, you can make one weapon attack as a bonus action.</value>
+  </data>
+  <data name="NaturesWrathAbbrev" xml:space="preserve">
+    <value>Using Channel Divinity, summon vines within 10 ft. A creature succeeds a STR of DEX save or be restrained. Can repeat the save at the end of each turn.</value>
+  </data>
+  <data name="NaturesWrathDes" xml:space="preserve">
+    <value>You can use your Channel Divinity to invoke primeval forces to ensnare a foe. As an action, you can cause spectral vines to spring up and reach for a creature within 10 feet of you that you can see. The creature must succeed on a Strength or Dexterity saving throw (its choice) or be restrained. While restrained by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish.</value>
+  </data>
+  <data name="OpenHandTechniqueAbbrev" xml:space="preserve">
+    <value>When you hit with Flurry of Blows, may impose 1. A dex save or be knocked prone 2. A Strength save or be pushed 15 ft or 3. create cannot take reactions until then end of your next turn</value>
+  </data>
+  <data name="OpenHandTechniqueDes" xml:space="preserve">
+    <value>Starting when you choose this tradition at 3rd level, you can manipulate your enemy’s ki when you harness your own. Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target:
+
+It must succeed on a Dexterity saving throw or be knocked prone.
+It must make a Strength saving throw. If it fails, you can push it up to 15 feet away from you.
+It can’t take reactions until the end of your next turn.</value>
+  </data>
+  <data name="OpportunistAbbrev" xml:space="preserve">
+    <value>When another creature within 5 ft is hit by an attack other than you, use a reaction to make a melee attack as well.</value>
+  </data>
+  <data name="OpportunistDes" xml:space="preserve">
+    <value>At 17th level, you can exploit a creature's momentary distraction when it is hit by an attack. Whenever a creature within 5 feet of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack against that creature.</value>
+  </data>
+  <data name="PurityofSpiritAbbrev" xml:space="preserve">
+    <value>You are always under the effects of a protection from evil and good spell.</value>
+  </data>
+  <data name="PurityofSpiritDes" xml:space="preserve">
+    <value>Beginning at 15th level, you are always under the effects of a protection from evil and good spell.</value>
+  </data>
+  <data name="QuiveringPalmAbbrev" xml:space="preserve">
+    <value>Spend 3 ki points after hitting with an unarmed strike to implant vibrations in that creature. Using an action they must make a CON ST or be reduced to 0 HP. Success takes 10d10 necrotic damage. Can end the vibrations harmlessly using an action.</value>
+  </data>
+  <data name="QuiveringPalmDes" xml:space="preserve">
+    <value>At 17th level, you gain the ability to set up lethal vibrations in someone’s body. When you hit a creature with an unarmed strike, you can spend 3 ki points to start these imperceptible vibrations, which last for a number of days equal to your monk level. The vibrations are harmless unless you use your action to end them.
+
+To do so, you and the target must be on the same plane of existence. When you use this action, the creature must make a Constitution saving throw. If it fails, it is reduced to 0 hit points. If it succeeds, it takes 10d10 necrotic damage.
+
+You can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly without using an action.</value>
+  </data>
+  <data name="RelentlessAvengerAbbrev" xml:space="preserve">
+    <value>When you hit an enemy with an opportunity attack can move freely up to half your speed and not provoke opportunity attacks vs you.</value>
+  </data>
+  <data name="RelentlessAvengerDes" xml:space="preserve">
+    <value>By 7th level, your supernatural focus helps you close off a foe's retreat. When you hit a creature with an opportunity attack, you can move up to half your speed immediately after the attack and as part of the same reaction. This movement doesn't provoke opportunity attacks.</value>
+  </data>
+  <data name="SacredWeaponAbbrev" xml:space="preserve">
+    <value>Use Channel Divinity as an action and for 1 min add charisma mod to attack rolls  and the weapon becomes magical. </value>
+  </data>
+  <data name="SacredWeaponDes" xml:space="preserve">
+    <value>As an action, you can imbue one weapon that you are holding with positive energy, using your Channel Divinity. For 1 minute, you add your Charisma modifier to attack rolls made with that weapon (with a minimum bonus of +1). The weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that. If the weapon is not already magical, it becomes magical for the duration.
+
+You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends.</value>
+  </data>
+  <data name="ShadowArtsAbbrev" xml:space="preserve">
+    <value>Can spend 2 ki points to cast darkness, darkvision, pass without trace or silence.</value>
+  </data>
+  <data name="ShadowArtsDes" xml:space="preserve">
+    <value>Starting when you choose this tradition at 3rd level, you can use your ki to duplicate the effects of certain spells.
+
+As an action, you can spend 2 ki points to cast darkness, darkvision, pass without trace, or silence, without providing material components. Additionally, you gain the minor illusion cantrip if you don’t already know it.</value>
+  </data>
+  <data name="ShadowStepAbbrev" xml:space="preserve">
+    <value>When in dim light or darkness use a bonus action to teleport up to 60 feet also in dim light or darkness. Gain advantage on the first melee attack before the end of your turn.</value>
+  </data>
+  <data name="ShadowStepDes" xml:space="preserve">
+    <value>At 6th level, you gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. You then have advantage on the first melee attack you make before the end of the turn.</value>
+  </data>
+  <data name="SoulofVengeanceAbbrev" xml:space="preserve">
+    <value>When a creature under the effect of Vow of Enmity makes an attack, use a reaction to make a melee attack if it is within range.</value>
+  </data>
+  <data name="SoulofVengeanceDes" xml:space="preserve">
+    <value>Starting at 15th level, the authority with which you speak your Vow of Enmity gives you greater power over your foe. When a creature under the effect of your Vow of Enmity makes an attack, you can use your reaction to make a melee weapon attack against that creature if it is within range.</value>
+  </data>
+  <data name="Spellcasting" xml:space="preserve">
+    <value>When you reach 3rd level, you augment your martial prowess with the ability to cast spells.</value>
+  </data>
+  <data name="TranquilityAbbrev" xml:space="preserve">
+    <value>After a long rest, gain the effects of the sanctuary spell until the end of your next long rest. DC ST = 8 + Wis mod +proficiency bonus.</value>
+  </data>
+  <data name="TranquilityDes" xml:space="preserve">
+    <value>Beginning at 11th level, you can enter a special meditation that surrounds you with an aura of peace. At the end of a long rest, you gain the effect of a sanctuary spell that lasts until the start of your next long rest (the spell can end early as normal). The saving throw DC for the spell equals 8 + your Wisdom modifier + your proficiency bonus.</value>
+  </data>
+  <data name="TurntheFaithlessAbbrev" xml:space="preserve">
+    <value>Use Channel Divinity, may turn fey or fiends within 30 ft for 1 min on a failed WIS save.</value>
+  </data>
+  <data name="TurntheFaithlessDes" xml:space="preserve">
+    <value>You can use your Channel Divinity to utter ancient words that are painful for fey and fiends to hear. As an action, you present your holy symbol, and each fey or fiend within 30 feet of you that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.
+
+A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
+
+If the creature's true form is concealed by an illusion, shapeshifting, or other effect, that form is revealed while it is turned.</value>
+  </data>
+  <data name="TurntheUnholyAbbrev" xml:space="preserve">
+    <value>As an action, expend a Channel Divinity to turn fiends and undead. They make a WIS ST.</value>
+  </data>
+  <data name="TurntheUnholyDes" xml:space="preserve">
+    <value>As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.
+
+A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</value>
+  </data>
+  <data name="UndyingSentinelAbbrev" xml:space="preserve">
+    <value>When reduced to 0 HP and not killed, choose to drop to 1 hp instead. Usable once per long rest.</value>
+  </data>
+  <data name="UndyingSentinelDes" xml:space="preserve">
+    <value>Starting at 15th level, when you are reduced to 0 hit points and are not killed outright, you can choose to drop to 1 hit point instead. Once you use this ability, you can't use it again until you finish a long rest.
+
+Additionally, you suffer none of the drawbacks of old age, and you can't be aged magically.</value>
+  </data>
+  <data name="VowofEnmityAbbrev" xml:space="preserve">
+    <value>As a bonus action and using Channel Divinity, gain advantage on attack rolls against a single creature for 1 min.</value>
+  </data>
+  <data name="VowofEnmityDes" xml:space="preserve">
+    <value>As a bonus action, you can utter a vow of enmity against a creature you can see within 10 feet of you, using your Channel Divinity. You gain advantage on attack rolls against the creature for 1 minute or until it drops to 0 hit points or falls unconscious.</value>
+  </data>
+  <data name="WarMagicAbbrev" xml:space="preserve">
+    <value>Make a melee attack after casting a cantrip as a bonus action.</value>
+  </data>
+  <data name="WarMagicDes" xml:space="preserve">
+    <value>Beginning at 7th level, when you use your action to cast a cantrip, you can make one weapon attack as a bonus action.</value>
+  </data>
+  <data name="WeaponBondAbbrev" xml:space="preserve">
+    <value>Create a bond with a weapon using a ritual of 1 hr. Summon the weapon to you using a bonus action and you cannot be disarmed. May have up to 2 bonded weapons.</value>
+  </data>
+  <data name="WeaponBondDes" xml:space="preserve">
+    <value>At 3rd level, you learn a ritual that creates a magical bond between yourself and one weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond.
+
+Once you have bonded a weapon to yourself, you can’t be disarmed of that weapon unless you are incapacitated. If it is on the same plane of existence, you can summon that weapon as a bonus action on your turn, causing it to teleport instantly to your hand.
+
+You can have up to two bonded weapons, but can summon only one at a time with your bonus action. If you attempt to bond with a third weapon, you must break the bond with one of the other two.</value>
+  </data>
+  <data name="WholenessofBodyAbbrev" xml:space="preserve">
+    <value>As an action can heal 3 x monk level HP. Once per long rest.</value>
+  </data>
+  <data name="WholenessofBodyDes" xml:space="preserve">
+    <value>At 6th level, you gain the ability to heal yourself. As an action, you can regain hit points equal to three times your monk level. You must finish a long rest before you can use this feature again.</value>
+  </data>
+  <data name="AwakenedMindAbbrev" xml:space="preserve">
+    <value>You can communicate telepathically with a creature within 30 ft. The communication is one way and does not allow them to communicate back with you.</value>
+  </data>
+  <data name="AwakenedMindDes" xml:space="preserve">
+    <value>Starting at 1st level, your alien knowledge gives you the ability to touch the minds of other creatures. You can communicate telepathically with any creature you can see within 30 feet of you. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.</value>
+  </data>
+  <data name="BeguilingDefensesAbbrev" xml:space="preserve">
+    <value>You are immune to charm, and if subject to a charm effect, you can use a reaction to charm the creature instead. On a failed WIS save they are charmed for 1 min.</value>
+  </data>
+  <data name="BeguilingDefensesDes" xml:space="preserve">
+    <value>Beginning at 10th level, your patron teaches you how to turn the mind-affecting magic of your enemies against them. You are immune to being charmed, and when another creature attempts to charm you, you can use your reaction to attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw against your warlock spell save DC or be charmed by you for 1 minute or until the creature takes any damage.</value>
+  </data>
+  <data name="BendLuckAbbrev" xml:space="preserve">
+    <value>Can spend 2 sorerer points to add 1d4 to the roll (plus or minus) of another creature. </value>
+  </data>
+  <data name="BendLuckDes" xml:space="preserve">
+    <value>Starting at 6th level, you have the ability to twist fate using your wild magic. When another creature you can see makes an attack roll, an ability check, or a saving throw, you can use your reaction and spend 2 sorcery points to roll 1d4 and apply the number rolled as a bonus or penalty (your choice) to the creature’s roll. You can do so after the creature rolls but before any effects of the roll occur.</value>
+  </data>
+  <data name="BestialFuryAbbrev" xml:space="preserve">
+    <value>When your beast companion takes the attack action, they can make 2 attacks or a multiattack action (if applicable)</value>
+  </data>
+  <data name="BestialFuryDes" xml:space="preserve">
+    <value>Starting at 11th level, when you command your beast companion to take the Attack action, the beast can make two attacks, or it can take the Multiattack action if it has that action.</value>
+  </data>
+  <data name="CarefulSpellAbbrev" xml:space="preserve">
+    <value>Can spend 1 sorcery point to allow a number of creatures less than your charisma modifier to automatically save a throw vs your spell.</value>
+  </data>
+  <data name="CarefulSpellDes" xml:space="preserve">
+    <value>When you Cast a Spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell’s full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.</value>
+  </data>
+  <data name="ControlledChaosAbbrev" xml:space="preserve">
+    <value>You can roll twice and choose the result from the Wild Magic Surge table. </value>
+  </data>
+  <data name="ControlledChaosDes" xml:space="preserve">
+    <value>At 14th level, you gain a modicum of control over the surges of your wild magic. Whenever you roll on the Wild Magic Surge table, you can roll twice and use either number.</value>
+  </data>
+  <data name="CreateThrallAbbrev" xml:space="preserve">
+    <value>Use an action to infect an incapacitated creature with a charm effect until a remove curse spell is cast on them. You can communicate telepathically with them as long as you are both in the same plane of existance. </value>
+  </data>
+  <data name="CreateThrallDes" xml:space="preserve">
+    <value>At 14th level, you gain the ability to infect a humanoid's mind with the alien magic of your patron. You can use your action to touch an incapacitated humanoid. That creature is charmed by you until a remove curse spell is cast on it, the charm condition is removed from it, or you use this feature again. You can communicate telepathically with the charmed creature as long as the two of you are on the same plane of existence.</value>
+  </data>
+  <data name="DarkDeliriumAbbrev" xml:space="preserve">
+    <value>Using an action, a creature within 60 ft makes a WIS save. On a fail, they are convinced they are lost in a misty realm for 1 minute. You must maintain concentration during this period of time. Usable once per rest. </value>
+  </data>
+  <data name="DarkDeliriumDes" xml:space="preserve">
+    <value>Starting at 14th level, you can plunge a creature into an illusory realm. As an action, choose a creature that you can see within 60 feet of you. It must make a Wisdom saving throw against your warlock spell save DC. On a failed save, it is charmed or frightened by you (your choice) for 1 minute or until your concentration is broken (as if you are concentrating on a spell). This effect ends early if the creature takes any damage. Until this illusion ends, the creature thinks it is lost in a misty realm, the appearance of which you choose. The creature can see and hear only itself, you, and the illusion. You must finish a short or long rest before you can use this feature again.</value>
+  </data>
+  <data name="DarkOnesBlessingAbbrev" xml:space="preserve">
+    <value>When you kill an enemy, gain temp HP equal to your Cha mod + warlock level.</value>
+  </data>
+  <data name="DarkOnesBlessingDes" xml:space="preserve">
+    <value>Starting at 1st level, when you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Charisma modifier + your warlock level (minimum of 1).</value>
+  </data>
+  <data name="DarkOnesOwnLuckAbbrev" xml:space="preserve">
+    <value>When making an ability check of saving throw, add a d10 to the result. Usable once per rest.</value>
+  </data>
+  <data name="DarkOnesOwnLuckDes" xml:space="preserve">
+    <value>Starting at 6th level, you can call on your patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add 1d10 to your roll. You can do so after seeing the initial roll but before any of the roll's effects occur. Once you use this feature, you can't use it again until you finish a short or long rest.</value>
+  </data>
+  <data name="DistantSpellAbbrev" xml:space="preserve">
+    <value>Spend a sorcery point to double the range of your spell. If spell is range touch, range extends to 30 ft.</value>
+  </data>
+  <data name="DistantSpellDes" xml:space="preserve">
+    <value>When you Cast a Spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.
+
+When you Cast a Spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</value>
+  </data>
+  <data name="DraconicPresenceAbbrev" xml:space="preserve">
+    <value>As an action, spend 5 sorcery points to extend an aura of awe or fear 60 ft. For 1 min, creatures in the area of effect make a WIS save or be charmed (for awe) or Frightened (for fear). Must maintain concentration for the duration.</value>
+  </data>
+  <data name="DraconicPresenceDes" xml:space="preserve">
+    <value>Beginning at 18th level, you can channel the dread presence of your dragon ancestor, causing those around you to become awestruck or Frightened. As an action, you can spend 5 sorcery points to draw on this power and exude an aura of awe or fear (your choice) to a distance of 60 feet. For 1 minute or until you lose your Concentration (as if you were casting a Concentration spell), each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be Charmed (if you chose awe) or Frightened (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours.</value>
+  </data>
+  <data name="DraconicReilience" xml:space="preserve">
+    <value>As magic flows through your body, it causes physical traits of your dragon ancestors to emerge. At 1st level, your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class.
+
+Additionally, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren’t wearing armor, your AC equals 13 + your Dexterity modifier.</value>
+  </data>
+  <data name="DragonAncestorAbbrev" xml:space="preserve">
+    <value>You can speak, read and write Draconic. Proficiency bonus is doubled on Charisma checks when interacting with dragons. </value>
+  </data>
+  <data name="DragonAncestorDes" xml:space="preserve">
+    <value>You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check.</value>
+  </data>
+  <data name="DragonWingsAbbrev" xml:space="preserve">
+    <value>You can sprout dragon wings and fly equal to your current speed as a bonus action.Beginning at 18th level, you can channel the dread presence of your dragon ancestor, causing those around you to become awestruck or Frightened. As an action, you can spend 5 sorcery points to draw on this power and exude an aura of awe or fear (your choice) to a distance of 60 feet. For 1 minute or until you lose your Concentration (as if you were casting a Concentration spell), each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be Charmed (if you chose awe) or Frightened (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours.</value>
+  </data>
+  <data name="DragonWingsDes" xml:space="preserve">
+    <value>At 14th level, you gain the ability to sprout a pair of dragon wings from your back, gaining a flying speed equal to your current speed. You can create these wings as a Bonus Action on Your Turn. They last until you dismiss them as a Bonus Action on Your Turn.
+
+You can’t manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them.</value>
+  </data>
+  <data name="ElementalAffinityAbbrev" xml:space="preserve">
+    <value>Can add your charisma modifier to the damagy type of your draconic ancestry. Can also spend 1 sorcery point to gain resistance to that damage type for 1 hr.</value>
+  </data>
+  <data name="ElementalAffinityDes" xml:space="preserve">
+    <value>Starting at 6th level, when you Cast a Spell that deals damage of the type associated with your draconic ancestry, you can add your Charisma modifier to one damage roll of that spell. At the same time, you can spend 1 sorcery point to gain Resistance to that damage type for 1 hour.</value>
+  </data>
+  <data name="EmpoweredSpellAbbrev" xml:space="preserve">
+    <value>Can spend 1 sorcery point to re-roll a number of damage die up to your charisma modifier. </value>
+  </data>
+  <data name="EmpoweredSpellDes" xml:space="preserve">
+    <value>When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.
+
+You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</value>
+  </data>
+  <data name="EntropicWardAbbrev" xml:space="preserve">
+    <value>You can use a reaction to have an attack roll against you have disadvantage. If that attack misses, you gain advantage against that creature on your next turn. Usable once per rest.</value>
+  </data>
+  <data name="EntropicWardDes" xml:space="preserve">
+    <value>At 6th level, you learn to magically ward yourself against attack and to turn an enemy's failed strike into good luck for yourself. When a creature makes an attack roll against you, you can use your reaction to impose disadvantage on that roll. If the attack misses you, your next attack roll against the creature has advantage if you make it before the end of your next turn. Once you use this feature, you can't use it again until you finish a short or long rest.</value>
+  </data>
+  <data name="ExceptionalTrainingAbbrev" xml:space="preserve">
+    <value>Using a bonus action, your beast companion can take the dash, disengage, dodge or help action on its turn.</value>
+  </data>
+  <data name="ExceptionalTrainingDes" xml:space="preserve">
+    <value>Beginning at 7th level, on any of your turns when your beast companion doesn't attack, you can use a bonus action to command the beast to take the Dash, Disengage, Dodge, or Help action on its turn.</value>
+  </data>
+  <data name="ExtendSpellAbbrev" xml:space="preserve">
+    <value>Spend 1 sorcery point to double the duration of a spell to a maximum of 24 hrs.</value>
+  </data>
+  <data name="ExtendSpellDes" xml:space="preserve">
+    <value>When you Cast a Spell that has a Duration of 1 minute or longer, you can spend 1 sorcery point to double its Duration, to a maximum Duration of 24 hours.</value>
+  </data>
+  <data name="FastHandsAbbrev" xml:space="preserve">
+    <value>Use can use a bonus action to make a Slight of Hand check to disarm a trap or lock, or use the Use Object action.</value>
+  </data>
+  <data name="FastHandsDes" xml:space="preserve">
+    <value>Starting at 3rd level, you can use the Bonus Action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves’ tools to disarm a trap or open a lock, or take the Use an Object action.</value>
+  </data>
+  <data name="FeyPresenceAbbrev" xml:space="preserve">
+    <value>As an action, creatues in a 10 ft cube centered around you make a WIS save or be charmed or frightened (your choice) until the end of your next turn. Usable once per rest.</value>
+  </data>
+  <data name="FeyPresenceDes" xml:space="preserve">
+    <value>Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throw are all charmed or frightened by you (your choice) until the end of your next turn. Once you use this feature, you can't use it again until you finish a short or long rest.</value>
+  </data>
+  <data name="FiendishResilienceAbbrev" xml:space="preserve">
+    <value>You choose one damage type after a short or long rest and gain resistance to it from non-magical items.</value>
+  </data>
+  <data name="FiendishResilienceDes" xml:space="preserve">
+    <value>Starting at 10th level, you can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance.</value>
+  </data>
+  <data name="HeightenedSpellAbbrev" xml:space="preserve">
+    <value>Can spend 3 sorcery points to impose disadvantage on a saving throw vs your spell. (one target)</value>
+  </data>
+  <data name="HeightenedSpellDes" xml:space="preserve">
+    <value>When you Cast a Spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.</value>
+  </data>
+  <data name="HurlThroughHellAbbrev" xml:space="preserve">
+    <value>When you hit a creature with an attack they teleport through the lower planes until the end of your next turn. When they re-appear, they take 10d10 psychic damage (if the enemy is not from the lower planes). Usable once per rest.</value>
+  </data>
+  <data name="HurlThroughHellDes" xml:space="preserve">
+    <value>Starting at 14th level, when you hit a creature with an attack, you can use this feature to instantly transport the target through the lower planes. The creature disappears and hurtles through a nightmare landscape. At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target is not a fiend, it takes 10d10 psychic damage as it reels from its horrific experience. Once you use this feature, you can't use it again until you finish a long rest.</value>
+  </data>
+  <data name="MageHandLegerdemainAbbrev" xml:space="preserve">
+    <value>Your mage hand is invisible and can use thieves tools at range and perform a number of stealthy actions using your cunning action bonus action (PHB 98 for details)</value>
+  </data>
+  <data name="MageHandLegerdemainDes" xml:space="preserve">
+    <value>Starting at 3rd level, when you cast mage hand, you can make the spectral hand invisible, and you can perform the following additional tasks with it:
+
+You can stow one object the hand is holding in a container worn or carried by another creature.
+You can retrieve an object in a container worn or carried by another creature.
+You can use thieves’ tools to pick locks and disarm traps at range.
+You can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity (Sleight of Hand) check contested by the creature’s Wisdom (Perception) check. In addition, you can use the bonus action granted by your Cunning Action to control the hand.</value>
+  </data>
+  <data name="MagicalAmbushAbbrev" xml:space="preserve">
+    <value>If you are hidden, creatures have disadvantage on throws vs your spells.</value>
+  </data>
+  <data name="MagicalAmbushDes" xml:space="preserve">
+    <value>Starting at 9th level, if you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throw it makes against the spell this turn.</value>
+  </data>
+  <data name="MistyEscapeAbbrev" xml:space="preserve">
+    <value>When you take damage, can use a reaction to turn invisible and teleport 60 ft to a space you can see. You remain invisible until the start of your next turn or if you attack or cast a spell. Usable once per rest.</value>
+  </data>
+  <data name="MistyEscapeDes" xml:space="preserve">
+    <value>Starting at 6th level, you can vanish in a puff of mist in response to harm. When you take damage, you can use your reaction to turn invisible and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you attack or cast a spell. Once you use this feature, you can't use it again until you finish a short or long rest.</value>
+  </data>
+  <data name="PactoftheBladeAbbrev" xml:space="preserve">
+    <value>Can summon a magical weapon using an action. You can designate an item as your pact weapon by performing a ritual over 1 hour.</value>
+  </data>
+  <data name="PactoftheBladeDes" xml:space="preserve">
+    <value>You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage. Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.
+
+You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extra-dimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extra-dimensional space when the bond breaks.</value>
+  </data>
+  <data name="PactoftheChainAbbrev" xml:space="preserve">
+    <value>You know the find familiar spell and can cast it as a ritual. When you take the attack action, you can forgo one of your own attacks to allow the familiar to make an attack of its own.</value>
+  </data>
+  <data name="PactoftheChainDes" xml:space="preserve">
+    <value>You learn the find familiar spell and can cast it as a ritual. The spell doesn't count against your number of spells known. When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, Quasit or Sprite. Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its reaction.</value>
+  </data>
+  <data name="PactoftheTomeAbbrev" xml:space="preserve">
+    <value>You can cast the spell {0} at will.</value>
+  </data>
+  <data name="PactoftheTomeDes" xml:space="preserve">
+    <value>Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list (the three needn't be from the same list). While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. If they don't appear on the warlock spell list, they are nonetheless warlock spells for you. If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.</value>
+  </data>
+  <data name="QuickenedSpellAbbrev" xml:space="preserve">
+    <value>Spend 2 sorcery points to change the casting time from 1 action to a bonus action. </value>
+  </data>
+  <data name="QuickenedSpellDes" xml:space="preserve">
+    <value>When you Cast a Spell that has a Casting Time of 1 action, you can spend 2 sorcery points to change the Casting Time to 1 Bonus Action for this casting.</value>
+  </data>
+  <data name="RangerCompanionAbbrev" xml:space="preserve">
+    <value>Use your action to verbally command your beast to take a standard action. They take their initiative on your turn. Using the Extra Attack ability, they may take one of your 2 attacks. See PHB 93 for beast restrictions and bonuses. </value>
+  </data>
+  <data name="RangerCompanionDes" xml:space="preserve">
+    <value>You gain a beast companion that accompanies you on your adventures and is trained to fight alongside you. Choose a beast that is no larger than Medium and that has a challenge rating of 1/4 or lower. Add your proficiency bonus to the beast’s AC, attack rolls, and damage rolls, as well as to any saving throws and skills it is proficient in. Its hit point maximum equals its normal maximum or four times your ranger level, whichever is higher.
+
+The beast obeys your commands as best as it can. It takes its turn on your initiative, though it doesn’t take an action unless you command it to. On your turn, you can verbally command the beast where to move (no action required by you). You can use your action to verbally command it to take the Attack, Dash, Disengage, Dodge, or Help action. Once you have the Extra Attack feature, you can make one attack yourself and you can command the beast to take an Attack action.
+
+While traveling through your favored terrain with only the beast, you can move stealthily at a normal pace. If the beast dies, you can obtain another one by spending 8 hours magically bonding with another beast that isn’t hostile to you, either the same type of beast as before or a different one.
+
+Like any creature, the beast can spend Hit Dice during a short rest. If you are incapacitated or absent, the beast acts on its own, focusing on protecting you and itself. It never requires your command to use its reaction, such as when making an opportunity attack.</value>
+  </data>
+  <data name="SecondStoryWorkAbbrev" xml:space="preserve">
+    <value>Climbing costs no extra movement and your running jump increases by feet equal to your Dex Mod</value>
+  </data>
+  <data name="SecondStoryWorkDes" xml:space="preserve">
+    <value>When you choose this archetype at 3rd level, you gain the ability to climb faster than normal; climbing no longer costs you extra Movement.
+In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.</value>
+  </data>
+  <data name="ShareSpellsAbbrev" xml:space="preserve">
+    <value>When you cast a spell on yourself, it also affects your beast companion (within 30 ft).</value>
+  </data>
+  <data name="ShareSpellsDes" xml:space="preserve">
+    <value>Beginning at 15th level, when you cast a spell targeting yourself, you can also affect your beast companion with the spell if the beast is within 30 feet of you.</value>
+  </data>
+  <data name="SpellBombardmentAbbrev" xml:space="preserve">
+    <value>Whenever you roll the highest number for damage on one of your spells, may roll another dice with the same number of sides and add that to the damage. Usable once per turn.</value>
+  </data>
+  <data name="SpellBombardmentDes" xml:space="preserve">
+    <value>Beginning at 18th level, the harmful energy of your spells intensifies. When you roll damage for a spell and roll the highest number possible on any of the dice, choose one of those dice, roll it again and add that roll to the damage. You can use the feature only once per turn.</value>
+  </data>
+  <data name="SpellThiefAbbrev" xml:space="preserve">
+    <value>When caught in a spell's effects, use your reaction to force the caster to make a saving throw with its spellcasting ability modifier. If they fail the spell fails and you gain the ability to cast that spell for 8 hours and the original caster can no longer cast it for 8 hours. Usable once per long rest. </value>
+  </data>
+  <data name="SpellThiefDes" xml:space="preserve">
+    <value>At 17th level, you gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.
+
+Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your Reaction to force the creature to make a saving throw with its spellcasting ability modifier.
+The DC equals your spell save DC and on a failed save, you negate the spell’s effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn’t need to be a wizard spell).
+For the next 8 hours, you know the spell, can cast it using your spell slots, and the creature can’t cast that spell until the 8 hours have passed.
+Once you use this feature, you can’t use it again until you finish a long rest.</value>
+  </data>
+  <data name="SubtleSpellAbbrev" xml:space="preserve">
+    <value>Can spend 1 sorcery point to cast a spell without somatic or verbal components.</value>
+  </data>
+  <data name="SubtleSpellDes" xml:space="preserve">
+    <value>When you Cast a Spell, you can spend 1 sorcery point to cast it without any somatic or verbal Components.</value>
+  </data>
+  <data name="SupremeSneakAbbrev" xml:space="preserve">
+    <value>Advantage on Stealth checks if you only move half your speed on your turn.</value>
+  </data>
+  <data name="SupremeSneakDes" xml:space="preserve">
+    <value>Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn.</value>
+  </data>
+  <data name="ThiefsReflexesAbbrev" xml:space="preserve">
+    <value>You can take 2 turns during the first round of combat - the first round with normal initiative and the second at -10 penalty. </value>
+  </data>
+  <data name="ThiefsReflexesDes" xml:space="preserve">
+    <value>When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any Combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can’t use this feature when you are surprised.</value>
+  </data>
+  <data name="ThoughtShieldAbbrev" xml:space="preserve">
+    <value>Your thoughts cannot be read with telepathy, you have resistance to psychic damage and whenever psychic damage is dealt to you, the attacker takes the same amount of damage.</value>
+  </data>
+  <data name="ThoughtShieldDes" xml:space="preserve">
+    <value>Starting at 10th level, your thoughts can't be read by telepathy or other means unless you allow it. You have resistance to psychic damage, and whenever a creature deals psychic damage to you, that creature takes the same amount of damage that you do.</value>
+  </data>
+  <data name="TidesofChaosAbbrev" xml:space="preserve">
+    <value>Can manipulate chance to gain advantage on a roll once per long rest. The DM can choose to have you roll from the Wild Magic Surge table.</value>
+  </data>
+  <data name="TidesofChaosDes" xml:space="preserve">
+    <value>Starting at 1st level, you can manipulate the forces of chance and chaos to gain advantage on one attack roll, ability check, or saving throw. Once you do so, you must finish a long rest before you can use this feature again.
+
+Any time before you regain the use of this feature, the DM can have you roll on the Wild Magic Surge table immediately after you cast a sorcerer spell of 1st level or higher. You then regain the use of this feature.</value>
+  </data>
+  <data name="TwinnedSpellAbbrev" xml:space="preserve">
+    <value>Spend 1 sorcery point per spell level to target a second creature in range with the same spell (cantrips = one SP). Original target cannot be yourself.</value>
+  </data>
+  <data name="TwinnedSpellDes" xml:space="preserve">
+    <value>When you Cast a Spell that Targets only one creature and doesn’t have a range of self, you can spend a number of sorcery points equal to the spell’s level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).
+
+To be eligible, a spell must be incapable of targeting more than one creature at the spell’s current level. For example, Magic Missile and Scorching Ray aren’t eligible, but Ray of Frost is.</value>
+  </data>
+  <data name="UseMagicDeviceAbbrev" xml:space="preserve">
+    <value>Can use any magic device reguardless of class, race or level requirements. </value>
+  </data>
+  <data name="UseMagicDeviceDes" xml:space="preserve">
+    <value>By 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of Magic Items.</value>
+  </data>
+  <data name="VersatileTricksterAbbrev" xml:space="preserve">
+    <value>Use a bonus action to distract an enemy with your mage hand, allowing you advantage on attack rolls against that creature.</value>
+  </data>
+  <data name="VersatileTricksterDes" xml:space="preserve">
+    <value>At 13th level, you gain the ability to distract targets with your Mage Hand. As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you Advantage on attack rolls against that creature until the end of the turn, and therefore allowing you to Sneak Attack the creature when nobody else is within 5 feet.</value>
+  </data>
+  <data name="WildMagicSurgeAbbrev" xml:space="preserve">
+    <value>After casting a spell that is not a cantrip, the DM can have you roll a d20. On a 1 a random effect occurs from the Wild Magic Surge table (PHB 104). If a spell surges, it cannot be effected by metamagic and does not require concentration.</value>
+  </data>
+  <data name="WildMagicSurgeDes" xml:space="preserve">
+    <value>Starting when you choose this origin at 1st level, your spellcasting can unleash surges of untamed magic. Immediately after you cast a sorcerer spell of 1st level or higher, the DM can have you roll a d20. If you roll a 1, roll on the Wild Magic Surge table to create a random magical effect. A surge can happen once per turn. If a surge effect is a spell, it’s too wild to be affected by Metamagic. If it normally requires concentration, it doesn’t require concentration in this case; the spell lasts for its full duration.</value>
+  </data>
+  <data name="AbjurationSavantAbbrev" xml:space="preserve">
+    <value>Gold and time to copy an abjuration spell is halved.</value>
+  </data>
+  <data name="AbjurationSavantDes" xml:space="preserve">
+    <value>Beginning when you select this school at 2nd level, the gold and time you must spend to copy an abjuration spell into your spellbook is halved.</value>
+  </data>
+  <data name="AlterMemoriesAbbrev" xml:space="preserve">
+    <value>Creatures you charm are unaware of being charmed. Before the spell expires you can also try to make them forget some of the time it was charmed. On a failed INT save, they lose memory of a number of hours equal to 1 + your CHA mod. </value>
+  </data>
+  <data name="AlterMemoriesDes" xml:space="preserve">
+    <value>At 14th level, you gain the ability to make a creature unaware of your magical influence on it. When you cast an enchantment spell to charm one or more creatures, you can alter one creature’s understanding so that it remains unaware of being charmed.
+
+Additionally, once before the spell expires, you can use your action to try to make the chosen creature forget some of the time it spent charmed. The creature must succeed on an Intelligence saving throw against your Wizard spell save DC or lose a number of hours of its memories equal to 1 + your Charisma modifier (minimum 1). You can make the creature forget less time, and the amount of time can’t exceed the duration of your enchantment spell.</value>
+  </data>
+  <data name="ArcaneWardAbbrev" xml:space="preserve">
+    <value>When casting an abjuration spell, 1st lvl or higher gain temp HP equal to twice your wizard level + INT mod. Thereafter, when casting another abjuration spell, the ward gains HP equal to twice the level of the spell (but it does not exceed the original amount). Usable once per long rest.</value>
+  </data>
+  <data name="ArcaneWardDes" xml:space="preserve">
+    <value>Starting at 2nd level, you can weave magic around yourself for protection. When you cast an abjuration spell of 1st level or higher, you can simultaneously use a strand of the spell's magic to create a magical ward on yourself that lasts until you finish a long rest. The ward has hit points equal to twice your wizard level + your Intelligence modifier. Whenever you take damage, the ward takes the damage instead. If this damage reduces the ward to 0 hit points, you take any remaining damage.
+
+While the ward has 0 hit points, it can't absorb damage, but its magic remains. Whenever you cast an abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell.
+
+Once you create the ward, you can't create it again until you finish a long rest.</value>
+  </data>
+  <data name="BenignTranspositionAbbrev" xml:space="preserve">
+    <value>You can use your action to teleport up to 30 ft. Alternatively you may swap places with a willing creature. Usable once per long rest or until you cast a conjuration spell.</value>
+  </data>
+  <data name="BenignTranspositionDes" xml:space="preserve">
+    <value>Starting at 6th level, you can use your action to teleport up to 30 feet to an unoccupied space that you can see. Alternatively, you can choose a space within range that is occupied by a Small or Medium creature. If that creature is willing, you both teleport, swapping places. Once you use this feature, you can’t use it again until you finish a long rest or you cast a conjuration spell of 1st level or higher.</value>
+  </data>
+  <data name="CommandUndeadAbbrev" xml:space="preserve">
+    <value>As an action, choose an undead within 60 ft. The creature makes a CHA save and become friendly to you and obey your commands until you use the feature again. If they have intelligence of 8+ they have advantage. If it has intelligence of 12 or higher, it can attempt  to break free every hour until it succeeds.</value>
+  </data>
+  <data name="CommandUndeadDes" xml:space="preserve">
+    <value>Starting at 14th level, you can use magic to bring undead under your control, even those created by other wizards. As an action, you can choose one undead that you can see within 60 feet of you. That creature must make a Charisma saving throw against your wizard spell save DC. If it succeeds, you can’t use this feature on it again. If it fails, it becomes friendly to you and obeys your commands until you use this feature again. Intelligent undead are harder to control in this way. If the target has an Intelligence of 8 or higher, it has advantage on the saving throw. If it fails the saving throw and has an Intelligence of 12 or higher, it can repeat the saving throw at the end of every hour until it succeeds and breaks free.</value>
+  </data>
+  <data name="ConjurationSavantAbbrev" xml:space="preserve">
+    <value>The gold and time to copy a conjuration spell is halved.</value>
+  </data>
+  <data name="ConjurationSavantDes" xml:space="preserve">
+    <value>Beginning when you select this school at 2nd level, the gold and time you must spend to copy a conjuration spell into your spellbook is halved.</value>
+  </data>
+  <data name="DivinationSavantAbbrev" xml:space="preserve">
+    <value>Time and gold requirements for copying a spell is halved.</value>
+  </data>
+  <data name="DivinationSavantDes" xml:space="preserve">
+    <value>Beginning when you select this school at 2nd level, the gold and time you must spend to copy a divination spell into your spellbook is halved.</value>
+  </data>
+  <data name="DurableSummonsAbbrev" xml:space="preserve">
+    <value>Any creature you summon has 30 extra temp hit points.</value>
+  </data>
+  <data name="DurableSummonsDes" xml:space="preserve">
+    <value>Starting at 14th level, any creature that you summon or create with a conjuration spell has 30 temporary hit points.</value>
+  </data>
+  <data name="EmpoweredEvocationAbbrev" xml:space="preserve">
+    <value>Can add your intelligence mod to the damage roll of any evocation spell you cast.</value>
+  </data>
+  <data name="EmpoweredEvocationDes" xml:space="preserve">
+    <value>Beginning at 10th level, you can add your Intelligence modifier to the damage roll of any wizard evocation spell you cast.</value>
+  </data>
+  <data name="EnchantmentSavantAbbrev" xml:space="preserve">
+    <value>Gold and time to copy an enchantment spell is halved.</value>
+  </data>
+  <data name="EnchantmentSavantDes" xml:space="preserve">
+    <value>Beginning when you select this school at 2nd level, the gold and time you must spend to copy an enchantment spell into your spellbook is halved.</value>
+  </data>
+  <data name="EvocationSavantAbbrev" xml:space="preserve">
+    <value>The gold and time required to copy an evocation spell is halved.</value>
+  </data>
+  <data name="EvocationSavantDes" xml:space="preserve">
+    <value>Beginning when you select this school at 2nd level, the gold and time you must spend to copy an evocation spell into your spellbook is halved.</value>
+  </data>
+  <data name="ExpertDivinationAbbrev" xml:space="preserve">
+    <value>When you cast a divination spell of 2nd level or higher, regain a spell slot in a level lower than the spell level you cast. 5th level or higher spell slots cannot be regained.</value>
+  </data>
+  <data name="ExpertDivinationDes" xml:space="preserve">
+    <value>Beginning at 6th level, casting divination spells comes so easily to you that it expends only a fraction of your spellcasting efforts. When you cast a divination spell of 2nd level or higher using a spell slot, you regain one expended spell slot. The slot you regain must be of a level lower than the spell you cast and can’t be higher than 5th level.</value>
+  </data>
+  <data name="FocusedConjurationAbbrev" xml:space="preserve">
+    <value>When concentraing on a conjuration spell, your concentration cannot be broken as a result of damage.</value>
+  </data>
+  <data name="FocusedConjurationDes" xml:space="preserve">
+    <value>Beginning at 10th level, while you are concentrating on a conjuration spell, your concentration can’t be broken as a result of taking damage.</value>
+  </data>
+  <data name="GreaterPortentAbbrev" xml:space="preserve">
+    <value>Roll 3 d20's instead of 2 for your portent ability.</value>
+  </data>
+  <data name="GreaterPortentDes" xml:space="preserve">
+    <value>Starting at 14th level, the visions in your dreams intensify and paint a more accurate picture in your mind of What is to come. You roll three d20 for your Portent feature, rather than two.</value>
+  </data>
+  <data name="GrimHarvestAbbrev" xml:space="preserve">
+    <value>Once per turn when you kill a creature with a spell 1st level or higher, heal HP equal to twice the spells level (3 times if the spell was a necromacy spell). Does not effect constructs or undead.</value>
+  </data>
+  <data name="GrimHarvestDes" xml:space="preserve">
+    <value>At 2nd level, you gain the ability to reap life energy from creatures you kill with your spells. Once per turn when you kill one or more creatures with a spell of 1st level or higher, you regain hit points equal to twice the spell’s level, or three times its level if the spell belongs to the School of Necromancy. You don’t gain this benefit for killing constructs or undead.</value>
+  </data>
+  <data name="HypnoticGazeAbbrev" xml:space="preserve">
+    <value>Can charm a creature within 5 ft of you on a WIS save until the end of your next turn. Their speed becomes 0 and they are visibly dazed. Can use an action to maintain the effect, but cannot be used until another long rest.</value>
+  </data>
+  <data name="HypnoticGazeDes" xml:space="preserve">
+    <value>Starting at 2nd level when you choose this school, your soft words and enchanting gaze can magically enthrall another creature. As an action, choose one creature that you can see within 5 feet of you. If the target can see or hear you, it must succeed on a Wisdom saving throw against your wizard spell save DC or be charmed by you until the end of your next turn. The charmed creature’s speed drops to 0, and the creature is incapacitated and visibly dazed.
+
+On subsequent turns, you can use your action to maintain this effect, extending its duration until the end of your next turn. However, the effect ends if you move more than 5 feet away from the creature, if the creature can neither see nor hear you, or if the creature takes damage. Once the effect ends, or if the creature succeeds on its initial saving throw against this effect, you can’t use this feature on that creature again until you finish a long rest.</value>
+  </data>
+  <data name="IllusionSavantAbbrev" xml:space="preserve">
+    <value>Time and gold required to copy an Illusion spell is halved.</value>
+  </data>
+  <data name="IllusionSavantDes" xml:space="preserve">
+    <value>Beginning when you select this school at 2nd level, the gold and time you must spend to copy an illusion spell into your spellbook is halved.</value>
+  </data>
+  <data name="IllusoryRealityAbbrev" xml:space="preserve">
+    <value>When casting an illusion spell of 1st level or higher, you can make an inanimate object part of the illusion to become real. You can do this as a bonus action whenever the spell is ongoing. The object remains for 1 min. </value>
+  </data>
+  <data name="IllusoryRealityDes" xml:space="preserve">
+    <value>By 14th level, you have learned the secret of weaving shadow magic into your illusions to give them a semi-reality. When you cast an illusion spell of 1st level or higher, you can Choose one inanimate, nonmagical object that is part of the illusion and make that object real. You can do this on your turn as a bonus action while the spell is ongoing. The object remains real for 1 minute. For example, you can create an illusion of a bridge over a chasm and then make it real long enough for your allies to cross. The object can’t deal damage or otherwise directly harm anyone.</value>
+  </data>
+  <data name="IllusorySelfAbberv" xml:space="preserve">
+    <value>Can create a duplicate of yorself as a reaction when attacked to make the attack automatically miss. Usable once per rest.</value>
+  </data>
+  <data name="IllusorySelfDes" xml:space="preserve">
+    <value>Beginning at 10th level, you can create an illusory duplicate of yourself as an instant, almost instinctual reaction to danger. When a creature makes an attack roll against you, you can use your reaction to interpose the illusory duplicate between the attacker and yourself. The attack automatically misses you, then the illusion dissipates. Once you use this feature, you can’t use it again until you finish a short or long rest.</value>
+  </data>
+  <data name="ImprovedAbjurationAbbrev" xml:space="preserve">
+    <value>When casting an abjuration spell with an abilty check, add your proficiency bonus to the check.</value>
+  </data>
+  <data name="ImprovedAbjurationDes" xml:space="preserve">
+    <value>Beginning at 10th level. when you cast an abjuration spell that requires you to make an ability check as a part of casting that spell (as in counterspell and dispel magic), you add your proficiency bonus to that ability check.</value>
+  </data>
+  <data name="ImprovedMinorIllusionAbbrev" xml:space="preserve">
+    <value>When casting minor illusion, you can create both a sound and an image with a single casting of the spell.</value>
+  </data>
+  <data name="ImprovedMinorIllusionDes" xml:space="preserve">
+    <value>When you choose this school at 2nd level, you learn the minor illusion cantrip. If you already know this cantrip, you learn a different wizard cantrip of your choice. The cantrip doesn’t count against your number of cantrips known. When you cast minor illusion, you can create both a sound and an image with a single casting of the spell.</value>
+  </data>
+  <data name="InstinctiveCharmAbbrev" xml:space="preserve">
+    <value>When an enemy targets you with an attack within 30 ft, you can force them to make a WIS save or attack the nearest creature to them, friend or foe. On a successful save, you must take a long rest to regain this ability.</value>
+  </data>
+  <data name="InstinctiveCharmDes" xml:space="preserve">
+    <value>Beginning at 6th level, when a creature you can see within 30 feet of you makes an attack roll against you, you can use your reaction to divert the attack, provided that another creature is within the attack’s range. The attacker must make a Wisdom saving throw against your wizard spell save DC. On a failed save, the attacker must target the creature that is closest to it, not including you or itself. If multiple creatures are closest, the attacker chooses which one to target. On a successful save, you can’t use this feature on the attacker again until you finish a long rest.
+
+You must choose to use this feature before knowing whether the attack hits or misses. Creatures that can’t be charmed are immune to this effect.</value>
+  </data>
+  <data name="InuredtoUndeathAbbrev" xml:space="preserve">
+    <value>You have resistance to necrotic damage and you max HP cannot be reduced. </value>
+  </data>
+  <data name="InuredtoUndeathDes" xml:space="preserve">
+    <value>Beginning at 10th level, you have resistance to necrotic damage, and your hit point maximum can’t be reduced. You have spent so much time dealing with undead and the forces that animate them that you have become inured to some of their worst effects.</value>
+  </data>
+  <data name="MalleableIllusionsAbbrev" xml:space="preserve">
+    <value>When casting an illusion with duration of 1 min or longer, you can use an action to change the nature of the illusion. </value>
+  </data>
+  <data name="MalleableIllusionsDes" xml:space="preserve">
+    <value>Starting at 6th level, when you cast an illusion spell that has a duration of 1 minute or longer, you can use your action to change the nature of that illusion (using the spell’s normal parameters for the illusion), provided that you can see the illusion.</value>
+  </data>
+  <data name="MasterTransmuterAbbrev" xml:space="preserve">
+    <value>Can use an action to consume the transmutation magic in your transmuter's stone for one of the following effects: Transmute 1 nonmagical object smaller than a 5ft cube into another nonmagical object of similar size and mass and of equal or lesse value. Takes 10 min. Remove all curses, diseases and poisions, and regain ALL HP. Raise dead spell effect on a creature you touch. Reduce the apparent age of a creature by 3d10 (no less than 13). The creature must be willing.</value>
+  </data>
+  <data name="MasterTransmuterDes" xml:space="preserve">
+    <value>Starting at 14th level, you can use your action to consume the reserve of transmutation magic stored within your transmuter’s stone in a single burst. When you do so, choose one of the following effects. Your transmuter’s stone is destroyed and can’t be remade until you finish a long rest.
+
+Major Transformation. You can transmute one nonmagical object—no larger than a 5—foot cube into another nonmagical object of similar size and mass and of equal or lesser value. You must spend 10 minutes handling the object to transform it.
+Panacea. You remove all curses, diseases, and poisons affecting a creature that you touch with the transmuter’s stone. The creature also regains all its hit points.
+Restore Life. You cast the raise dead spell on a creature you touch with the transmuter’s stone, without expending a spell slot or needing to have the spell in your spellbook.
+Restore Youth. You touch the transmuter’s stone to a willing creature, and that creature’s apparent age is reduced by 3d10 years, to a minimum of 13 years. This effect doesn’t extend the creature’s lifespan.</value>
+  </data>
+  <data name="MinorAlchemyAbbrev" xml:space="preserve">
+    <value>You can temporarily change a nonmagical object's subtance into another form. Can change wood into stone, iron copper, silver ect but not gemstones. For 10 min can transform 1 cubic fot of material. Lasts 1 hour.</value>
+  </data>
+  <data name="MinorAlchemyDes" xml:space="preserve">
+    <value>Starting at 2nd level when you select this school, you can temporarily alter the physical properties of one nonmagical object, changing it from one substance into another. You perform a special alchemical procedure on one object composed entirely of wood, stone (but not a gemstone), iron, copper, or silver, transforming it into a different one of those materials. For each 10 minutes you spend performing the procedure, you can transform up to 1 cubic foot of material. After 1 hour, or until you lose your concentration (as if you were concentrating on a spell), the material reverts to its original substance.</value>
+  </data>
+  <data name="MinorConjurationAbbrev" xml:space="preserve">
+    <value>You can use your action to conjure an inanimate object. The object can be no larger than 3 ft and weigh less than 10 lbs. The item lasts for 1 hour or if it takes or deals any damage.</value>
+  </data>
+  <data name="MinorConjurationDes" xml:space="preserve">
+    <value>Starting at 2nd level when you select this school, you can use your action to conjure up an inanimate object in your hand or on the ground in an unoccupied space that you can see within 10 feet of you.
+
+This object can be no larger than 3 feet on a side and weigh no more than 10 pounds
+Its form must be that of a nonmagical object that you have seen.
+The object is visibly magical, radiating dim light out to 5 feet.
+The object disappears after 1 hour, when you use this feature again, or if it takes or deals any damage.</value>
+  </data>
+  <data name="NecromancySavantAbbrev" xml:space="preserve">
+    <value>Time and gold required to copy a necromancy spell is halved.</value>
+  </data>
+  <data name="NecromancySavantDes" xml:space="preserve">
+    <value>Beginning when you select this school at 2nd level, the gold and time you must spend to copy a necromancy spell into your spellbook is halved.</value>
+  </data>
+  <data name="OverchannelAbbrev" xml:space="preserve">
+    <value>Can deal max damage with spells 5th level or lower. If you use this feature more than once, you take 2d12 necrotic damage + 1d12 every extra time you do it afterwards before a long rest.</value>
+  </data>
+  <data name="OverchannelDes" xml:space="preserve">
+    <value>Starting at 14th level, you can increase the power of your simpler spells. When you cast a wizard spell of 5th level or lower that deals damage, you can deal maximum damage with that spell.
+
+The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take 2d12 necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the necrotic damage per spell level increases by 1d12. This damage ignores resistance and immunity.</value>
+  </data>
+  <data name="PortentAbbrev" xml:space="preserve">
+    <value>After a long rest, roll 2 d20's and record the values. You can replace any roll made by anyone you can see with these numbers. You must choose to do so before the roll is made and only once per turn.</value>
+  </data>
+  <data name="PortentDes" xml:space="preserve">
+    <value>Starting at 2nd level when you choose this school, glimpses of the future begin to press in on your awareness. When you finish a long rest, roll two d20 and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn. Each foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls.</value>
+  </data>
+  <data name="PotentCantripAbbrev" xml:space="preserve">
+    <value>When a creature succeeds vs your cantrip they still take half the damage but suffer no additional effects (if any).</value>
+  </data>
+  <data name="PotentCantripDes" xml:space="preserve">
+    <value>Starting at 6th level, your damaging cantrips affect even creatures that avoid the brunt of the effect. When a creature succeeds on a saving throw against your cantrip, the creature takes half the cantrip’s damage (if any) but suffers no additional effect from the cantrip.</value>
+  </data>
+  <data name="ProjectedWardAbbrev" xml:space="preserve">
+    <value>Can use your reaction to make your arcane ward take the damage of any creature within 30 ft. </value>
+  </data>
+  <data name="ProjectedWardDes" xml:space="preserve">
+    <value>Starting at 6th level, when a creature that you can see within 30 feet of you takes damage, you can use your reaction to cause your Arcane Ward to absorb that damage. If this damage reduces the ward to 0 hit points. the warded creature takes any remaining damage.</value>
+  </data>
+  <data name="SculptSpellsAbbrev" xml:space="preserve">
+    <value>Choose a number of creatures equal to 1 + spells level to automatically succeed on saving throws vs your evocation spells.</value>
+  </data>
+  <data name="SculptSpellsDes" xml:space="preserve">
+    <value>Beginning at 2nd level, you can create pockets of relative safety within the effects of your evocation spells. When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell’s level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save.</value>
+  </data>
+  <data name="ShapechangerAbbrev" xml:space="preserve">
+    <value>You may cast polymorph without expending a spell slot if you cast it on yourself and become a beast of 1 CR or lower. Once per rest.</value>
+  </data>
+  <data name="ShapechangerDes" xml:space="preserve">
+    <value>At 10th level. you add the polymorph spell to your spellbook. if it is not there already. You can cast polymorph without expending a spell slot. When you do so, you can target only yourself and transform into a beast whose challenge rating is 1 or lower. Once you cast polymorph in this way, you can’t do so again until you finish a short or long rest, though you can still cast it normally using an available spell slot.</value>
+  </data>
+  <data name="SpellResistanceAbbrev" xml:space="preserve">
+    <value>You have advantage on saving throws against spells and resistance to spell damage.</value>
+  </data>
+  <data name="SpellResistanceDes" xml:space="preserve">
+    <value>Starting at 14th level, you have advantage on saving throws against spells. Furthermore, you have resistance against the damage of spells.</value>
+  </data>
+  <data name="SplitEnchantmentAbbrev" xml:space="preserve">
+    <value>When you cast an enchantment spell that targets a single creature, you can instead choose to target 2.</value>
+  </data>
+  <data name="SplitEnchantmentDes" xml:space="preserve">
+    <value>Starting at 10th level, when you cast an enchantment spell of 1st level or higher that targets only one creature, you can have it target a second creature.</value>
+  </data>
+  <data name="TheThirdEyeAbbrev" xml:space="preserve">
+    <value>Use your action to once a day gain one of the following benefits: Darkvision(60ft), See into the ethereal plane(60ft), read any language, see invisibility (10ft)</value>
+  </data>
+  <data name="TheThirdEyeDes" xml:space="preserve">
+    <value>Starting at 10th level, you can use your action to increase your powers of perception. When you do so, choose one of the following benefits, which lasts until you are incapacitated or you take a short or long rest. You can’t use the feature again until you finish a rest.
+
+Darkvision. You gain darkvision out to a range of 60 feet, as described in chapter 8.
+Ethereal Sight. You can see into the Ethereal Plane within 60 feet of you.
+Greater Comprehension. You can read any language.
+See Invisibility. You can see invisible creatures and objects within 10 feet of you that are within line of sight.</value>
+  </data>
+  <data name="TransmutationSavantAbbrev" xml:space="preserve">
+    <value>The gold and time required to copy a Transmutation spell is halved.</value>
+  </data>
+  <data name="TransmutationSavantDes" xml:space="preserve">
+    <value>Beginning when you select this school at 2nd level, the gold and time you must spend to copy a transmutation spell into your spellbook is halved.</value>
+  </data>
+  <data name="TransmutersStoneAbrev" xml:space="preserve">
+    <value>Can spend 8 hours to create a transmuters stone. You can give the stone to another creature for one of the following effects: Darkvision (60ft), speed increases by 10 ft, proficiency in CON saves, resistance to an elemental damage type of your choice. Every time you cast a transmutation spell of 1st level or higher you can change the effect if you have it in your possession.</value>
+  </data>
+  <data name="TransmutersStoneDes" xml:space="preserve">
+    <value>Starting at 6th level, you can spend 8 hours creating a transmuter’s stone that stores transmutation magic. You can benefit from the stone yourself or give it to another creature. A creature gains a benefit of your choice as long as the stone is in the creature’s possession. When you create the stone, choose the benefit from the following options:
+
+Darkvision out to a range of 60 feet, as described in chapter 8
+An increase to speed of 10 feet while the creature is unencumbered
+Proficiency in Constitution saving throws
+Resistance to acid, cold, fire, lightning, or thunder damage (your choice whenever you choose this benefit)
+Each time you cast a transmutation spell of 1st level or higher, you can change the effect of your stone if the stone is on your person. If you create a new transmuter’s stone, the previous one ceases to function.</value>
+  </data>
+  <data name="UndeadThrallsAbbrev" xml:space="preserve">
+    <value>When casting Animate Dead, can target an additional corpse. The extra corpse has extra HP equal to your wizard level and adds your proficiency bonus to its weapon damage.</value>
+  </data>
+  <data name="UndeadThrallsDes" xml:space="preserve">
+    <value>At 6th level, you add the animate dead spell to your spellbook if it is not there already. When you cast animate dead, you can target one additional corpse or pile of bones, creating another zombie or skeleton, as appropriate. Whenever you create an undead using a necromancy spell, it has additional benefits:
+
+The creature’s hit point maximum is increased by an amount equal to your wizard level.
+The creature adds your proficiency bonus to its weapon damage rolls.</value>
+  </data>
+  <data name="AcolyteofNature" xml:space="preserve">
+    <value>At 1st level, you learn one druid cantrip of your choice. You also gain proficiency in one of the following skills of your choice: Animal Handling, Nature, or Survival.</value>
+  </data>
+  <data name="AspectoftheBeast" xml:space="preserve">
+    <value>At 6th leveI you gain a magical benefit based on the totem animal of your choice. You can choose the same animal you selected at 3rd level or a different one.
+
+Bear: You gain the might of a bear. Your carrying capacity (including maximum load and maximum lift) is doubled and you have advantage on Strength checks made to push, pull, lift, or break objects.
+Eagle: You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty. You are able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom (Perception) checks.
+Wolf: You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace.</value>
+  </data>
+  <data name="AssassinateAbbrev" xml:space="preserve">
+    <value>You have advantage on attacks vs any creature that has not taken a turn in combat. Hits vs surprised creatures is automatically a critical hit.</value>
+  </data>
+  <data name="AssassinateDes" xml:space="preserve">
+    <value>Starting at 3rd level, you are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit.</value>
+  </data>
+  <data name="AssassinProficiencies" xml:space="preserve">
+    <value>When you choose this archetype at 3rd level, you gain proficiency with the disguise kit and the poisoner's kit.</value>
+  </data>
+  <data name="BonusProficienciesValor" xml:space="preserve">
+    <value>When you join the College of Valor at 3rd level, you gain proficiency with medium armor, shields, and martial weapons.</value>
+  </data>
+  <data name="DeathStrikeAbbrev" xml:space="preserve">
+    <value>When you attack and hit a surprised creature, they make a CON save (DC 8 + dex mod + your proficiency bonus). On a fail, damage is doubled.</value>
+  </data>
+  <data name="DeathStrikeDes" xml:space="preserve">
+    <value>Starting at 17th level, you become a master of instant death. When you attack and hit a creature that is surprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature.</value>
+  </data>
+  <data name="DefensiveTactics" xml:space="preserve">
+    <value>At 7th level, you gain one of the following features of your choice.
+
+Escape the Horde: Opportunity Attacks against you are made with disadvantage.
+
+Multiattack Defense: When a creature hits you with an Attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.
+
+Steel Will: You have advantage on saving throws against being Frightened.</value>
+  </data>
+  <data name="HuntersPrey" xml:space="preserve">
+    <value>At 3rd level, you gain one of the following features of your choice.
+
+Colossus Slayer: Your tenacity can wear down the most potent foes. When you hit a creature with a weapon Attack, the creature takes an extra 1d8 damage if it’s below its hit point maximum. You can deal this extra damage only once per turn.
+
+Giant Killer: When a Large or larger creature within 5 feet of you hits or misses you with an Attack, you can use your reaction to Attack that creature immediately after its Attack, provided that you can see the creature.
+
+Horde Breaker: Once on each of your turns when you make a weapon Attack, you can make another Attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.</value>
+  </data>
+  <data name="ImpostorAbbrev" xml:space="preserve">
+    <value>You can mimic a person's speech, writing, and behaviour if you spend at least 3 hours studying these components.</value>
+  </data>
+  <data name="ImpostorDes" xml:space="preserve">
+    <value>At 13th level, you gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least three hours studying these three components of the person's behavior, listening to speech, examining handwriting, and observing mannerisms. Your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection.</value>
+  </data>
+  <data name="InfiltrationExpertiseAbbrev" xml:space="preserve">
+    <value>Spend 7 days and 25 gp to establish a false identity for yourself. </value>
+  </data>
+  <data name="InfiltrationExpertiseDes" xml:space="preserve">
+    <value>Starting at 9th level, you can unfailingly create false identities for yourself. You must spend seven days and 25 gp to establish the history, profession, and affiliations for an identity. You can't establish an identity that belongs to someone else. For example, you might acquire appropriate clothing, letters of introduction, and official looking certification to establish yourself as a member of a trading house from a remote city so you can insinuate yourself into the company of other wealthy merchants. Thereafter, if you adopt the new identity as a disguise, other creatures believe you to be that person until given an obvious reason not to.</value>
+  </data>
+  <data name="Multiattack" xml:space="preserve">
+    <value>At 11th level, you gain one of the following features of your choice.
+
+Volley: You can use your action to make a ranged Attack against any number of creatures within 10 feet of a point you can see within your weapon’s range. You must have ammunition for each target, as normal, and you make a separate Attack roll for each target.
+
+Whirlwind Attack: You can use your action to make a melee Attack against any number of creatures within 5 feet of you, with a separate Attack roll for each target.</value>
+  </data>
+  <data name="SuperiorHuntersDefense" xml:space="preserve">
+    <value>At 15th level, you gain one of the following features of your choice.
+
+Evasion: When you are subjected to an effect, such as a red dragon’s fiery breath or a Lightning Bolt spell, that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
+
+Stand Against the Tide: When a hostile creature misses you with a melee Attack, you can use your reaction to force that creature to repeat the same Attack against another creature (other than itself) of your choice.
+
+Uncanny Dodge: When an attacker that you can see hits you with an Attack, you can use your reaction to halve the attack’s damage against you.</value>
+  </data>
+  <data name="TotemicAttunement" xml:space="preserve">
+    <value>At 14th level you gain a magical benefit based on a totem animal of your choice. You can choose the same animal you selected previously or a different one.
+
+Bear: While you're raging any creature within 5 feet of you that's hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be frightened.
+Eagle: While raging you have a flying speed equal to your current walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.
+Wolf: While you're raging you can use a bonus action on your turn to knock a Large or smaller creature prone when you hit it with melee weapon attack.</value>
+  </data>
+  <data name="TotemSpirit" xml:space="preserve">
+    <value>At 3rd level, when you adopt this path, you choose a totem spirit and gain its feature. You must make or acquire a physical totem object - an amulet or similar adornment - that incorporates fur or feathers, claws, teeth, or bones of the totem animal. At your option, you also gain minor physical attributes that are reminiscent of your totem spirit. For example, if you have a bear totem spirit, you might be unusually hairy and thick skinned, or if your totem is the eagle your eyes turn bright yellow. Your totem animal might be an animal related to those listed here but more appropriate to your homeland. For example, you could choose a hawk or vulture in place of an eagle.
+
+Bear: The spirit of the bear makes you tough enough to stand up to any punishment. While raging you have resistance to all damage except psychic damage. The spirit of the bear makes you tough enough to stand up to any punishment.
+Eagle: The spirit of the eagle makes you into a predator who can weave through the fray with ease. You can use the Dash action as a bonus action on your turn. While you're raging and aren't wearing heavy armor other creatures have disadvantage on opportunity attack rolls against you.
+Wolf: The spirit of the wolf makes you a leader of hunters. While you're raging, your friends have advantage on melee attack rolls against any creature within 5 feet of you that is hostile to you. The spirit of the wolf makes you a leader of hunters.</value>
+  </data>
+  <data name="DiscipleoftheElements" xml:space="preserve">
+    <value>When you choose this tradition at 3rd level, you learn magical disciplines that harness the power of the four elements. A discipline requires you to spend ki points each time you use it.
+
+You know the Elemental Attunement discipline and one other elemental discipline of your choice, which are detailed in the “Elemental Disciplines” section below. You learn one additional elemental discipline of your choice at 6th, 11th, and 17th level.
+
+Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.
+
+Casting Elemental Spells
+Some elemental disciplines allow you to cast spells. See chapter 10 for the general rules of spellcasting. To cast one of these spells, you use its casting time and other rules, but you don’t need to provide material components for it.</value>
+  </data>
+  <data name="EmpoweredDiciplinesAbbrev" xml:space="preserve">
+    <value>You can sped additional ki points to increase the level of an elemental dicipline spell. The spell level increases by 1 per ki point. The max number of ki points you can spend per spell is based on your monk level given here: 5th-8th = 3 ki points, 9th-12th = 4 ki points, 13th-16th = 5 ki points, 17th 20th = 6 ki points.</value>
+  </data>
+  <data name="EmpoweredDiciplinesDes" xml:space="preserve">
+    <value>Once you reach 5th level in this class, you can spend additional ki points to increase the level of an elemental discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as burning hands does. The spell's level increases by 1 for each additional ki point you spend. For example, if you are a 5th-level monk and use Sweeping Cinder Strike to cast burning hands, you can spend 3 ki points to cast it as a 2nd-level spell (the discipline’s base cost of 2 ki points plus 1)
+
+The maximum number of ki points you can spend to cast a spell in this way (including its base ki point cost and any additional ki points you spend to increase its level) is determined by your monk level, as shown in the Spells and Ki Points table. 
+
+5th-8th = 3
+9th-12th = 4
+13th-16th = 5
+17th-20th = 6</value>
   </data>
 </root>

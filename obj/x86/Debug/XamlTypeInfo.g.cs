@@ -132,7 +132,7 @@ namespace _5ECharacterCreator._ECharacterCreator_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[13];
+            _typeNameTable = new string[14];
             _typeNameTable[0] = "_5ECharacterCreator.AbilityScores";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -145,9 +145,10 @@ namespace _5ECharacterCreator._ECharacterCreator_XamlTypeInfo
             _typeNameTable[9] = "_5ECharacterCreator.Skills";
             _typeNameTable[10] = "_5ECharacterCreator.SpellsPage";
             _typeNameTable[11] = "_5ECharacterCreator.SummaryPage";
-            _typeNameTable[12] = "_5ECharacterCreator.UserControls.ClassSelection";
+            _typeNameTable[12] = "_5ECharacterCreator.UserControls.ClassChoiceControl";
+            _typeNameTable[13] = "_5ECharacterCreator.UserControls.ClassSelection";
 
-            _typeTable = new global::System.Type[13];
+            _typeTable = new global::System.Type[14];
             _typeTable[0] = typeof(global::_5ECharacterCreator.AbilityScores);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -160,7 +161,8 @@ namespace _5ECharacterCreator._ECharacterCreator_XamlTypeInfo
             _typeTable[9] = typeof(global::_5ECharacterCreator.Skills);
             _typeTable[10] = typeof(global::_5ECharacterCreator.SpellsPage);
             _typeTable[11] = typeof(global::_5ECharacterCreator.SummaryPage);
-            _typeTable[12] = typeof(global::_5ECharacterCreator.UserControls.ClassSelection);
+            _typeTable[12] = typeof(global::_5ECharacterCreator.UserControls.ClassChoiceControl);
+            _typeTable[13] = typeof(global::_5ECharacterCreator.UserControls.ClassSelection);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -205,7 +207,7 @@ namespace _5ECharacterCreator._ECharacterCreator_XamlTypeInfo
         private object Activate_9_Skills() { return new global::_5ECharacterCreator.Skills(); }
         private object Activate_10_SpellsPage() { return new global::_5ECharacterCreator.SpellsPage(); }
         private object Activate_11_SummaryPage() { return new global::_5ECharacterCreator.SummaryPage(); }
-        private object Activate_12_ClassSelection() { return new global::_5ECharacterCreator.UserControls.ClassSelection(); }
+        private object Activate_13_ClassSelection() { return new global::_5ECharacterCreator.UserControls.ClassSelection(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -295,9 +297,15 @@ namespace _5ECharacterCreator._ECharacterCreator_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 12:   //  _5ECharacterCreator.UserControls.ClassSelection
+            case 12:   //  _5ECharacterCreator.UserControls.ClassChoiceControl
                 userType = new global::_5ECharacterCreator._ECharacterCreator_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_12_ClassSelection;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 13:   //  _5ECharacterCreator.UserControls.ClassSelection
+                userType = new global::_5ECharacterCreator._ECharacterCreator_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_13_ClassSelection;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

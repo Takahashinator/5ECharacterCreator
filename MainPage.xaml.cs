@@ -15,6 +15,9 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using _5ECharacterCreator.Classes;
 using _5ECharacterCreator.Pages;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
@@ -27,12 +30,31 @@ namespace _5ECharacterCreator
     public sealed partial class MainPage : Page
     {
         public static Character GenCharacter = new Character();
+        public static SpellList AllSpells;
 
         public MainPage()
         {
             this.InitializeComponent();
+            GenerateAllSpells("Spells.json");
             MainFrame.Navigate(typeof(Home));
             TitleTextBlock.Text = "Dungeons And Dragons 5E Character Creator";
+            // Test Text for JSON Parsing
+            //foreach (var item in AllSpells)
+            //{
+            //    if ((string) item["name"] == "Aid")
+            //    {
+            //        TitleTextBlock.Text = (string) item["name"];
+            //    }
+            //}
+        }
+
+        private static void GenerateAllSpells(string spellsJson)
+        {
+            using (var r = File.OpenText(spellsJson))
+            {
+                var json = r.ReadToEnd();
+                AllSpells = new SpellList(JArray.Parse(json));
+            }
         }
 
         public void UpdateTitlebar(string words)

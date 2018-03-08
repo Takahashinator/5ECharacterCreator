@@ -15,11 +15,11 @@
         </Grid.ColumnDefinitions>
         <ScrollViewer Grid.Column="1">
             <StackPanel Background="Cornsilk">
-                <TextBlock x:ConnectionId='6' FontSize="25" Text="Class Details" FontWeight="ExtraBold" Name="ClassDetailsHeader"/>
-                <TextBlock x:ConnectionId='7' FontSize="20" Text="A class determines your character's primary skills and abilities as well as their interactions with the world." 
+                <TextBlock x:ConnectionId='8' FontSize="25" Text="Class Details" FontWeight="ExtraBold" Name="ClassDetailsHeader"/>
+                <TextBlock x:ConnectionId='9' FontSize="20" Text="A class determines your character's primary skills and abilities as well as their interactions with the world." 
                            FontStyle="Italic" TextWrapping="Wrap" Name="ClassDetailsSubHeader" Margin="0,5"/>
-                <StackPanel x:ConnectionId='8' Background="Cornsilk" Name="ClassDetailsStackPanel">
-                    <TextBlock x:ConnectionId='9' FontSize="20" TextWrapping="Wrap" Name="RaceDetails"> Select a class for details.</TextBlock>
+                <StackPanel x:ConnectionId='10' Background="Cornsilk" Name="ClassDetailsStackPanel">
+                    <TextBlock x:ConnectionId='11' FontSize="20" TextWrapping="Wrap" Name="RaceDetails"> Select a class for details.</TextBlock>
                 </StackPanel>
             </StackPanel>
         </ScrollViewer>
@@ -40,7 +40,10 @@
                             <TextBlock Name="ClassCollapsableHeaderIcon" RelativePanel.AlignVerticalCenterWith="E1" RelativePanel.AlignHorizontalCenterWith="E1" FontFamily="Segoe MDL2 Assets" Text="&#xE011;" FontSize="20" FontWeight="Bold"/>
                         </RelativePanel>
                     </Button>-->
-                        <Button x:ConnectionId='5' Name="AddButton" HorizontalAlignment="Left" Margin="20,5,0,5"                          >
+                        <Button x:ConnectionId='7' IsEnabled="False" Name="AddButton" HorizontalAlignment="Left" Margin="20,5,0,5"                          >
+                            <ToolTipService.ToolTip>
+                                <TextBlock Text="Multiclassing is not currently supported"/>
+                            </ToolTipService.ToolTip>
                             <TextBlock FontSize="20" TextAlignment="Center">Add Another Class</TextBlock>
                         </Button>
 
@@ -63,6 +66,12 @@
                     </StackPanel>
                     <StackPanel x:ConnectionId='4' Name="SubclassStackPanel">
                         
+                    </StackPanel>
+                    <StackPanel x:ConnectionId='5' Name="OptionsStackPanel">
+
+                    </StackPanel>
+                    <StackPanel x:ConnectionId='6' Name="SubOptionsStackPanel">
+
                     </StackPanel>
                 </StackPanel>
                 

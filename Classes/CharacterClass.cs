@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Windows.UI.Text;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -26,6 +27,7 @@ namespace _5ECharacterCreator
         public string SubclassName;
         private List<SubclassEnum> _allowedSubclasses = new List<SubclassEnum>();
         public int LevelIndex => Level - 1;
+        public List<ClassChoice> ClassChoices = new List<ClassChoice>();
 
         public CharacterClass(ClassEnum typeEnum, int startLevel = 1)
         {
@@ -342,6 +344,7 @@ namespace _5ECharacterCreator
         {
             Level = lvl;
             _traits = new List<Trait>();
+            ClassChoices = new List<ClassChoice>();
             switch (EnumType)
             {
 /************************----BARBARIAN----**************************************/
@@ -880,6 +883,7 @@ namespace _5ECharacterCreator
                         _traits.Add(new Trait("Fighting Style",
                             StringResources.SR.GetString("FightingStyle"),
                             StringResources.SR.GetString("FightingStyle"), false));
+                        ClassChoices.Add(new ClassChoice(ClassChoicesEnum.FighterFightingStyle, lvl));
                         _traits.Add(new Trait("Second Wind",
                             StringResources.SR.GetString("SecondWindDes"),
                             StringResources.SR.GetString("SecondWindAbbrev"), true));
@@ -889,10 +893,6 @@ namespace _5ECharacterCreator
                         _traits.Add(new Trait("Action Surge",
                             StringResources.SR.GetString("ActionSurgeDes"),
                             string.Format(StringResources.SR.GetString("ActionSurgeAbbrev"), 1), true));
-                    }
-                    if (Level >= 3)
-                    {
-
                     }
                     if (Level >= 4)
                     {
@@ -909,10 +909,6 @@ namespace _5ECharacterCreator
                     {
                         AbilityScoreIncreases += 1;
                     }
-                    if (Level >= 7)
-                    {
-
-                    }
                     if (Level >= 8)
                     {
                         AbilityScoreIncreases += 1;
@@ -923,10 +919,6 @@ namespace _5ECharacterCreator
                         _traits.Add(new Trait("Indomitable",
                             StringResources.SR.GetString("IndomitableDes"),
                             string.Format(StringResources.SR.GetString("IndomitableAbbrev"), 1), true));
-                    }
-                    if (Level >= 10)
-                    {
-
                     }
                     if (Level >= 11)
                     {
@@ -946,10 +938,6 @@ namespace _5ECharacterCreator
                     if (Level >= 14)
                     {
                         AbilityScoreIncreases += 1;
-                    }
-                    if (Level >= 15)
-                    {
-
                     }
                     if (Level >= 16)
                     {
@@ -1169,6 +1157,7 @@ namespace _5ECharacterCreator
                         _traits.Add(new Trait("Fighting Style",
                             StringResources.SR.GetString("FightingStyle"),
                             StringResources.SR.GetString("FightingStyle"), false));
+                        ClassChoices.Add(new ClassChoice(ClassChoicesEnum.PaladinFightingStyle, lvl));
                         _traits.Add(new Trait("Divine Smite",
                             StringResources.SR.GetString("DivineSmiteDes"),
                             StringResources.SR.GetString("DivineSmiteAbbrev"), true));
@@ -1291,6 +1280,7 @@ namespace _5ECharacterCreator
                         _traits.Add(new Trait("Fighting Style",
                             StringResources.SR.GetString("FightingStyleRanger"),
                             StringResources.SR.GetString("FightingStyleRanger"), false));
+                        ClassChoices.Add(new ClassChoice(ClassChoicesEnum.RangerFightingStyle, lvl));
                     }
                     if (Level >= 3)
                     {
@@ -1559,6 +1549,7 @@ namespace _5ECharacterCreator
                         _traits.Add(new Trait("Metamagic",
                             StringResources.SR.GetString("Metamagic"),
                             StringResources.SR.GetString("Metamagic"), false));
+                        ClassChoices.Add(new ClassChoice(ClassChoicesEnum.SorcererMetamagic, lvl));
                     }
                     if (Level >= 4)
                     {
@@ -1619,6 +1610,9 @@ namespace _5ECharacterCreator
                         SpellArray[6] = 2;
                         var index = _traits.FindIndex(p => p.Header == "Sorcery Points");
                         _traits[index].SheetDescription = string.Format(StringResources.SR.GetString("SorceryPointsAbbrev"), "10");
+                        var itemToRemove = ClassChoices.Single(r => r.EnumType == ClassChoicesEnum.SorcererMetamagic);
+                        ClassChoices.Remove(itemToRemove);
+                        ClassChoices.Add(new ClassChoice(ClassChoicesEnum.SorcererMetamagic, lvl));
                     }
                     if (Level >= 11)
                     {
@@ -1666,6 +1660,9 @@ namespace _5ECharacterCreator
                         var index = _traits.FindIndex(p => p.Header == "Sorcery Points");
                         _traits[index].SheetDescription = string.Format(StringResources.SR.GetString("SorceryPointsAbbrev"), "17");
                         ProficiencyBonus = 6;
+                        var itemToRemove = ClassChoices.Single(r => r.EnumType == ClassChoicesEnum.SorcererMetamagic);
+                        ClassChoices.Remove(itemToRemove);
+                        ClassChoices.Add(new ClassChoice(ClassChoicesEnum.SorcererMetamagic, lvl));
                     }
                     if (Level >= 18)
                     {
@@ -1713,6 +1710,7 @@ namespace _5ECharacterCreator
                         _traits.Add(new Trait("Pact Boon",
                             StringResources.SR.GetString("PactBoon"),
                             StringResources.SR.GetString("PactBoon"), false));
+                        ClassChoices.Add(new ClassChoice(ClassChoicesEnum.PactBoon, lvl));
                     }
                     if (Level >= 3)
                     {
@@ -1760,7 +1758,7 @@ namespace _5ECharacterCreator
                         SpellArray[2] = 3;
                         _traits.Add(new Trait("Mystic Arcanum",
                             StringResources.SR.GetString("MysticArcanumDes"),
-                            string.Format(StringResources.SR.GetString("MysticArcanumAbbrev"),"","","",""), true));
+                            string.Format(StringResources.SR.GetString("MysticArcanumAbbrev"),"","","",""), false));
                     }
                     if (Level >= 12)
                     {
@@ -1771,10 +1769,6 @@ namespace _5ECharacterCreator
                     {
                         SpellArray[1] = 12;
                         ProficiencyBonus = 5;
-                    }
-                    if (Level >= 14)
-                    {
-
                     }
                     if (Level >= 15)
                     {

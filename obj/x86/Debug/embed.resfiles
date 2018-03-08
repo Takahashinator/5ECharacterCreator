@@ -9,4 +9,5 @@ Pages\RaceSelection.xbf
 Pages\Skills.xbf
 Pages\SpellsPage.xbf
 Pages\SummaryPage.xbf
+UserControls\ClassChoiceControl.xbf
 UserControls\ClassSelection.xbf

@@ -92,8 +92,11 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Classes\SpellList.cs" />
+    <Compile Include="Classes\ClassChoice.cs" />
     <Compile Include="Classes\Subrace.cs" />
     <Compile Include="Enums\SizeEnum.cs" />
+    <Compile Include="Enums\ClassChoicesEnum.cs" />
     <Compile Include="Pages\AbilityScores.xaml.cs">
       <DependentUpon>AbilityScores.xaml</DependentUpon>
     </Compile>
@@ -153,6 +156,9 @@
     <Compile Include="Pages\SummaryPage.xaml.cs">
       <DependentUpon>SummaryPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\ClassChoiceControl.xaml.cs">
+      <DependentUpon>ClassChoiceControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\ClassSelection.xaml.cs">
       <DependentUpon>ClassSelection.xaml</DependentUpon>
     </Compile>
@@ -162,6 +168,9 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="5ECharacterCreator_TemporaryKey.pfx" />
+    <Content Include="Spells.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <PRIResource Include="Strings\en-US\Resources.resw" />
   </ItemGroup>
   <ItemGroup>
@@ -220,6 +229,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="UserControls\ClassChoiceControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UserControls\ClassSelection.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -228,6 +241,9 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.0.4</Version>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>10.0.3</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup />

@@ -104,6 +104,8 @@
         // Kits, Tools
         HerbalismKit,
         ThievesTools,
+        DisguiseKit,
+        PoisonersKit,
 
     };
 }

@@ -479,7 +479,7 @@ namespace _5ECharacterCreator
             }
             tbContent.Text = tbContent.Text.Remove(tbContent.Text.Length - 2);
             if (TypeEnum == RaceEnum.Human || TypeEnum == RaceEnum.HalfElf)
-                tbContent.Text += "and one extra language of their choice";
+                tbContent.Text += " and one extra language of their choice";
             sp.Children.Add(tbContent);
             raceDetailsStackPanel.Children.Add(sp);
 

@@ -8,6 +8,6 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button Content="Characteristics Page" FontSize="36" Margin="568,321,0,339"/>
+        
     </Grid>
 </Page>
